@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE keyboard PUBLIC "" "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 2.2.4 on 2013-08-08 at 20:55 (GMT+02:00)-->
+<!--Last edited by Ukelele version 2.2.4 on 2013-08-12 at 18:37 (GMT+02:00)-->
 <!--Created by Ukelele version 2.2 on 2012-06-20 at 17:36 (CEST)-->
 <keyboard group="0" id="9913" name="U.S. with Compose Key" maxout="2">
     <layouts>
@@ -1101,11 +1101,9 @@
             <when state="Compose Key" next="Compose Key - Plus"/>
             <when state="Compose Key - C" output="€"/>
             <when state="Compose Key - Caret" output="⁺"/>
-            <when state="Compose Key - E" output="€"/>
             <when state="Compose Key - Hyphen" output="∓"/>
             <when state="Compose Key - O" output="⊕"/>
             <when state="Compose Key - Underscore" output="₊"/>
-            <when state="Compose Key - W" output="₩"/>
             <when state="Compose Key - f" output="="/>
             <when state="Compose Key - o" output="⊕"/>
         </action>
@@ -1584,12 +1582,14 @@
             <when state="none" output="="/>
             <when state="Compose Key" next="Compose Key - Equals Sign"/>
             <when state="Compose Key - Caret" output="⁼"/>
+            <when state="Compose Key - E" output="€"/>
             <when state="Compose Key - Greater Than" output="≥"/>
             <when state="Compose Key - L" output="₤"/>
             <when state="Compose Key - Less Than" output="≤"/>
             <when state="Compose Key - N" output="₦"/>
             <when state="Compose Key - Slash" output="≠"/>
             <when state="Compose Key - Underscore" output="₌"/>
+            <when state="Compose Key - W" output="₩"/>
             <when state="Compose Key - Y" output="¥"/>
             <when state="Compose Key - c" output="€"/>
             <when state="Compose Key - f" output="="/>
