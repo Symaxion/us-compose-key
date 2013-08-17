@@ -1,5 +1,34 @@
+U.S. QWERTY with Compose Key keyboard layout for OS X
+=====================================================
+
+This is a keyboard layout for OS X adapted from the normal US QWERTY layout to
+add a "compose key" (symbol ⎄). The compose key allows you to type various
+foreign symbols without the introduction of dead keys (such as for `"` or `'`)
+or the need to remember specific code point numbers.
+
+For example, pressing ⎄`'a` (first press Compose, then `'`, then `a`) would
+yield á.
+
+By default, the compose key is mapped to the key between the left shift and the
+W key on ISO keyboards (ANSI keyboards lack this key). This means with the
+default settings, you cannot use this layout on Apple's American English
+keyboards, but you can use it on their British or International English
+keyboards. Alternatively, you may use a tool such as 
+[PCKeyboardHack](https://pqrs.org/macosx/keyremap4macbook/pckeyboardhack.html.en)
+to remap another key (such as Caps Lock) to be the compose key. The key code
+used for the compose key is `50`.
+
+To edit the keyboard layout, you need to open the `us-cps.keylayout` file in 
+[Ukulele](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ukelele).
+To install the keyboard layout, drag the `U.S. with Compose Key.bundle` file to
+the `/Library/Keyboard Layouts/` folder and enable it from the *Input Sources*
+tab in the *Language & Text* panel in System Settings.
+
+Below is a table of the various combinations. All symbols are produced by first
+pressing Compose, followed by two or three keys, as shown in the table.
+
 Key combinations
-================
+----------------
 
 | Symbol |  Key 1  |  Key 2  |  Key 3  |             Unicode Name              |
 |:------:|:-------:|:-------:|:-------:|:--------------------------------------|
@@ -97,9 +126,9 @@ Key combinations
 | ␟      | ^       | ^       | -       | SYMBOL FOR UNIT SEPARATOR             |
 | ␟      | ^       | ^       | _       | SYMBOL FOR UNIT SEPARATOR             |
 | ␡      | ^       | ^       | ?       | SYMBOL FOR DELETE                     |
-| ␛      | ^       | ^       | \[        SYMBOL FOR ESCAPE                     |
+| ␛      | ^       | ^       | \[      | SYMBOL FOR ESCAPE                     |
 | ␝      | ^       | ^       | ]       | SYMBOL FOR GROUP SEPARATOR            |
-| ␜      | ^       | ^       | \\        SYMBOL FOR FILE SEPARATOR             |
+| ␜      | ^       | ^       | \\      | SYMBOL FOR FILE SEPARATOR             |
 | ␡      | ^       | ^       | /       | SYMBOL FOR DELETE                     |
 | ␁      | ^       | ^       | a       | SYMBOL FOR START OF HEADING           |
 | ␂      | ^       | ^       | b       | SYMBOL FOR START OF TEXT              |
@@ -130,9 +159,9 @@ Key combinations
 | ⁽      | ^       | (       |         | SUPERSCRIPT LEFT PARENTHESIS          |
 | ⁾      | ^       | )       |         | SUPERSCRIPT RIGHT PARENTHESIS         |
 | ª      | ^       | _       | A       | FEMININE ORDINAL INDICATOR            |
-| ⁱ      | ^       | _       | I        SUPERSCRIPT LATIN SMALL LETTER I       |
-| ⁿ      | ^       | _       | N        SUPERSCRIPT LATIN SMALL LETTER N       |
-| º      | ^       | _       | O        MASCULINE ORDINAL INDICATOR            |
+| ⁱ      | ^       | _       | I       | SUPERSCRIPT LATIN SMALL LETTER I      |
+| ⁿ      | ^       | _       | N       | SUPERSCRIPT LATIN SMALL LETTER N      |
+| º      | ^       | _       | O       | MASCULINE ORDINAL INDICATOR           |
 | ⁺      | ^       | +       |         | SUPERSCRIPT PLUS SIGN                 |
 | ↑      | ^       | \|      |         | UPWARDS ARROW                         |
 | â      | ^       | a       |         | LATIN SMALL LETTER A WITH CIRCUMFLEX  |
@@ -512,7 +541,7 @@ Key combinations
 | §      | s       | o       |         | SECTION SIGN                          |
 | ß      | s       | s       |         | LATIN SMALL LETTER SHARP S            |
 | ™      | t       | m       |         | TRADE MARK SIGN                       |
-| ↓      | v       | |       |         | DOWNWARDS ARROW                       |
+| ↓      | v       | \|      |         | DOWNWARDS ARROW                       |
 | ¤      | x       | o       |         | CURRENCY SIGN                         |
 | ×      | x       | x       |         | MULTIPLICATION SIGN                   |
 | ⊗      | x       | O       |         | CIRCLED TIMES                         |
