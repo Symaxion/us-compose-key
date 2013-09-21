@@ -286,7 +286,13 @@ Key combinations
 | ∨      | \|      | \|      |         | LOGICAL OR                            |
 | ¢      | \|      | c       |         | CENT SIGN                             |
 | ↓      | \|      | v       |         | DOWNWARDS ARROW                       |
-| ¢      | \|      | C       |         | CENT SIGN                             |
+| ℂ      | \|      | C       |         | DOUBLE-STRUCK CAPITAL C               |
+| ℍ      | \|      | H       |         | DOUBLE-STRUCK CAPITAL H               |    
+| ℕ      | \|      | N       |         | DOUBLE-STRUCK CAPITAL N               |    
+| ℙ      | \|      | P       |         | DOUBLE-STRUCK CAPITAL P               |    
+| ℚ      | \|      | Q       |         | DOUBLE-STRUCK CAPITAL Q               |    
+| ℝ      | \|      | R       |         | DOUBLE-STRUCK CAPITAL R               |    
+| ℤ      | \|      | Z       |         | DOUBLE-STRUCK CAPITAL Z               |    
 | ↓      | \|      | V       |         | DOWNWARDS ARROW                       |
 | ¬      | ,       | -       |         | NOT SIGN                              |
 | ç      | ,       | c       |         | LATIN SMALL LETTER C WITH CEDILLA     |

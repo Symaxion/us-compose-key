@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE keyboard PUBLIC "" "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 2.2.4 on 2013-08-12 at 18:37 (GMT+02:00)-->
+<!--Last edited by Ukelele version 2.2.4 on 2013-09-21 at 13:57 (GMT+02:00)-->
 <!--Created by Ukelele version 2.2 on 2012-06-20 at 17:36 (CEST)-->
 <keyboard group="0" id="9913" name="U.S. with Compose Key" maxout="2">
     <layouts>
@@ -1101,9 +1101,11 @@
             <when state="Compose Key" next="Compose Key - Plus"/>
             <when state="Compose Key - C" output="€"/>
             <when state="Compose Key - Caret" output="⁺"/>
+            <when state="Compose Key - E" output="€"/>
             <when state="Compose Key - Hyphen" output="∓"/>
             <when state="Compose Key - O" output="⊕"/>
             <when state="Compose Key - Underscore" output="₊"/>
+            <when state="Compose Key - W" output="₩"/>
             <when state="Compose Key - f" output="="/>
             <when state="Compose Key - o" output="⊕"/>
         </action>
@@ -1350,6 +1352,7 @@
             <when state="Compose Key - Quote" output="N̈"/>
             <when state="Compose Key - Single Quote" output="Ń"/>
             <when state="Compose Key - Tilde" output="Ñ"/>
+            <when state="Compose Key - Vertical Bar" output="ℕ"/>
             <when state="Compose Key - f" output="Ŋ"/>
             <when state="Compose Key - g" output="Ν"/>
             <when state="s5" output="Ñ"/>
@@ -1582,14 +1585,12 @@
             <when state="none" output="="/>
             <when state="Compose Key" next="Compose Key - Equals Sign"/>
             <when state="Compose Key - Caret" output="⁼"/>
-            <when state="Compose Key - E" output="€"/>
             <when state="Compose Key - Greater Than" output="≥"/>
             <when state="Compose Key - L" output="₤"/>
             <when state="Compose Key - Less Than" output="≤"/>
             <when state="Compose Key - N" output="₦"/>
             <when state="Compose Key - Slash" output="≠"/>
             <when state="Compose Key - Underscore" output="₌"/>
-            <when state="Compose Key - W" output="₩"/>
             <when state="Compose Key - Y" output="¥"/>
             <when state="Compose Key - c" output="€"/>
             <when state="Compose Key - f" output="="/>
@@ -1622,7 +1623,7 @@
             <when state="Compose Key - O" output="©"/>
             <when state="Compose Key - Single Quote" output="Ć"/>
             <when state="Compose Key - Slash" output="₡"/>
-            <when state="Compose Key - Vertical Bar" output="¢"/>
+            <when state="Compose Key - Vertical Bar" output="ℂ"/>
             <when state="Compose Key - c" output="Č"/>
             <when state="Compose Key - f" output="Ɔ"/>
             <when state="Compose Key - g" output="Ψ"/>
@@ -1671,6 +1672,7 @@
             <when state="Compose Key - D" output="Ð"/>
             <when state="Compose Key - Hyphen" output="Ħ"/>
             <when state="Compose Key - Quote" output="Ḧ"/>
+            <when state="Compose Key - Vertical Bar" output="ℍ"/>
             <when state="Compose Key - c" output="Ȟ"/>
             <when state="Compose Key - f" output="Ƕ"/>
             <when state="Compose Key - g" output="Η"/>
@@ -1717,6 +1719,7 @@
             <when state="Compose Key - O" output="℗"/>
             <when state="Compose Key - P" output="¶"/>
             <when state="Compose Key - Single Quote" output="Ṕ"/>
+            <when state="Compose Key - Vertical Bar" output="ℙ"/>
             <when state="Compose Key - f" output="P"/>
             <when state="Compose Key - g" output="Π"/>
             <when state="Compose Key - m" output="∏"/>
@@ -1724,6 +1727,7 @@
         </action>
         <action id="Q">
             <when state="none" output="Q"/>
+            <when state="Compose Key - Vertical Bar" output="ℚ"/>
             <when state="Compose Key - f" output="Ƣ"/>
             <when state="Compose Key - g" output=":"/>
             <when state="Compose Key - o" output="Å"/>
@@ -1734,6 +1738,7 @@
             <when state="Compose Key - Comma" output="Ŗ"/>
             <when state="Compose Key - O" output="®"/>
             <when state="Compose Key - Single Quote" output="Ŕ"/>
+            <when state="Compose Key - Vertical Bar" output="ℝ"/>
             <when state="Compose Key - f" output="Ʀ"/>
             <when state="Compose Key - g" output="Ρ"/>
             <when state="Compose Key - o" output="®"/>
@@ -1789,6 +1794,7 @@
         <action id="Z">
             <when state="none" output="Z"/>
             <when state="Compose Key - Hyphen" output="Ƶ"/>
+            <when state="Compose Key - Vertical Bar" output="ℤ"/>
             <when state="Compose Key - c" output="Ž"/>
             <when state="Compose Key - f" output="Ʒ"/>
             <when state="Compose Key - g" output="Ζ"/>
