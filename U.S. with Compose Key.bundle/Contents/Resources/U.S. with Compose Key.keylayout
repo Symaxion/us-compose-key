@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE keyboard PUBLIC "" "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 2.2.4 on 2013-09-21 at 13:57 (GMT+02:00)-->
+<!--Last edited by Ukelele version 2.2.8 on 2015-05-15 at 14:55 (CEST)-->
 <!--Created by Ukelele version 2.2 on 2012-06-20 at 17:36 (CEST)-->
 <keyboard group="0" id="9913" name="U.S. with Compose Key" maxout="2">
     <layouts>
@@ -1558,6 +1558,7 @@
         </action>
         <action id="19">
             <when state="none" output="y"/>
+            <when state="Compose - k + s" output="⬖"/>
             <when state="Compose Key" next="Compose Key - y"/>
             <when state="Compose Key - Caret" output="ŷ"/>
             <when state="Compose Key - Caret + Caret" output="␙"/>
