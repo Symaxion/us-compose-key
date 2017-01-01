@@ -11,7 +11,7 @@
 	<key>KLInfo_U.S. with Compose Key</key>
 	<dict>
 		<key>TISInputSourceID</key>
-		<string>org.sil.ukelele.keyboardlayout.u.s.with compose key.u.s.with compose key</string>
+		<string>org.sil.ukelele.keyboardlayout.u.s.with compose key.u.s.withcomposekey</string>
 		<key>TISIntendedLanguage</key>
 		<string>en-BE</string>
 	</dict>

@@ -18,8 +18,9 @@ keyboards. Alternatively, you may use a tool such as
 to remap another key (such as Caps Lock) to be the compose key. The key code
 used for the compose key is `50`.
 
-To edit the keyboard layout, you need to open the `us-cps.keylayout` file in 
-[Ukulele](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ukelele).
+To edit the keyboard layout, you need to use the 
+[Ukulele](http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=ukelele)
+app.
 To install the keyboard layout, drag the `U.S. with Compose Key.bundle` file to
 the `/Library/Keyboard Layouts/` folder and enable it from the *Input Sources*
 tab in the *Language & Text* panel in System Settings.
@@ -29,6 +30,7 @@ pressing Compose, followed by two or three keys, as shown in the table.
 
 Key combinations
 ----------------
+
 
 | Symbol |  Key 1  |  Key 2  |  Key 3  |      Unicode Name / *Description*     |
 |:------:|:-------:|:-------:|:-------:|:--------------------------------------|
@@ -94,8 +96,8 @@ Key combinations
 | ẃ      | '       | w       |         | LATIN SMALL LETTER W WITH ACUTE       |
 | ý      | '       | y       |         | LATIN SMALL LETTER Y WITH ACUTE       |
 | ±      | +       | -       |         | PLUS-MINUS SIGN                       |
-| ⊕      | +       | I       |         | CIRCLED PLUS                          |
-| ⊕      | +       | i       |         | CIRCLED PLUS                          |
+| ⊕      | +       | O       |         | CIRCLED PLUS                          |
+| ⊕      | +       | o       |         | CIRCLED PLUS                          |
 | ¸      | ,       | (space) |         | CEDILLA                               |
 | ¬      | ,       | -       |         | NOT SIGN                              |
 | Ç      | ,       | C       |         | LATIN CAPITAL LETTER C WITH CEDILLA   |
@@ -559,6 +561,8 @@ Key combinations
 | ⇧      | k       | s       | h       | UPWARDS WHITE ARROW                   |
 | ⬖      | k       | s       | y       | DIAMOND WITH LEFT HALF BLACK          |
 | ⇥      | k       | t       | a       | RIGHTWARDS ARROW TO BAR               |
+| ✓      | k       | v       |         | CHECK MARK                            |
+| ✗      | k       | x       |         | BALLOT X                              |
 | ∀      | m       | A       |         | FOR ALL                               |
 | ∃      | m       | E       |         | THERE EXISTS                          |
 | ℏ      | m       | H       |         | PLANCK CONSTANT OVER TWO PI           |

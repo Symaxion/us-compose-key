@@ -1,2169 +1,2170 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE keyboard PUBLIC "" "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 2.2.8 on 2015-05-15 at 14:55 (CEST)-->
+<?xml version="1.1" encoding="UTF-8"?>
+<!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
+<!--Last edited by Ukelele version 3.2.0.154 on 2017-01-01 at 18:20 (GMT+1)-->
 <!--Created by Ukelele version 2.2 on 2012-06-20 at 17:36 (CEST)-->
-<keyboard group="0" id="9913" name="U.S. with Compose Key" maxout="2">
-    <layouts>
-        <layout first="0" last="17" modifiers="f4" mapSet="16c"/>
-        <layout first="18" last="18" modifiers="f4" mapSet="994"/>
-        <layout first="21" last="23" modifiers="f4" mapSet="994"/>
-        <layout first="30" last="30" modifiers="f4" mapSet="994"/>
-        <layout first="194" last="194" modifiers="f4" mapSet="994"/>
-        <layout first="197" last="197" modifiers="f4" mapSet="994"/>
-        <layout first="200" last="201" modifiers="f4" mapSet="994"/>
-        <layout first="206" last="207" modifiers="f4" mapSet="994"/>
-    </layouts>
-    <modifierMap id="f4" defaultIndex="7">
-        <keyMapSelect mapIndex="0">
-            <modifier keys="command?"/>
-            <modifier keys="anyShift? caps? command"/>
-        </keyMapSelect>
-        <keyMapSelect mapIndex="1">
-            <modifier keys="anyShift caps?"/>
-        </keyMapSelect>
-        <keyMapSelect mapIndex="2">
-            <modifier keys="caps"/>
-        </keyMapSelect>
-        <keyMapSelect mapIndex="3">
-            <modifier keys="anyOption"/>
-        </keyMapSelect>
-        <keyMapSelect mapIndex="4">
-            <modifier keys="anyShift caps? anyOption command?"/>
-        </keyMapSelect>
-        <keyMapSelect mapIndex="5">
-            <modifier keys="caps anyOption"/>
-        </keyMapSelect>
-        <keyMapSelect mapIndex="6">
-            <modifier keys="caps? anyOption command"/>
-        </keyMapSelect>
-        <keyMapSelect mapIndex="7">
-            <modifier keys="anyShift caps? option? command? control"/>
-            <modifier keys="shift? caps? anyOption command? control"/>
-            <modifier keys="caps? anyOption? command? control"/>
-        </keyMapSelect>
-    </modifierMap>
-    <keyMapSet id="16c">
-        <keyMap index="0">
-            <key code="0" action="13"/>
-            <key code="1" action="s"/>
-            <key code="2" action="d"/>
-            <key code="3" action="f"/>
-            <key code="4" action="h"/>
-            <key code="5" action="g"/>
-            <key code="6" action="z"/>
-            <key code="7" action="x"/>
-            <key code="8" action="c"/>
-            <key code="9" action="v"/>
-            <key code="10" action="`"/>
-            <key code="11" action="b"/>
-            <key code="12" action="q"/>
-            <key code="13" action="w"/>
-            <key code="14" action="14"/>
-            <key code="15" action="r"/>
-            <key code="16" action="19"/>
-            <key code="17" action="t"/>
-            <key code="18" action="1 1"/>
-            <key code="19" action="2 1"/>
-            <key code="20" action="3 1"/>
-            <key code="21" action="4 1"/>
-            <key code="22" action="6 1"/>
-            <key code="23" action="5 1"/>
-            <key code="24" action="="/>
-            <key code="25" action="9 1"/>
-            <key code="26" action="7 1"/>
-            <key code="27" action="-"/>
-            <key code="28" action="8 1"/>
-            <key code="29" action="0 1"/>
-            <key code="30" action="]"/>
-            <key code="31" action="17"/>
-            <key code="32" action="18"/>
-            <key code="33" action="["/>
-            <key code="34" action="15"/>
-            <key code="35" action="p"/>
-            <key code="36" output="&#x000D;"/>
-            <key code="37" action="l"/>
-            <key code="38" action="j"/>
-            <key code="39" action="&#x0027;"/>
-            <key code="40" action="k"/>
-            <key code="41" action=";"/>
-            <key code="42" action="\"/>
-            <key code="43" action=","/>
-            <key code="44" action="/"/>
-            <key code="45" action="16"/>
-            <key code="46" action="m"/>
-            <key code="47" action="."/>
-            <key code="48" output="&#x0009;"/>
-            <key code="49" action="5"/>
-            <key code="50" action="Compose Key"/>
-            <key code="51" output="&#x0008;"/>
-            <key code="52" output="&#x0003;"/>
-            <key code="53" output="&#x001B;"/>
-            <key code="64" output="&#x0010;"/>
-            <key code="65" output="."/>
-            <key code="66" output="&#x001D;"/>
-            <key code="67" output="*"/>
-            <key code="69" output="+"/>
-            <key code="70" output="&#x001C;"/>
-            <key code="71" output="&#x001B;"/>
-            <key code="72" output="&#x001F;"/>
-            <key code="75" output="/"/>
-            <key code="76" output="&#x0003;"/>
-            <key code="77" output="&#x001E;"/>
-            <key code="78" output="-"/>
-            <key code="79" output="&#x0010;"/>
-            <key code="80" output="&#x0010;"/>
-            <key code="81" output="="/>
-            <key code="82" output="0"/>
-            <key code="83" output="1"/>
-            <key code="84" output="2"/>
-            <key code="85" output="3"/>
-            <key code="86" output="4"/>
-            <key code="87" output="5"/>
-            <key code="88" output="6"/>
-            <key code="89" output="7"/>
-            <key code="91" output="8"/>
-            <key code="92" output="9"/>
-            <key code="96" output="&#x0010;"/>
-            <key code="97" output="&#x0010;"/>
-            <key code="98" output="&#x0010;"/>
-            <key code="99" output="&#x0010;"/>
-            <key code="100" output="&#x0010;"/>
-            <key code="101" output="&#x0010;"/>
-            <key code="102" output="&#x0010;"/>
-            <key code="103" output="&#x0010;"/>
-            <key code="104" output="&#x0010;"/>
-            <key code="105" output="&#x0010;"/>
-            <key code="106" output="&#x0010;"/>
-            <key code="107" output="&#x0010;"/>
-            <key code="108" output="&#x0010;"/>
-            <key code="109" output="&#x0010;"/>
-            <key code="110" output="&#x0010;"/>
-            <key code="111" output="&#x0010;"/>
-            <key code="112" output="&#x0010;"/>
-            <key code="113" output="&#x0010;"/>
-            <key code="114" output="&#x0005;"/>
-            <key code="115" output="&#x0001;"/>
-            <key code="116" output="&#x000B;"/>
-            <key code="117" output="&#x007F;"/>
-            <key code="118" output="&#x0010;"/>
-            <key code="119" output="&#x0004;"/>
-            <key code="120" output="&#x0010;"/>
-            <key code="121" output="&#x000C;"/>
-            <key code="122" output="&#x0010;"/>
-            <key code="123" output="&#x001C;"/>
-            <key code="124" output="&#x001D;"/>
-            <key code="125" output="&#x001F;"/>
-            <key code="126" output="&#x001E;"/>
-        </keyMap>
-        <keyMap index="1">
-            <key code="0" action="6"/>
-            <key code="1" action="S"/>
-            <key code="2" action="D"/>
-            <key code="3" action="F"/>
-            <key code="4" action="H"/>
-            <key code="5" action="G"/>
-            <key code="6" action="Z"/>
-            <key code="7" action="X"/>
-            <key code="8" action="C"/>
-            <key code="9" action="V"/>
-            <key code="10" action="~"/>
-            <key code="11" action="B"/>
-            <key code="12" action="Q"/>
-            <key code="13" action="W"/>
-            <key code="14" action="7"/>
-            <key code="15" action="R"/>
-            <key code="16" action="12"/>
-            <key code="17" action="T"/>
-            <key code="18" action="!"/>
-            <key code="19" action="@"/>
-            <key code="20" action="#"/>
-            <key code="21" action="$"/>
-            <key code="22" action="^"/>
-            <key code="23" action="%"/>
-            <key code="24" action="+"/>
-            <key code="25" action="("/>
-            <key code="26" action="&#x0026;"/>
-            <key code="27" action="_"/>
-            <key code="28" action="*"/>
-            <key code="29" action=")"/>
-            <key code="30" action="}"/>
-            <key code="31" action="10"/>
-            <key code="32" action="11"/>
-            <key code="33" action="{"/>
-            <key code="34" action="8"/>
-            <key code="35" action="P"/>
-            <key code="36" output="&#x000D;"/>
-            <key code="37" action="L"/>
-            <key code="38" action="J"/>
-            <key code="39" action="&#x0022;"/>
-            <key code="40" action="K"/>
-            <key code="41" action=":"/>
-            <key code="42" action="|"/>
-            <key code="43" action="&#x003C;"/>
-            <key code="44" action="?"/>
-            <key code="45" action="9"/>
-            <key code="46" action="M"/>
-            <key code="47" action="&#x003E;"/>
-            <key code="48" output="&#x0009;"/>
-            <key code="49" action="5"/>
-            <key code="50" action="Compose Key 1"/>
-            <key code="51" output="&#x0008;"/>
-            <key code="52" output="&#x0003;"/>
-            <key code="53" output="&#x001B;"/>
-            <key code="64" output="&#x0010;"/>
-            <key code="65" output="."/>
-            <key code="66" output="*"/>
-            <key code="67" output="*"/>
-            <key code="69" output="+"/>
-            <key code="70" output="+"/>
-            <key code="71" output="&#x001B;"/>
-            <key code="72" output="="/>
-            <key code="75" output="/"/>
-            <key code="76" output="&#x0003;"/>
-            <key code="77" output="/"/>
-            <key code="78" output="-"/>
-            <key code="79" output="&#x0010;"/>
-            <key code="80" output="&#x0010;"/>
-            <key code="81" output="="/>
-            <key code="82" output="0"/>
-            <key code="83" output="1"/>
-            <key code="84" output="2"/>
-            <key code="85" output="3"/>
-            <key code="86" output="4"/>
-            <key code="87" output="5"/>
-            <key code="88" output="6"/>
-            <key code="89" output="7"/>
-            <key code="91" output="8"/>
-            <key code="92" output="9"/>
-            <key code="96" output="&#x0010;"/>
-            <key code="97" output="&#x0010;"/>
-            <key code="98" output="&#x0010;"/>
-            <key code="99" output="&#x0010;"/>
-            <key code="100" output="&#x0010;"/>
-            <key code="101" output="&#x0010;"/>
-            <key code="102" output="&#x0010;"/>
-            <key code="103" output="&#x0010;"/>
-            <key code="104" output="&#x0010;"/>
-            <key code="105" output="&#x0010;"/>
-            <key code="106" output="&#x0010;"/>
-            <key code="107" output="&#x0010;"/>
-            <key code="108" output="&#x0010;"/>
-            <key code="109" output="&#x0010;"/>
-            <key code="110" output="&#x0010;"/>
-            <key code="111" output="&#x0010;"/>
-            <key code="112" output="&#x0010;"/>
-            <key code="113" output="&#x0010;"/>
-            <key code="114" output="&#x0005;"/>
-            <key code="115" output="&#x0001;"/>
-            <key code="116" output="&#x000B;"/>
-            <key code="117" output="&#x007F;"/>
-            <key code="118" output="&#x0010;"/>
-            <key code="119" output="&#x0004;"/>
-            <key code="120" output="&#x0010;"/>
-            <key code="121" output="&#x000C;"/>
-            <key code="122" output="&#x0010;"/>
-            <key code="123" output="&#x001C;"/>
-            <key code="124" output="&#x001D;"/>
-            <key code="125" output="&#x001F;"/>
-            <key code="126" output="&#x001E;"/>
-        </keyMap>
-        <keyMap index="2">
-            <key code="0" action="6"/>
-            <key code="1" output="S"/>
-            <key code="2" output="D"/>
-            <key code="3" output="F"/>
-            <key code="4" output="H"/>
-            <key code="5" output="G"/>
-            <key code="6" output="Z"/>
-            <key code="7" output="X"/>
-            <key code="8" output="C"/>
-            <key code="9" output="V"/>
-            <key code="10" output="`"/>
-            <key code="11" output="B"/>
-            <key code="12" output="Q"/>
-            <key code="13" output="W"/>
-            <key code="14" action="7"/>
-            <key code="15" output="R"/>
-            <key code="16" action="12"/>
-            <key code="17" output="T"/>
-            <key code="18" output="1"/>
-            <key code="19" output="2"/>
-            <key code="20" output="3"/>
-            <key code="21" output="4"/>
-            <key code="22" output="6"/>
-            <key code="23" output="5"/>
-            <key code="24" output="="/>
-            <key code="25" output="9"/>
-            <key code="26" output="7"/>
-            <key code="27" output="-"/>
-            <key code="28" output="8"/>
-            <key code="29" output="0"/>
-            <key code="30" output="]"/>
-            <key code="31" action="10"/>
-            <key code="32" action="11"/>
-            <key code="33" output="["/>
-            <key code="34" action="8"/>
-            <key code="35" output="P"/>
-            <key code="36" output="&#x000D;"/>
-            <key code="37" output="L"/>
-            <key code="38" output="J"/>
-            <key code="39" output="&#x0027;"/>
-            <key code="40" output="K"/>
-            <key code="41" output=";"/>
-            <key code="42" output="\"/>
-            <key code="43" output=","/>
-            <key code="44" output="/"/>
-            <key code="45" action="9"/>
-            <key code="46" output="M"/>
-            <key code="47" output="."/>
-            <key code="48" output="&#x0009;"/>
-            <key code="49" action="5"/>
-            <key code="50" output="§"/>
-            <key code="51" output="&#x0008;"/>
-            <key code="52" output="&#x0003;"/>
-            <key code="53" output="&#x001B;"/>
-            <key code="64" output="&#x0010;"/>
-            <key code="65" output="."/>
-            <key code="66" output="&#x001D;"/>
-            <key code="67" output="*"/>
-            <key code="69" output="+"/>
-            <key code="70" output="&#x001C;"/>
-            <key code="71" output="&#x001B;"/>
-            <key code="72" output="&#x001F;"/>
-            <key code="75" output="/"/>
-            <key code="76" output="&#x0003;"/>
-            <key code="77" output="&#x001E;"/>
-            <key code="78" output="-"/>
-            <key code="79" output="&#x0010;"/>
-            <key code="80" output="&#x0010;"/>
-            <key code="81" output="="/>
-            <key code="82" output="0"/>
-            <key code="83" output="1"/>
-            <key code="84" output="2"/>
-            <key code="85" output="3"/>
-            <key code="86" output="4"/>
-            <key code="87" output="5"/>
-            <key code="88" output="6"/>
-            <key code="89" output="7"/>
-            <key code="91" output="8"/>
-            <key code="92" output="9"/>
-            <key code="96" output="&#x0010;"/>
-            <key code="97" output="&#x0010;"/>
-            <key code="98" output="&#x0010;"/>
-            <key code="99" output="&#x0010;"/>
-            <key code="100" output="&#x0010;"/>
-            <key code="101" output="&#x0010;"/>
-            <key code="102" output="&#x0010;"/>
-            <key code="103" output="&#x0010;"/>
-            <key code="104" output="&#x0010;"/>
-            <key code="105" output="&#x0010;"/>
-            <key code="106" output="&#x0010;"/>
-            <key code="107" output="&#x0010;"/>
-            <key code="108" output="&#x0010;"/>
-            <key code="109" output="&#x0010;"/>
-            <key code="110" output="&#x0010;"/>
-            <key code="111" output="&#x0010;"/>
-            <key code="112" output="&#x0010;"/>
-            <key code="113" output="&#x0010;"/>
-            <key code="114" output="&#x0005;"/>
-            <key code="115" output="&#x0001;"/>
-            <key code="116" output="&#x000B;"/>
-            <key code="117" output="&#x007F;"/>
-            <key code="118" output="&#x0010;"/>
-            <key code="119" output="&#x0004;"/>
-            <key code="120" output="&#x0010;"/>
-            <key code="121" output="&#x000C;"/>
-            <key code="122" output="&#x0010;"/>
-            <key code="123" output="&#x001C;"/>
-            <key code="124" output="&#x001D;"/>
-            <key code="125" output="&#x001F;"/>
-            <key code="126" output="&#x001E;"/>
-        </keyMap>
-        <keyMap index="3">
-            <key code="0" output="å"/>
-            <key code="1" output="ß"/>
-            <key code="2" output="∂"/>
-            <key code="3" output="ƒ"/>
-            <key code="4" output="˙"/>
-            <key code="5" output="©"/>
-            <key code="6" output="Ω"/>
-            <key code="7" output="≈"/>
-            <key code="8" output="ç"/>
-            <key code="9" output="√"/>
-            <key code="10" action="1"/>
-            <key code="11" output="∫"/>
-            <key code="12" output="œ"/>
-            <key code="13" output="∑"/>
-            <key code="14" action="0"/>
-            <key code="15" output="®"/>
-            <key code="16" output="¥"/>
-            <key code="17" output="†"/>
-            <key code="18" output="¡"/>
-            <key code="19" output="™"/>
-            <key code="20" output="£"/>
-            <key code="21" output="¢"/>
-            <key code="22" output="§"/>
-            <key code="23" output="∞"/>
-            <key code="24" output="≠"/>
-            <key code="25" output="ª"/>
-            <key code="26" output="¶"/>
-            <key code="27" output="–"/>
-            <key code="28" output="•"/>
-            <key code="29" output="º"/>
-            <key code="30" output="‘"/>
-            <key code="31" output="ø"/>
-            <key code="32" action="3"/>
-            <key code="33" output="“"/>
-            <key code="34" action="2"/>
-            <key code="35" output="π"/>
-            <key code="36" output="&#x000D;"/>
-            <key code="37" output="¬"/>
-            <key code="38" output="∆"/>
-            <key code="39" output="æ"/>
-            <key code="40" output="˚"/>
-            <key code="41" output="…"/>
-            <key code="42" output="«"/>
-            <key code="43" output="≤"/>
-            <key code="44" output="÷"/>
-            <key code="45" action="4"/>
-            <key code="46" output="µ"/>
-            <key code="47" output="≥"/>
-            <key code="48" output="&#x0009;"/>
-            <key code="49" output=" "/>
-            <key code="50" action="Compose Key 2"/>
-            <key code="51" output="&#x0008;"/>
-            <key code="52" output="&#x0003;"/>
-            <key code="53" output="&#x001B;"/>
-            <key code="64" output="&#x0010;"/>
-            <key code="65" output="."/>
-            <key code="66" output="&#x001D;"/>
-            <key code="67" output="*"/>
-            <key code="69" output="+"/>
-            <key code="70" output="&#x001C;"/>
-            <key code="71" output="&#x001B;"/>
-            <key code="72" output="&#x001F;"/>
-            <key code="75" output="/"/>
-            <key code="76" output="&#x0003;"/>
-            <key code="77" output="&#x001E;"/>
-            <key code="78" output="-"/>
-            <key code="79" output="&#x0010;"/>
-            <key code="80" output="&#x0010;"/>
-            <key code="81" output="="/>
-            <key code="82" output="0"/>
-            <key code="83" output="1"/>
-            <key code="84" output="2"/>
-            <key code="85" output="3"/>
-            <key code="86" output="4"/>
-            <key code="87" output="5"/>
-            <key code="88" output="6"/>
-            <key code="89" output="7"/>
-            <key code="91" output="8"/>
-            <key code="92" output="9"/>
-            <key code="96" output="&#x0010;"/>
-            <key code="97" output="&#x0010;"/>
-            <key code="98" output="&#x0010;"/>
-            <key code="99" output="&#x0010;"/>
-            <key code="100" output="&#x0010;"/>
-            <key code="101" output="&#x0010;"/>
-            <key code="102" output="&#x0010;"/>
-            <key code="103" output="&#x0010;"/>
-            <key code="104" output="&#x0010;"/>
-            <key code="105" output="&#x0010;"/>
-            <key code="106" output="&#x0010;"/>
-            <key code="107" output="&#x0010;"/>
-            <key code="108" output="&#x0010;"/>
-            <key code="109" output="&#x0010;"/>
-            <key code="110" output="&#x0010;"/>
-            <key code="111" output="&#x0010;"/>
-            <key code="112" output="&#x0010;"/>
-            <key code="113" output="&#x0010;"/>
-            <key code="114" output="&#x0005;"/>
-            <key code="115" output="&#x0001;"/>
-            <key code="116" output="&#x000B;"/>
-            <key code="117" output="&#x007F;"/>
-            <key code="118" output="&#x0010;"/>
-            <key code="119" output="&#x0004;"/>
-            <key code="120" output="&#x0010;"/>
-            <key code="121" output="&#x000C;"/>
-            <key code="122" output="&#x0010;"/>
-            <key code="123" output="&#x001C;"/>
-            <key code="124" output="&#x001D;"/>
-            <key code="125" output="&#x001F;"/>
-            <key code="126" output="&#x001E;"/>
-        </keyMap>
-        <keyMap index="4">
-            <key code="0" output="Å"/>
-            <key code="1" output="Í"/>
-            <key code="2" output="Î"/>
-            <key code="3" output="Ï"/>
-            <key code="4" output="Ó"/>
-            <key code="5" output="˝"/>
-            <key code="6" output="¸"/>
-            <key code="7" output="˛"/>
-            <key code="8" output="Ç"/>
-            <key code="9" output="◊"/>
-            <key code="10" action="` 1"/>
-            <key code="11" output="ı"/>
-            <key code="12" output="Œ"/>
-            <key code="13" output="„"/>
-            <key code="14" output="´"/>
-            <key code="15" output="‰"/>
-            <key code="16" output="Á"/>
-            <key code="17" output="ˇ"/>
-            <key code="18" output="⁄"/>
-            <key code="19" output="€"/>
-            <key code="20" output="‹"/>
-            <key code="21" output="›"/>
-            <key code="22" output="ﬂ"/>
-            <key code="23" output="ﬁ"/>
-            <key code="24" output="±"/>
-            <key code="25" output="·"/>
-            <key code="26" output="‡"/>
-            <key code="27" output="—"/>
-            <key code="28" output="°"/>
-            <key code="29" output="‚"/>
-            <key code="30" output="’"/>
-            <key code="31" output="Ø"/>
-            <key code="32" output="¨"/>
-            <key code="33" output="”"/>
-            <key code="34" output="ˆ"/>
-            <key code="35" output="∏"/>
-            <key code="36" output="&#x000D;"/>
-            <key code="37" output="Ò"/>
-            <key code="38" output="Ô"/>
-            <key code="39" action="Æ"/>
-            <key code="40" output=""/>
-            <key code="41" output="Ú"/>
-            <key code="42" output="»"/>
-            <key code="43" output="¯"/>
-            <key code="44" output="¿"/>
-            <key code="45" output="˜"/>
-            <key code="46" output="Â"/>
-            <key code="47" output="˘"/>
-            <key code="48" output="&#x0009;"/>
-            <key code="49" output=" "/>
-            <key code="50" action="Compose Key 3"/>
-            <key code="51" output="&#x0008;"/>
-            <key code="52" output="&#x0003;"/>
-            <key code="53" output="&#x001B;"/>
-            <key code="64" output="&#x0010;"/>
-            <key code="65" output="."/>
-            <key code="66" output="*"/>
-            <key code="67" output="*"/>
-            <key code="69" output="+"/>
-            <key code="70" output="+"/>
-            <key code="71" output="&#x001B;"/>
-            <key code="72" output="="/>
-            <key code="75" output="/"/>
-            <key code="76" output="&#x0003;"/>
-            <key code="77" output="/"/>
-            <key code="78" output="-"/>
-            <key code="79" output="&#x0010;"/>
-            <key code="80" output="&#x0010;"/>
-            <key code="81" output="="/>
-            <key code="82" output="0"/>
-            <key code="83" output="1"/>
-            <key code="84" output="2"/>
-            <key code="85" output="3"/>
-            <key code="86" output="4"/>
-            <key code="87" output="5"/>
-            <key code="88" output="6"/>
-            <key code="89" output="7"/>
-            <key code="91" output="8"/>
-            <key code="92" output="9"/>
-            <key code="96" output="&#x0010;"/>
-            <key code="97" output="&#x0010;"/>
-            <key code="98" output="&#x0010;"/>
-            <key code="99" output="&#x0010;"/>
-            <key code="100" output="&#x0010;"/>
-            <key code="101" output="&#x0010;"/>
-            <key code="102" output="&#x0010;"/>
-            <key code="103" output="&#x0010;"/>
-            <key code="104" output="&#x0010;"/>
-            <key code="105" output="&#x0010;"/>
-            <key code="106" output="&#x0010;"/>
-            <key code="107" output="&#x0010;"/>
-            <key code="108" output="&#x0010;"/>
-            <key code="109" output="&#x0010;"/>
-            <key code="110" output="&#x0010;"/>
-            <key code="111" output="&#x0010;"/>
-            <key code="112" output="&#x0010;"/>
-            <key code="113" output="&#x0010;"/>
-            <key code="114" output="&#x0005;"/>
-            <key code="115" output="&#x0001;"/>
-            <key code="116" output="&#x000B;"/>
-            <key code="117" output="&#x007F;"/>
-            <key code="118" output="&#x0010;"/>
-            <key code="119" output="&#x0004;"/>
-            <key code="120" output="&#x0010;"/>
-            <key code="121" output="&#x000C;"/>
-            <key code="122" output="&#x0010;"/>
-            <key code="123" output="&#x001C;"/>
-            <key code="124" output="&#x001D;"/>
-            <key code="125" output="&#x001F;"/>
-            <key code="126" output="&#x001E;"/>
-        </keyMap>
-        <keyMap index="5">
-            <key code="0" output="Å"/>
-            <key code="1" output="Í"/>
-            <key code="2" output="Î"/>
-            <key code="3" output="Ï"/>
-            <key code="4" output="Ó"/>
-            <key code="5" output="©"/>
-            <key code="6" output="Ω"/>
-            <key code="7" output="≈"/>
-            <key code="8" output="Ç"/>
-            <key code="9" output="√"/>
-            <key code="10" output="`"/>
-            <key code="11" output="ı"/>
-            <key code="12" output="Œ"/>
-            <key code="13" output="∑"/>
-            <key code="14" output="´"/>
-            <key code="15" output="®"/>
-            <key code="16" output="Á"/>
-            <key code="17" output="†"/>
-            <key code="18" output="¡"/>
-            <key code="19" output="™"/>
-            <key code="20" output="£"/>
-            <key code="21" output="¢"/>
-            <key code="22" output="§"/>
-            <key code="23" output="∞"/>
-            <key code="24" output="≠"/>
-            <key code="25" output="ª"/>
-            <key code="26" output="¶"/>
-            <key code="27" output="–"/>
-            <key code="28" output="•"/>
-            <key code="29" output="º"/>
-            <key code="30" output="‘"/>
-            <key code="31" output="Ø"/>
-            <key code="32" output="¨"/>
-            <key code="33" output="“"/>
-            <key code="34" output="ˆ"/>
-            <key code="35" output="∏"/>
-            <key code="36" output="&#x000D;"/>
-            <key code="37" output="Ò"/>
-            <key code="38" output="Ô"/>
-            <key code="39" output="Æ"/>
-            <key code="40" output="˚"/>
-            <key code="41" output="…"/>
-            <key code="42" output="«"/>
-            <key code="43" output="≤"/>
-            <key code="44" output="÷"/>
-            <key code="45" output="˜"/>
-            <key code="46" output="Â"/>
-            <key code="47" output="≥"/>
-            <key code="48" output="&#x0009;"/>
-            <key code="49" output=" "/>
-            <key code="50" output="§"/>
-            <key code="51" output="&#x0008;"/>
-            <key code="52" output="&#x0003;"/>
-            <key code="53" output="&#x001B;"/>
-            <key code="64" output="&#x0010;"/>
-            <key code="65" output="."/>
-            <key code="66" output="&#x001D;"/>
-            <key code="67" output="*"/>
-            <key code="69" output="+"/>
-            <key code="70" output="&#x001C;"/>
-            <key code="71" output="&#x001B;"/>
-            <key code="72" output="&#x001F;"/>
-            <key code="75" output="/"/>
-            <key code="76" output="&#x0003;"/>
-            <key code="77" output="&#x001E;"/>
-            <key code="78" output="-"/>
-            <key code="79" output="&#x0010;"/>
-            <key code="80" output="&#x0010;"/>
-            <key code="81" output="="/>
-            <key code="82" output="0"/>
-            <key code="83" output="1"/>
-            <key code="84" output="2"/>
-            <key code="85" output="3"/>
-            <key code="86" output="4"/>
-            <key code="87" output="5"/>
-            <key code="88" output="6"/>
-            <key code="89" output="7"/>
-            <key code="91" output="8"/>
-            <key code="92" output="9"/>
-            <key code="96" output="&#x0010;"/>
-            <key code="97" output="&#x0010;"/>
-            <key code="98" output="&#x0010;"/>
-            <key code="99" output="&#x0010;"/>
-            <key code="100" output="&#x0010;"/>
-            <key code="101" output="&#x0010;"/>
-            <key code="102" output="&#x0010;"/>
-            <key code="103" output="&#x0010;"/>
-            <key code="104" output="&#x0010;"/>
-            <key code="105" output="&#x0010;"/>
-            <key code="106" output="&#x0010;"/>
-            <key code="107" output="&#x0010;"/>
-            <key code="108" output="&#x0010;"/>
-            <key code="109" output="&#x0010;"/>
-            <key code="110" output="&#x0010;"/>
-            <key code="111" output="&#x0010;"/>
-            <key code="112" output="&#x0010;"/>
-            <key code="113" output="&#x0010;"/>
-            <key code="114" output="&#x0005;"/>
-            <key code="115" output="&#x0001;"/>
-            <key code="116" output="&#x000B;"/>
-            <key code="117" output="&#x007F;"/>
-            <key code="118" output="&#x0010;"/>
-            <key code="119" output="&#x0004;"/>
-            <key code="120" output="&#x0010;"/>
-            <key code="121" output="&#x000C;"/>
-            <key code="122" output="&#x0010;"/>
-            <key code="123" output="&#x001C;"/>
-            <key code="124" output="&#x001D;"/>
-            <key code="125" output="&#x001F;"/>
-            <key code="126" output="&#x001E;"/>
-        </keyMap>
-        <keyMap index="6">
-            <key code="0" output="å"/>
-            <key code="1" output="ß"/>
-            <key code="2" output="∂"/>
-            <key code="3" output="ƒ"/>
-            <key code="4" output="˙"/>
-            <key code="5" output="©"/>
-            <key code="6" output="Ω"/>
-            <key code="7" output="≈"/>
-            <key code="8" output="ç"/>
-            <key code="9" output="√"/>
-            <key code="10" output="`"/>
-            <key code="11" output="∫"/>
-            <key code="12" output="œ"/>
-            <key code="13" output="∑"/>
-            <key code="14" output="´"/>
-            <key code="15" output="®"/>
-            <key code="16" output="¥"/>
-            <key code="17" output="†"/>
-            <key code="18" output="¡"/>
-            <key code="19" output="™"/>
-            <key code="20" output="£"/>
-            <key code="21" output="¢"/>
-            <key code="22" output="§"/>
-            <key code="23" output="∞"/>
-            <key code="24" output="≠"/>
-            <key code="25" output="ª"/>
-            <key code="26" output="¶"/>
-            <key code="27" output="–"/>
-            <key code="28" output="•"/>
-            <key code="29" output="º"/>
-            <key code="30" output="‘"/>
-            <key code="31" output="ø"/>
-            <key code="32" output="¨"/>
-            <key code="33" output="“"/>
-            <key code="34" output="^"/>
-            <key code="35" output="π"/>
-            <key code="36" output="&#x000D;"/>
-            <key code="37" output="¬"/>
-            <key code="38" output="∆"/>
-            <key code="39" output="æ"/>
-            <key code="40" output="˚"/>
-            <key code="41" output="…"/>
-            <key code="42" output="«"/>
-            <key code="43" output="≤"/>
-            <key code="44" output="÷"/>
-            <key code="45" output="~"/>
-            <key code="46" output="µ"/>
-            <key code="47" output="≥"/>
-            <key code="48" output="&#x0009;"/>
-            <key code="49" output=" "/>
-            <key code="50" output="§"/>
-            <key code="51" output="&#x0008;"/>
-            <key code="52" output="&#x0003;"/>
-            <key code="53" output="&#x001B;"/>
-            <key code="64" output="&#x0010;"/>
-            <key code="65" output="."/>
-            <key code="66" output="&#x001D;"/>
-            <key code="67" output="*"/>
-            <key code="69" output="+"/>
-            <key code="70" output="&#x001C;"/>
-            <key code="71" output="&#x001B;"/>
-            <key code="72" output="&#x001F;"/>
-            <key code="75" output="/"/>
-            <key code="76" output="&#x0003;"/>
-            <key code="77" output="&#x001E;"/>
-            <key code="78" output="-"/>
-            <key code="79" output="&#x0010;"/>
-            <key code="80" output="&#x0010;"/>
-            <key code="81" output="="/>
-            <key code="82" output="0"/>
-            <key code="83" output="1"/>
-            <key code="84" output="2"/>
-            <key code="85" output="3"/>
-            <key code="86" output="4"/>
-            <key code="87" output="5"/>
-            <key code="88" output="6"/>
-            <key code="89" output="7"/>
-            <key code="91" output="8"/>
-            <key code="92" output="9"/>
-            <key code="96" output="&#x0010;"/>
-            <key code="97" output="&#x0010;"/>
-            <key code="98" output="&#x0010;"/>
-            <key code="99" output="&#x0010;"/>
-            <key code="100" output="&#x0010;"/>
-            <key code="101" output="&#x0010;"/>
-            <key code="102" output="&#x0010;"/>
-            <key code="103" output="&#x0010;"/>
-            <key code="104" output="&#x0010;"/>
-            <key code="105" output="&#x0010;"/>
-            <key code="106" output="&#x0010;"/>
-            <key code="107" output="&#x0010;"/>
-            <key code="108" output="&#x0010;"/>
-            <key code="109" output="&#x0010;"/>
-            <key code="110" output="&#x0010;"/>
-            <key code="111" output="&#x0010;"/>
-            <key code="112" output="&#x0010;"/>
-            <key code="113" output="&#x0010;"/>
-            <key code="114" output="&#x0005;"/>
-            <key code="115" output="&#x0001;"/>
-            <key code="116" output="&#x000B;"/>
-            <key code="117" output="&#x007F;"/>
-            <key code="118" output="&#x0010;"/>
-            <key code="119" output="&#x0004;"/>
-            <key code="120" output="&#x0010;"/>
-            <key code="121" output="&#x000C;"/>
-            <key code="122" output="&#x0010;"/>
-            <key code="123" output="&#x001C;"/>
-            <key code="124" output="&#x001D;"/>
-            <key code="125" output="&#x001F;"/>
-            <key code="126" output="&#x001E;"/>
-        </keyMap>
-        <keyMap index="7">
-            <key code="0" output="&#x0001;"/>
-            <key code="1" output="&#x0013;"/>
-            <key code="2" output="&#x0004;"/>
-            <key code="3" output="&#x0006;"/>
-            <key code="4" output="&#x0008;"/>
-            <key code="5" output="&#x0007;"/>
-            <key code="6" output="&#x001A;"/>
-            <key code="7" output="&#x0018;"/>
-            <key code="8" output="&#x0003;"/>
-            <key code="9" output="&#x0016;"/>
-            <key code="10" output="`"/>
-            <key code="11" output="&#x0002;"/>
-            <key code="12" output="&#x0011;"/>
-            <key code="13" output="&#x0017;"/>
-            <key code="14" output="&#x0005;"/>
-            <key code="15" output="&#x0012;"/>
-            <key code="16" output="&#x0019;"/>
-            <key code="17" output="&#x0014;"/>
-            <key code="18" output="1"/>
-            <key code="19" output="2"/>
-            <key code="20" output="3"/>
-            <key code="21" output="4"/>
-            <key code="22" output="6"/>
-            <key code="23" output="5"/>
-            <key code="24" output="="/>
-            <key code="25" output="9"/>
-            <key code="26" output="7"/>
-            <key code="27" output="&#x001F;"/>
-            <key code="28" output="8"/>
-            <key code="29" output="0"/>
-            <key code="30" output="&#x001D;"/>
-            <key code="31" output="&#x000F;"/>
-            <key code="32" output="&#x0015;"/>
-            <key code="33" output="&#x001B;"/>
-            <key code="34" output="&#x0009;"/>
-            <key code="35" output="&#x0010;"/>
-            <key code="36" output="&#x000D;"/>
-            <key code="37" output="&#x000C;"/>
-            <key code="38" output="&#x000A;"/>
-            <key code="39" output="&#x0027;"/>
-            <key code="40" output="&#x000B;"/>
-            <key code="41" output=";"/>
-            <key code="42" output="&#x001C;"/>
-            <key code="43" output=","/>
-            <key code="44" output="/"/>
-            <key code="45" output="&#x000E;"/>
-            <key code="46" output="&#x000D;"/>
-            <key code="47" output="."/>
-            <key code="48" output="&#x0009;"/>
-            <key code="49" action="5"/>
-            <key code="50" output=""/>
-            <key code="51" output="&#x0008;"/>
-            <key code="52" output="&#x0003;"/>
-            <key code="53" output="&#x001B;"/>
-            <key code="64" output="&#x0010;"/>
-            <key code="65" output="."/>
-            <key code="66" output="&#x001D;"/>
-            <key code="67" output="*"/>
-            <key code="69" output="+"/>
-            <key code="70" output="&#x001C;"/>
-            <key code="71" output="&#x001B;"/>
-            <key code="72" output="&#x001F;"/>
-            <key code="75" output="/"/>
-            <key code="76" output="&#x0003;"/>
-            <key code="77" output="&#x001E;"/>
-            <key code="78" output="-"/>
-            <key code="79" output="&#x0010;"/>
-            <key code="80" output="&#x0010;"/>
-            <key code="81" output="="/>
-            <key code="82" output="0"/>
-            <key code="83" output="1"/>
-            <key code="84" output="2"/>
-            <key code="85" output="3"/>
-            <key code="86" output="4"/>
-            <key code="87" output="5"/>
-            <key code="88" output="6"/>
-            <key code="89" output="7"/>
-            <key code="91" output="8"/>
-            <key code="92" output="9"/>
-            <key code="96" output="&#x0010;"/>
-            <key code="97" output="&#x0010;"/>
-            <key code="98" output="&#x0010;"/>
-            <key code="99" output="&#x0010;"/>
-            <key code="100" output="&#x0010;"/>
-            <key code="101" output="&#x0010;"/>
-            <key code="102" output="&#x0010;"/>
-            <key code="103" output="&#x0010;"/>
-            <key code="104" output="&#x0010;"/>
-            <key code="105" output="&#x0010;"/>
-            <key code="106" output="&#x0010;"/>
-            <key code="107" output="&#x0010;"/>
-            <key code="108" output="&#x0010;"/>
-            <key code="109" output="&#x0010;"/>
-            <key code="110" output="&#x0010;"/>
-            <key code="111" output="&#x0010;"/>
-            <key code="112" output="&#x0010;"/>
-            <key code="113" output="&#x0010;"/>
-            <key code="114" output="&#x0005;"/>
-            <key code="115" output="&#x0001;"/>
-            <key code="116" output="&#x000B;"/>
-            <key code="117" output="&#x007F;"/>
-            <key code="118" output="&#x0010;"/>
-            <key code="119" output="&#x0004;"/>
-            <key code="120" output="&#x0010;"/>
-            <key code="121" output="&#x000C;"/>
-            <key code="122" output="&#x0010;"/>
-            <key code="123" output="&#x001C;"/>
-            <key code="124" output="&#x001D;"/>
-            <key code="125" output="&#x001F;"/>
-            <key code="126" output="&#x001E;"/>
-        </keyMap>
-    </keyMapSet>
-    <keyMapSet id="994">
-        <keyMap index="0" baseMapSet="16c" baseIndex="0">
-            <key code="24" output="^"/>
-            <key code="30" output="["/>
-            <key code="33" output="@"/>
-            <key code="39" output=":"/>
-            <key code="42" output="]"/>
-            <key code="93" output="¥"/>
-            <key code="94" output="_"/>
-            <key code="95" output=","/>
-            <key code="102" action="5"/>
-            <key code="104" action="5"/>
-        </keyMap>
-        <keyMap index="1" baseMapSet="16c" baseIndex="1">
-            <key code="19" output="&#x0022;"/>
-            <key code="22" output="&#x0026;"/>
-            <key code="24" output="~"/>
-            <key code="25" output=")"/>
-            <key code="26" output="&#x0027;"/>
-            <key code="27" output="="/>
-            <key code="28" output="("/>
-            <key code="29" output="0"/>
-            <key code="30" output="{"/>
-            <key code="33" output="`"/>
-            <key code="39" output="*"/>
-            <key code="41" output="+"/>
-            <key code="42" output="}"/>
-            <key code="93" output="|"/>
-            <key code="94" output="_"/>
-            <key code="95" output=","/>
-            <key code="102" action="5"/>
-            <key code="104" action="5"/>
-        </keyMap>
-        <keyMap index="2" baseMapSet="16c" baseIndex="2">
-            <key code="24" output="^"/>
-            <key code="30" output="["/>
-            <key code="33" output="@"/>
-            <key code="39" output=":"/>
-            <key code="42" output="]"/>
-            <key code="93" output="¥"/>
-            <key code="94" output="_"/>
-            <key code="95" output=","/>
-            <key code="102" action="5"/>
-            <key code="104" action="5"/>
-        </keyMap>
-        <keyMap index="3" baseMapSet="16c" baseIndex="3">
-            <key code="93" output="\"/>
-            <key code="94" action="1"/>
-            <key code="95" output=","/>
-            <key code="102" action="5"/>
-            <key code="104" action="5"/>
-        </keyMap>
-        <keyMap index="4" baseMapSet="16c" baseIndex="4">
-            <key code="93" output="|"/>
-            <key code="94" output="`"/>
-            <key code="95" output=","/>
-            <key code="102" action="5"/>
-            <key code="104" action="5"/>
-        </keyMap>
-        <keyMap index="5" baseMapSet="16c" baseIndex="5">
-            <key code="93" output="\"/>
-            <key code="94" output="`"/>
-            <key code="95" output=","/>
-            <key code="102" action="5"/>
-            <key code="104" action="5"/>
-        </keyMap>
-        <keyMap index="6" baseMapSet="16c" baseIndex="6">
-            <key code="93" output="\"/>
-            <key code="94" output="_"/>
-            <key code="95" output=","/>
-            <key code="102" action="5"/>
-            <key code="104" action="5"/>
-        </keyMap>
-        <keyMap index="7" baseMapSet="16c" baseIndex="7">
-            <key code="93" output="|"/>
-            <key code="94" output="_"/>
-            <key code="95" output=","/>
-            <key code="102" action="5"/>
-            <key code="104" action="5"/>
-        </keyMap>
-    </keyMapSet>
-    <actions>
-        <action id="!">
-            <when state="none" output="!"/>
-            <when state="Compose Key" next="Compose Key - Exclamation Mark"/>
-            <when state="Compose Key - Exclamation Mark" output="¡"/>
-            <when state="Compose Key - P" output="¶"/>
-            <when state="Compose Key - Question Mark" output="‽"/>
-            <when state="Compose Key - f" output="!"/>
-            <when state="Compose Key - p" output="¶"/>
-        </action>
-        <action id="#">
-            <when state="none" output="#"/>
-            <when state="Compose Key - f" output="Ɛ"/>
-        </action>
-        <action id="$">
-            <when state="none" output="$"/>
-            <when state="Compose Key - f" output="4"/>
-        </action>
-        <action id="%">
-            <when state="none" output="%"/>
-            <when state="Compose Key" next="Compose - Percent sign"/>
-            <when state="Compose Key - f" output="Ƽ"/>
-        </action>
-        <action id="&#x003C;">
-            <when state="none" output="&#x003C;"/>
-            <when state="Compose Key" next="Compose Key - Less Than"/>
-            <when state="Compose Key - Equals Sign" output="⇐"/>
-            <when state="Compose Key - Hyphen" output="←"/>
-            <when state="Compose Key - Less Than" output="«"/>
-            <when state="Compose Key - f" output=","/>
-        </action>
-        <action id="&#x003E;">
-            <when state="none" output="&#x003E;"/>
-            <when state="Compose Key" next="Compose Key - Greater Than"/>
-            <when state="Compose Key - Equals Sign" output="⇒"/>
-            <when state="Compose Key - Greater Than" output="»"/>
-            <when state="Compose Key - Hyphen" output="→"/>
-            <when state="Compose Key - f" output="."/>
-        </action>
-        <action id="&#x0022;">
-            <when state="none" output="&#x0022;"/>
-            <when state="Compose Key" next="Compose Key - Quote"/>
-            <when state="Compose Key - f" output="ʺ"/>
-        </action>
-        <action id="&#x0026;">
-            <when state="none" output="&#x0026;"/>
-            <when state="Compose - Ampersand" output="∧"/>
-            <when state="Compose Key" next="Compose - Ampersand"/>
-            <when state="Compose Key - f" output="&#x0026;"/>
-        </action>
-        <action id="&#x0027;">
-            <when state="none" output="&#x0027;"/>
-            <when state="Compose Key" next="Compose Key - Single Quote"/>
-            <when state="Compose Key - f" output="ʹ"/>
-        </action>
-        <action id="(">
-            <when state="none" output="("/>
-            <when state="Compose Key - Caret" output="⁽"/>
-            <when state="Compose Key - Colon" output="☹"/>
-            <when state="Compose Key - Less Than" output="⟨"/>
-            <when state="Compose Key - Underscore" output="₍"/>
-            <when state="Compose Key - f" output="("/>
-        </action>
-        <action id=")">
-            <when state="none" output=")"/>
-            <when state="Compose Key - Caret" output="⁾"/>
-            <when state="Compose Key - Colon" output="☺"/>
-            <when state="Compose Key - Greater Than" output="⟩"/>
-            <when state="Compose Key - Underscore" output="₎"/>
-            <when state="Compose Key - f" output=")"/>
-        </action>
-        <action id="*">
-            <when state="none" output="*"/>
-            <when state="Compose Key - f" output="Ȣ"/>
-        </action>
-        <action id="+">
-            <when state="none" output="+"/>
-            <when state="Compose Key" next="Compose Key - Plus"/>
-            <when state="Compose Key - C" output="€"/>
-            <when state="Compose Key - Caret" output="⁺"/>
-            <when state="Compose Key - E" output="€"/>
-            <when state="Compose Key - Hyphen" output="∓"/>
-            <when state="Compose Key - O" output="⊕"/>
-            <when state="Compose Key - Underscore" output="₊"/>
-            <when state="Compose Key - W" output="₩"/>
-            <when state="Compose Key - f" output="="/>
-            <when state="Compose Key - o" output="⊕"/>
-        </action>
-        <action id=",">
-            <when state="none" output=","/>
-            <when state="Compose Key" next="Compose Key - Comma"/>
-            <when state="Compose Key - Hyphen" output="¬"/>
-            <when state="Compose Key - Space" output="¸"/>
-            <when state="Compose Key - f" output=","/>
-        </action>
-        <action id="-">
-            <when state="none" output="-"/>
-            <when state="Compose Key" next="Compose Key - Hyphen"/>
-            <when state="Compose Key - C" next="Compose - C + -"/>
-            <when state="Compose Key - Caret + Caret" output="␟"/>
-            <when state="Compose Key - Colon" output="÷"/>
-            <when state="Compose Key - Comma" output="¬"/>
-            <when state="Compose Key - Hyphen" next="Compose Key - Hyphen + Hyphen"/>
-            <when state="Compose Key - Hyphen + Hyphen" output="—"/>
-            <when state="Compose Key - L" output="£"/>
-            <when state="Compose Key - N" output="₦"/>
-            <when state="Compose Key - O" output="❿"/>
-            <when state="Compose Key - Plus" output="±"/>
-            <when state="Compose Key - c" next="Compose - c + -"/>
-            <when state="Compose Key - f" output="-"/>
-            <when state="Compose Key - o" output="⑩"/>
-        </action>
-        <action id=".">
-            <when state="none" output="."/>
-            <when state="Compose Key" next="Compose Key - Period"/>
-            <when state="Compose Key - Hyphen + Hyphen" output="–"/>
-            <when state="Compose Key - O" output="⊙"/>
-            <when state="Compose Key - Period" output="·"/>
-            <when state="Compose Key - f" output="."/>
-            <when state="Compose Key - o" output="•"/>
-        </action>
-        <action id="/">
-            <when state="none" output="/"/>
-            <when state="Compose - C + -" output="∉"/>
-            <when state="Compose - c + -" output="∉"/>
-            <when state="Compose Key" next="Compose Key - Slash"/>
-            <when state="Compose Key - Backslash" output="∨"/>
-            <when state="Compose Key - C" output="₡"/>
-            <when state="Compose Key - Caret + Caret" output="␡"/>
-            <when state="Compose Key - Equals Sign" output="≠"/>
-            <when state="Compose Key - O" output="⊘"/>
-            <when state="Compose Key - Slash" output="⁄"/>
-            <when state="Compose Key - c" output="¢"/>
-            <when state="Compose Key - f" output="/"/>
-        </action>
-        <action id="0">
-            <when state="none" next="s1"/>
-        </action>
-        <action id="0 1">
-            <when state="none" output="0"/>
-            <when state="Compose Key - Caret" output="⁰"/>
-            <when state="Compose Key - Caret + Caret" output="␀"/>
-            <when state="Compose Key - Underscore" output="₀"/>
-            <when state="Compose Key - f" output="0"/>
-            <when state="Compose Key - o" output="⓪"/>
-        </action>
-        <action id="1">
-            <when state="none" next="s2"/>
-        </action>
-        <action id="1 1">
-            <when state="none" output="1"/>
-            <when state="Compose Key" next="Compose Key - 1"/>
-            <when state="Compose Key - Caret" output="¹"/>
-            <when state="Compose Key - O" output="❶"/>
-            <when state="Compose Key - Underscore" output="₁"/>
-            <when state="Compose Key - f" output="1"/>
-            <when state="Compose Key - o" output="①"/>
-        </action>
-        <action id="2">
-            <when state="none" next="s3"/>
-        </action>
-        <action id="2 1">
-            <when state="none" output="2"/>
-            <when state="Compose Key" next="Compose Key - 2"/>
-            <when state="Compose Key - 1" output="½"/>
-            <when state="Compose Key - Caret" output="²"/>
-            <when state="Compose Key - O" output="❷"/>
-            <when state="Compose Key - Underscore" output="₂"/>
-            <when state="Compose Key - f" output="ƨ"/>
-            <when state="Compose Key - o" output="②"/>
-        </action>
-        <action id="3">
-            <when state="none" next="s4"/>
-        </action>
-        <action id="3 1">
-            <when state="none" output="3"/>
-            <when state="Compose Key" next="Compose Key - 3"/>
-            <when state="Compose Key - 1" output="⅓"/>
-            <when state="Compose Key - 2" output="⅔"/>
-            <when state="Compose Key - Caret" output="³"/>
-            <when state="Compose Key - O" output="❸"/>
-            <when state="Compose Key - Underscore" output="₃"/>
-            <when state="Compose Key - f" output="ɛ"/>
-            <when state="Compose Key - o" output="③"/>
-        </action>
-        <action id="4">
-            <when state="none" next="s5"/>
-        </action>
-        <action id="4 1">
-            <when state="none" output="4"/>
-            <when state="Compose Key" next="Compose Key - 4"/>
-            <when state="Compose Key - 1" output="¼"/>
-            <when state="Compose Key - 3" output="¾"/>
-            <when state="Compose Key - Caret" output="⁴"/>
-            <when state="Compose Key - O" output="❹"/>
-            <when state="Compose Key - Underscore" output="₄"/>
-            <when state="Compose Key - f" output="4"/>
-            <when state="Compose Key - o" output="④"/>
-        </action>
-        <action id="5">
-            <when state="none" output=" "/>
-            <when state="Compose - C + -" output="∈"/>
-            <when state="Compose - c + -" output="∈"/>
-            <when state="Compose Key" next="Compose Key - Space"/>
-            <when state="Compose Key - Caret + Caret" output="␠"/>
-            <when state="Compose Key - Comma" output="¸"/>
-            <when state="Compose Key - Space" output=" "/>
-            <when state="s1" output="´"/>
-            <when state="s2" output="`"/>
-            <when state="s3" output="ˆ"/>
-            <when state="s4" output="¨"/>
-            <when state="s5" output="˜"/>
-        </action>
-        <action id="5 1">
-            <when state="none" output="5"/>
-            <when state="Compose Key" next="Compose Key - 5"/>
-            <when state="Compose Key - 1" output="⅕"/>
-            <when state="Compose Key - 2" output="⅖"/>
-            <when state="Compose Key - 3" output="⅗"/>
-            <when state="Compose Key - 4" output="⅘"/>
-            <when state="Compose Key - Caret" output="⁵"/>
-            <when state="Compose Key - O" output="❺"/>
-            <when state="Compose Key - Underscore" output="₅"/>
-            <when state="Compose Key - f" output="ƽ"/>
-            <when state="Compose Key - o" output="⑤"/>
-        </action>
-        <action id="6">
-            <when state="none" output="A"/>
-            <when state="Compose Key" next="Compose Key - A"/>
-            <when state="Compose Key - Backtick" output="À"/>
-            <when state="Compose Key - Caret" output="Â"/>
-            <when state="Compose Key - Caret + Underscore" output="ª"/>
-            <when state="Compose Key - Quote" output="Ä"/>
-            <when state="Compose Key - Single Quote" output="Á"/>
-            <when state="Compose Key - Tilde" output="Ã"/>
-            <when state="Compose Key - Underscore" output="Ā"/>
-            <when state="Compose Key - c" output="Ǎ"/>
-            <when state="Compose Key - f" output="Ə"/>
-            <when state="Compose Key - g" output="Α"/>
-            <when state="Compose Key - m" output="∀"/>
-            <when state="s1" output="Á"/>
-            <when state="s2" output="À"/>
-            <when state="s3" output="Â"/>
-            <when state="s4" output="Ä"/>
-            <when state="s5" output="Ã"/>
-        </action>
-        <action id="6 1">
-            <when state="none" output="6"/>
-            <when state="Compose Key - 1" output="⅙"/>
-            <when state="Compose Key - 5" output="⅚"/>
-            <when state="Compose Key - Caret" output="⁶"/>
-            <when state="Compose Key - O" output="❻"/>
-            <when state="Compose Key - Underscore" output="₆"/>
-            <when state="Compose Key - f" output="ƅ"/>
-            <when state="Compose Key - o" output="⑥"/>
-        </action>
-        <action id="7">
-            <when state="none" output="E"/>
-            <when state="Compose Key" next="Compose Key - E"/>
-            <when state="Compose Key - A" output="Æ"/>
-            <when state="Compose Key - Backtick" output="È"/>
-            <when state="Compose Key - C" output="₠"/>
-            <when state="Compose Key - Caret" output="Ê"/>
-            <when state="Compose Key - Comma" output="Ȩ"/>
-            <when state="Compose Key - Equals Sign" output="€"/>
-            <when state="Compose Key - O" output="Œ"/>
-            <when state="Compose Key - Quote" output="Ë"/>
-            <when state="Compose Key - Single Quote" output="É"/>
-            <when state="Compose Key - Tilde" output="Ẽ"/>
-            <when state="Compose Key - Underscore" output="Ē"/>
-            <when state="Compose Key - c" output="Ě"/>
-            <when state="Compose Key - f" output="Ǝ"/>
-            <when state="Compose Key - g" output="Ε"/>
-            <when state="Compose Key - m" output="∃"/>
-            <when state="s1" output="É"/>
-            <when state="s2" output="È"/>
-            <when state="s3" output="Ê"/>
-            <when state="s4" output="Ë"/>
-        </action>
-        <action id="7 1">
-            <when state="none" output="7"/>
-            <when state="Compose Key" next="Compose Key - 7"/>
-            <when state="Compose Key - Caret" output="⁷"/>
-            <when state="Compose Key - O" output="❼"/>
-            <when state="Compose Key - Underscore" output="₇"/>
-            <when state="Compose Key - f" output="⁊"/>
-            <when state="Compose Key - o" output="⑦"/>
-        </action>
-        <action id="8">
-            <when state="none" output="I"/>
-            <when state="Compose Key" next="Compose Key - I"/>
-            <when state="Compose Key - Backtick" output="Ì"/>
-            <when state="Compose Key - Caret" output="Î"/>
-            <when state="Compose Key - Caret + Underscore" output="ⁱ"/>
-            <when state="Compose Key - Hyphen" output="Ɨ"/>
-            <when state="Compose Key - Plus" output="⊕"/>
-            <when state="Compose Key - Quote" output="Ï"/>
-            <when state="Compose Key - Single Quote" output="Í"/>
-            <when state="Compose Key - Tilde" output="Ĩ"/>
-            <when state="Compose Key - Underscore" output="Ī"/>
-            <when state="Compose Key - c" output="Ǐ"/>
-            <when state="Compose Key - f" output="I"/>
-            <when state="Compose Key - g" output="Ι"/>
-            <when state="s1" output="Í"/>
-            <when state="s2" output="Ì"/>
-            <when state="s3" output="Î"/>
-            <when state="s4" output="Ï"/>
-        </action>
-        <action id="8 1">
-            <when state="none" output="8"/>
-            <when state="Compose Key" next="Compose Key - 8"/>
-            <when state="Compose Key - 1" output="⅛"/>
-            <when state="Compose Key - 3" output="⅜"/>
-            <when state="Compose Key - 5" output="⅝"/>
-            <when state="Compose Key - 7" output="⅞"/>
-            <when state="Compose Key - 8" output="∞"/>
-            <when state="Compose Key - Caret" output="⁸"/>
-            <when state="Compose Key - O" output="❽"/>
-            <when state="Compose Key - Underscore" output="₈"/>
-            <when state="Compose Key - f" output="ȣ"/>
-            <when state="Compose Key - o" output="⑧"/>
-        </action>
-        <action id="9">
-            <when state="none" output="N"/>
-            <when state="Compose Key" next="Compose Key - N"/>
-            <when state="Compose Key - Caret + Underscore" output="ⁿ"/>
-            <when state="Compose Key - Comma" output="Ņ"/>
-            <when state="Compose Key - Equals Sign" output="₦"/>
-            <when state="Compose Key - Quote" output="N̈"/>
-            <when state="Compose Key - Single Quote" output="Ń"/>
-            <when state="Compose Key - Tilde" output="Ñ"/>
-            <when state="Compose Key - Vertical Bar" output="ℕ"/>
-            <when state="Compose Key - f" output="Ŋ"/>
-            <when state="Compose Key - g" output="Ν"/>
-            <when state="s5" output="Ñ"/>
-        </action>
-        <action id="9 1">
-            <when state="none" output="9"/>
-            <when state="Compose Key - Caret" output="⁹"/>
-            <when state="Compose Key - O" output="❾"/>
-            <when state="Compose Key - Underscore" output="₉"/>
-            <when state="Compose Key - f" output="9"/>
-            <when state="Compose Key - o" output="⑨"/>
-        </action>
-        <action id="10">
-            <when state="none" output="O"/>
-            <when state="Compose - Opt-&#x0022;" output="Ő"/>
-            <when state="Compose - Percent sign" output="‱"/>
-            <when state="Compose Key" next="Compose Key - O"/>
-            <when state="Compose Key - Backtick" output="Ò"/>
-            <when state="Compose Key - Caret" output="Ô"/>
-            <when state="Compose Key - Caret + Underscore" output="º"/>
-            <when state="Compose Key - Hyphen" output="⊖"/>
-            <when state="Compose Key - N" output="№"/>
-            <when state="Compose Key - P" output="℗"/>
-            <when state="Compose Key - Quote" output="Ö"/>
-            <when state="Compose Key - Single Quote" output="Ó"/>
-            <when state="Compose Key - Slash" output="Ø"/>
-            <when state="Compose Key - Tilde" output="Õ"/>
-            <when state="Compose Key - Underscore" output="Ō"/>
-            <when state="Compose Key - c" output="Ǒ"/>
-            <when state="Compose Key - f" output="O"/>
-            <when state="Compose Key - g" output="Ο"/>
-            <when state="Compose Key - p" output="℗"/>
-            <when state="Compose Key - x" output="⊗"/>
-            <when state="s1" output="Ó"/>
-            <when state="s2" output="Ò"/>
-            <when state="s3" output="Ô"/>
-            <when state="s4" output="Ö"/>
-            <when state="s5" output="Õ"/>
-        </action>
-        <action id="11">
-            <when state="none" output="U"/>
-            <when state="Compose - Opt-&#x0022;" output="Ű"/>
-            <when state="Compose Key - Backtick" output="Ù"/>
-            <when state="Compose Key - Caret" output="Û"/>
-            <when state="Compose Key - Quote" output="Ü"/>
-            <when state="Compose Key - Single Quote" output="Ú"/>
-            <when state="Compose Key - Tilde" output="Ũ"/>
-            <when state="Compose Key - Underscore" output="Ū"/>
-            <when state="Compose Key - c" output="Ǔ"/>
-            <when state="Compose Key - f" output="Ʊ"/>
-            <when state="Compose Key - g" output="Θ"/>
-            <when state="Compose Key - o" output="Ů"/>
-            <when state="s1" output="Ú"/>
-            <when state="s2" output="Ù"/>
-            <when state="s3" output="Û"/>
-            <when state="s4" output="Ü"/>
-        </action>
-        <action id="12">
-            <when state="none" output="Y"/>
-            <when state="Compose Key" next="Compose Key - Y"/>
-            <when state="Compose Key - Caret" output="Ŷ"/>
-            <when state="Compose Key - Equals Sign" output="¥"/>
-            <when state="Compose Key - Quote" output="Ÿ"/>
-            <when state="Compose Key - Single Quote" output="Ý"/>
-            <when state="Compose Key - Tilde" output="Ỹ"/>
-            <when state="Compose Key - f" output="Ȝ"/>
-            <when state="Compose Key - g" output="Υ"/>
-            <when state="s4" output="Ÿ"/>
-        </action>
-        <action id="13">
-            <when state="none" output="a"/>
-            <when state="Compose - k" output=""/>
-            <when state="Compose - k + t" output="⇥"/>
-            <when state="Compose Key" next="Compose Key - a"/>
-            <when state="Compose Key - Backtick" output="à"/>
-            <when state="Compose Key - Caret" output="â"/>
-            <when state="Compose Key - Caret + Caret" output="␁"/>
-            <when state="Compose Key - Quote" output="ä"/>
-            <when state="Compose Key - Single Quote" output="á"/>
-            <when state="Compose Key - Tilde" output="ã"/>
-            <when state="Compose Key - Underscore" output="ā"/>
-            <when state="Compose Key - c" output="ǎ"/>
-            <when state="Compose Key - f" output="ə"/>
-            <when state="Compose Key - g" output="α"/>
-            <when state="Compose Key - m" output="ℵ"/>
-            <when state="s1" output="á"/>
-            <when state="s2" output="à"/>
-            <when state="s3" output="â"/>
-            <when state="s4" output="ä"/>
-            <when state="s5" output="ã"/>
-        </action>
-        <action id="14">
-            <when state="none" output="e"/>
-            <when state="Compose - k" next="Compose - k + e"/>
-            <when state="Compose Key - Backtick" output="è"/>
-            <when state="Compose Key - Caret" output="ê"/>
-            <when state="Compose Key - Caret + Caret" output="␅"/>
-            <when state="Compose Key - Comma" output="ȩ"/>
-            <when state="Compose Key - Quote" output="ë"/>
-            <when state="Compose Key - Single Quote" output="é"/>
-            <when state="Compose Key - Tilde" output="ẽ"/>
-            <when state="Compose Key - Underscore" output="ē"/>
-            <when state="Compose Key - a" output="æ"/>
-            <when state="Compose Key - c" output="ě"/>
-            <when state="Compose Key - f" output="ǝ"/>
-            <when state="Compose Key - g" output="ε"/>
-            <when state="Compose Key - o" output="œ"/>
-            <when state="s1" output="é"/>
-            <when state="s2" output="è"/>
-            <when state="s3" output="ê"/>
-            <when state="s4" output="ë"/>
-        </action>
-        <action id="15">
-            <when state="none" output="i"/>
-            <when state="Compose - 4 + m" output="⨌"/>
-            <when state="Compose Key" next="Compose Key - i"/>
-            <when state="Compose Key - 2 + m" output="∬"/>
-            <when state="Compose Key - 3 + m" output="∭"/>
-            <when state="Compose Key - Backtick" output="ì"/>
-            <when state="Compose Key - Caret" output="î"/>
-            <when state="Compose Key - Caret + Caret" output="␉"/>
-            <when state="Compose Key - Plus" output="⊕"/>
-            <when state="Compose Key - Quote" output="ï"/>
-            <when state="Compose Key - Single Quote" output="í"/>
-            <when state="Compose Key - Tilde" output="ĩ"/>
-            <when state="Compose Key - Underscore" output="ī"/>
-            <when state="Compose Key - c" output="ǐ"/>
-            <when state="Compose Key - f" output="i"/>
-            <when state="Compose Key - g" output="ι"/>
-            <when state="Compose Key - m" output="∫"/>
-            <when state="s1" output="í"/>
-            <when state="s2" output="ì"/>
-            <when state="s3" output="î"/>
-            <when state="s4" output="ï"/>
-        </action>
-        <action id="16">
-            <when state="none" output="n"/>
-            <when state="Compose - k + e" output="⏎"/>
-            <when state="Compose Key" next="Compose Key - n"/>
-            <when state="Compose Key - Caret + Caret" output="␎"/>
-            <when state="Compose Key - Comma" output="ņ"/>
-            <when state="Compose Key - M" output="∩"/>
-            <when state="Compose Key - Quote" output="n̈"/>
-            <when state="Compose Key - Single Quote" output="ń"/>
-            <when state="Compose Key - Tilde" output="ñ"/>
-            <when state="Compose Key - f" output="ŋ"/>
-            <when state="Compose Key - g" output="ν"/>
-            <when state="s5" output="ñ"/>
-        </action>
-        <action id="17">
-            <when state="none" output="o"/>
-            <when state="Compose - Opt-&#x0022;" output="ő"/>
-            <when state="Compose - Percent sign" output="‰"/>
-            <when state="Compose - k" next="o"/>
-            <when state="Compose - k + c" output="⎄"/>
-            <when state="Compose Key" next="Compose Key - o"/>
-            <when state="Compose Key - Backtick" output="ò"/>
-            <when state="Compose Key - Caret" output="ô"/>
-            <when state="Compose Key - Caret + Caret" output="␏"/>
-            <when state="Compose Key - Hyphen" output="⊖"/>
-            <when state="Compose Key - N" output="№"/>
-            <when state="Compose Key - P" output="℗"/>
-            <when state="Compose Key - Period" output="•"/>
-            <when state="Compose Key - Quote" output="ö"/>
-            <when state="Compose Key - Single Quote" output="ó"/>
-            <when state="Compose Key - Slash" output="ø"/>
-            <when state="Compose Key - Tilde" output="õ"/>
-            <when state="Compose Key - Underscore" output="ō"/>
-            <when state="Compose Key - c" output="ǒ"/>
-            <when state="Compose Key - f" output="o"/>
-            <when state="Compose Key - g" output="ο"/>
-            <when state="Compose Key - n" output="№"/>
-            <when state="Compose Key - o" output="°"/>
-            <when state="Compose Key - p" output="℗"/>
-            <when state="Compose Key - s" output="§"/>
-            <when state="Compose Key - x" output="¤"/>
-            <when state="s1" output="ó"/>
-            <when state="s2" output="ò"/>
-            <when state="s3" output="ô"/>
-            <when state="s4" output="ö"/>
-            <when state="s5" output="õ"/>
-        </action>
-        <action id="18">
-            <when state="none" output="u"/>
-            <when state="Compose - Opt-&#x0022;" output="ű"/>
-            <when state="Compose Key - Backtick" output="ù"/>
-            <when state="Compose Key - Caret" output="û"/>
-            <when state="Compose Key - Caret + Caret" output="␕"/>
-            <when state="Compose Key - M" output="∪"/>
-            <when state="Compose Key - Quote" output="ü"/>
-            <when state="Compose Key - Single Quote" output="ú"/>
-            <when state="Compose Key - Tilde" output="ũ"/>
-            <when state="Compose Key - Underscore" output="ū"/>
-            <when state="Compose Key - c" output="ǔ"/>
-            <when state="Compose Key - f" output="ʊ"/>
-            <when state="Compose Key - g" output="θ"/>
-            <when state="Compose Key - m" output="µ"/>
-            <when state="Compose Key - o" output="ů"/>
-            <when state="s1" output="ú"/>
-            <when state="s2" output="ù"/>
-            <when state="s3" output="û"/>
-            <when state="s4" output="ü"/>
-        </action>
-        <action id="19">
-            <when state="none" output="y"/>
-            <when state="Compose - k + s" output="⬖"/>
-            <when state="Compose Key" next="Compose Key - y"/>
-            <when state="Compose Key - Caret" output="ŷ"/>
-            <when state="Compose Key - Caret + Caret" output="␙"/>
-            <when state="Compose Key - Equals Sign" output="¥"/>
-            <when state="Compose Key - Quote" output="ÿ"/>
-            <when state="Compose Key - Single Quote" output="ý"/>
-            <when state="Compose Key - Tilde" output="ỹ"/>
-            <when state="Compose Key - f" output="ȝ"/>
-            <when state="Compose Key - g" output="υ"/>
-            <when state="s4" output="ÿ"/>
-        </action>
-        <action id=":">
-            <when state="none" output=":"/>
-            <when state="Compose Key" next="Compose Key - Colon"/>
-            <when state="Compose Key - Colon" output="∷"/>
-            <when state="Compose Key - Hyphen" output="÷"/>
-            <when state="Compose Key - f" output=":"/>
-        </action>
-        <action id=";">
-            <when state="none" output=";"/>
-            <when state="Compose Key" next="Compose Key - Semicolon"/>
-            <when state="Compose Key - f" output=";"/>
-        </action>
-        <action id="=">
-            <when state="none" output="="/>
-            <when state="Compose Key" next="Compose Key - Equals Sign"/>
-            <when state="Compose Key - Caret" output="⁼"/>
-            <when state="Compose Key - Greater Than" output="≥"/>
-            <when state="Compose Key - L" output="₤"/>
-            <when state="Compose Key - Less Than" output="≤"/>
-            <when state="Compose Key - N" output="₦"/>
-            <when state="Compose Key - Slash" output="≠"/>
-            <when state="Compose Key - Underscore" output="₌"/>
-            <when state="Compose Key - Y" output="¥"/>
-            <when state="Compose Key - c" output="€"/>
-            <when state="Compose Key - f" output="="/>
-            <when state="Compose Key - y" output="¥"/>
-        </action>
-        <action id="?">
-            <when state="none" output="?"/>
-            <when state="Compose Key" next="Compose Key - Question Mark"/>
-            <when state="Compose Key - Caret + Caret" output="␡"/>
-            <when state="Compose Key - Exclamation Mark" output="‽"/>
-            <when state="Compose Key - Question Mark" output="¿"/>
-            <when state="Compose Key - f" output="/"/>
-        </action>
-        <action id="@">
-            <when state="none" output="@"/>
-            <when state="Compose Key - Caret + Caret" output="␀"/>
-            <when state="Compose Key - f" output="Ƨ"/>
-        </action>
-        <action id="B">
-            <when state="none" output="B"/>
-            <when state="Compose Key - f" output="B"/>
-            <when state="Compose Key - g" output="Β"/>
-        </action>
-        <action id="C">
-            <when state="none" output="C"/>
-            <when state="Compose Key" next="Compose Key - C"/>
-            <when state="Compose Key - Caret" output="Ĉ"/>
-            <when state="Compose Key - Comma" output="Ç"/>
-            <when state="Compose Key - Equals Sign" output="€"/>
-            <when state="Compose Key - O" output="©"/>
-            <when state="Compose Key - Single Quote" output="Ć"/>
-            <when state="Compose Key - Slash" output="₡"/>
-            <when state="Compose Key - Vertical Bar" output="ℂ"/>
-            <when state="Compose Key - c" output="Č"/>
-            <when state="Compose Key - f" output="Ɔ"/>
-            <when state="Compose Key - g" output="Ψ"/>
-            <when state="Compose Key - o" output="©"/>
-        </action>
-        <action id="Compose Key">
-            <when state="none" next="Compose Key"/>
-        </action>
-        <action id="Compose Key 1">
-            <when state="none" next="Compose Key"/>
-        </action>
-        <action id="Compose Key 2">
-            <when state="none" next="Compose Key"/>
-        </action>
-        <action id="Compose Key 3">
-            <when state="none" next="Compose Key"/>
-        </action>
-        <action id="D">
-            <when state="none" output="D"/>
-            <when state="Compose Key" next="Compose Key - D"/>
-            <when state="Compose Key - Comma" output="Ḑ"/>
-            <when state="Compose Key - Hyphen" output="Đ"/>
-            <when state="Compose Key - c" output="Ď"/>
-            <when state="Compose Key - f" output="D"/>
-            <when state="Compose Key - g" output="Δ"/>
-        </action>
-        <action id="F">
-            <when state="none" output="F"/>
-            <when state="Compose Key" next="Compose Key - F"/>
-            <when state="Compose Key - f" output="F"/>
-            <when state="Compose Key - g" output="Φ"/>
-        </action>
-        <action id="G">
-            <when state="none" output="G"/>
-            <when state="Compose Key - Comma" output="Ģ"/>
-            <when state="Compose Key - N" output="Ŋ"/>
-            <when state="Compose Key - Underscore" output="Ḡ"/>
-            <when state="Compose Key - c" output="Ǧ"/>
-            <when state="Compose Key - f" output="Ɣ"/>
-            <when state="Compose Key - g" output="Γ"/>
-        </action>
-        <action id="H">
-            <when state="none" output="H"/>
-            <when state="Compose Key - Caret" output="Ĥ"/>
-            <when state="Compose Key - Comma" output="Ḩ"/>
-            <when state="Compose Key - D" output="Ð"/>
-            <when state="Compose Key - Hyphen" output="Ħ"/>
-            <when state="Compose Key - Quote" output="Ḧ"/>
-            <when state="Compose Key - Vertical Bar" output="ℍ"/>
-            <when state="Compose Key - c" output="Ȟ"/>
-            <when state="Compose Key - f" output="Ƕ"/>
-            <when state="Compose Key - g" output="Η"/>
-            <when state="Compose Key - m" output="ℏ"/>
-        </action>
-        <action id="J">
-            <when state="none" output="J"/>
-            <when state="Compose Key - Caret" output="Ĵ"/>
-            <when state="Compose Key - I" output="Ĳ"/>
-            <when state="Compose Key - f" output="Ƞ"/>
-            <when state="Compose Key - g" output="Ξ"/>
-        </action>
-        <action id="K">
-            <when state="none" output="K"/>
-            <when state="Compose Key - Comma" output="Ķ"/>
-            <when state="Compose Key - Single Quote" output="Ḱ"/>
-            <when state="Compose Key - c" output="Ǩ"/>
-            <when state="Compose Key - f" output="K’"/>
-            <when state="Compose Key - g" output="Κ"/>
-        </action>
-        <action id="L">
-            <when state="none" output="L"/>
-            <when state="Compose Key" next="Compose Key - L"/>
-            <when state="Compose Key - Comma" output="Ļ"/>
-            <when state="Compose Key - Equals Sign" output="₤"/>
-            <when state="Compose Key - Hyphen" output="£"/>
-            <when state="Compose Key - M" output="☽"/>
-            <when state="Compose Key - Single Quote" output="Ĺ"/>
-            <when state="Compose Key - f" output="L"/>
-            <when state="Compose Key - g" output="Λ"/>
-        </action>
-        <action id="M">
-            <when state="none" output="M"/>
-            <when state="Compose Key" next="Compose Key - M"/>
-            <when state="Compose Key - Caret" output="℠"/>
-            <when state="Compose Key - Single Quote" output="Ḿ"/>
-            <when state="Compose Key - T" output="™"/>
-            <when state="Compose Key - f" output="Ɯ"/>
-            <when state="Compose Key - g" output="Μ"/>
-        </action>
-        <action id="P">
-            <when state="none" output="P"/>
-            <when state="Compose Key" next="Compose Key - P"/>
-            <when state="Compose Key - O" output="℗"/>
-            <when state="Compose Key - P" output="¶"/>
-            <when state="Compose Key - Single Quote" output="Ṕ"/>
-            <when state="Compose Key - Vertical Bar" output="ℙ"/>
-            <when state="Compose Key - f" output="P"/>
-            <when state="Compose Key - g" output="Π"/>
-            <when state="Compose Key - m" output="∏"/>
-            <when state="Compose Key - o" output="℗"/>
-        </action>
-        <action id="Q">
-            <when state="none" output="Q"/>
-            <when state="Compose Key - Vertical Bar" output="ℚ"/>
-            <when state="Compose Key - f" output="Ƣ"/>
-            <when state="Compose Key - g" output=":"/>
-            <when state="Compose Key - o" output="Å"/>
-        </action>
-        <action id="R">
-            <when state="none" output="R"/>
-            <when state="Compose Key" next="Compose Key - R"/>
-            <when state="Compose Key - Comma" output="Ŗ"/>
-            <when state="Compose Key - O" output="®"/>
-            <when state="Compose Key - Single Quote" output="Ŕ"/>
-            <when state="Compose Key - Vertical Bar" output="ℝ"/>
-            <when state="Compose Key - f" output="Ʀ"/>
-            <when state="Compose Key - g" output="Ρ"/>
-            <when state="Compose Key - o" output="®"/>
-        </action>
-        <action id="S">
-            <when state="none" output="S"/>
-            <when state="Compose Key" next="Compose Key - S"/>
-            <when state="Compose Key - Caret" output="Ŝ"/>
-            <when state="Compose Key - Comma" output="Ş"/>
-            <when state="Compose Key - M" output="☉"/>
-            <when state="Compose Key - S" output="ẞ"/>
-            <when state="Compose Key - Single Quote" output="Ś"/>
-            <when state="Compose Key - c" output="Š"/>
-            <when state="Compose Key - f" output="S"/>
-            <when state="Compose Key - g" output="Σ"/>
-            <when state="Compose Key - m" output="∑"/>
-        </action>
-        <action id="T">
-            <when state="none" output="T"/>
-            <when state="Compose Key" next="Compose Key - T"/>
-            <when state="Compose Key - Caret" output="™"/>
-            <when state="Compose Key - Comma" output="Ţ"/>
-            <when state="Compose Key - Hyphen" output="Ŧ"/>
-            <when state="Compose Key - M" output="⊕"/>
-            <when state="Compose Key - Quote" output="T̈"/>
-            <when state="Compose Key - c" output="Ť"/>
-            <when state="Compose Key - f" output="T"/>
-            <when state="Compose Key - g" output="Τ"/>
-        </action>
-        <action id="V">
-            <when state="none" output="V"/>
-            <when state="Compose Key" next="Compose - V"/>
-            <when state="Compose Key - Vertical Bar" output="↓"/>
-            <when state="Compose Key - f" output="V"/>
-            <when state="Compose Key - g" output="Ω"/>
-        </action>
-        <action id="W">
-            <when state="none" output="W"/>
-            <when state="Compose Key" next="Compose Key - W"/>
-            <when state="Compose Key - Caret" output="Ŵ"/>
-            <when state="Compose Key - Equals Sign" output="₩"/>
-            <when state="Compose Key - Quote" output="Ẅ"/>
-            <when state="Compose Key - Single Quote" output="Ẃ"/>
-            <when state="Compose Key - f" output="Ƿ"/>
-        </action>
-        <action id="X">
-            <when state="none" output="X"/>
-            <when state="Compose Key - O" output="⊗"/>
-            <when state="Compose Key - Quote" output="Ẍ"/>
-            <when state="Compose Key - f" output="X"/>
-            <when state="Compose Key - g" output="Χ"/>
-        </action>
-        <action id="Z">
-            <when state="none" output="Z"/>
-            <when state="Compose Key - Hyphen" output="Ƶ"/>
-            <when state="Compose Key - Vertical Bar" output="ℤ"/>
-            <when state="Compose Key - c" output="Ž"/>
-            <when state="Compose Key - f" output="Ʒ"/>
-            <when state="Compose Key - g" output="Ζ"/>
-        </action>
-        <action id="[">
-            <when state="none" output="["/>
-            <when state="Compose Key - Caret + Caret" output="␛"/>
-            <when state="Compose Key - f" output="["/>
-        </action>
-        <action id="\">
-            <when state="none" output="\"/>
-            <when state="Compose Key" next="Compose Key - Backslash"/>
-            <when state="Compose Key - Backslash" output="∖"/>
-            <when state="Compose Key - Caret + Caret" output="␜"/>
-            <when state="Compose Key - Slash" output="∧"/>
-            <when state="Compose Key - f" output="\"/>
-        </action>
-        <action id="]">
-            <when state="none" output="]"/>
-            <when state="Compose Key - Caret + Caret" output="␝"/>
-            <when state="Compose Key - f" output="]"/>
-        </action>
-        <action id="^">
-            <when state="none" output="^"/>
-            <when state="Compose Key" next="Compose Key - Caret"/>
-            <when state="Compose Key - Caret" next="Compose Key - Caret + Caret"/>
-            <when state="Compose Key - Caret + Caret" output="␞"/>
-            <when state="Compose Key - Exclamation Mark" output="¦"/>
-            <when state="Compose Key - Vertical Bar" output="↑"/>
-            <when state="Compose Key - f" output="Ƅ"/>
-        </action>
-        <action id="_">
-            <when state="none" output="_"/>
-            <when state="Compose Key" next="Compose Key - Underscore"/>
-            <when state="Compose Key - Caret" next="Compose Key - Caret + Underscore"/>
-            <when state="Compose Key - Caret + Caret" output="␟"/>
-            <when state="Compose Key - Space" output="␣"/>
-            <when state="Compose Key - f" output="-"/>
-        </action>
-        <action id="`">
-            <when state="none" output="`"/>
-            <when state="Compose Key" next="Compose Key - Backtick"/>
-            <when state="Compose Key - f" output="§"/>
-        </action>
-        <action id="` 1">
-            <when state="none" output="`"/>
-            <when state="Compose Key - f" output="±"/>
-        </action>
-        <action id="b">
-            <when state="none" output="b"/>
-            <when state="Compose - k" next="Compose - k + b"/>
-            <when state="Compose Key - Caret + Caret" output="␂"/>
-            <when state="Compose Key - f" output="b"/>
-            <when state="Compose Key - g" output="β"/>
-        </action>
-        <action id="c">
-            <when state="none" output="c"/>
-            <when state="Compose - k" next="Compose - k + c"/>
-            <when state="Compose Key" next="Compose Key - c"/>
-            <when state="Compose Key - 8" output="∝"/>
-            <when state="Compose Key - Caret" output="ĉ"/>
-            <when state="Compose Key - Caret + Caret" output="␃"/>
-            <when state="Compose Key - Comma" output="ç"/>
-            <when state="Compose Key - Equals Sign" output="€"/>
-            <when state="Compose Key - O" output="©"/>
-            <when state="Compose Key - Single Quote" output="ć"/>
-            <when state="Compose Key - Slash" output="¢"/>
-            <when state="Compose Key - Vertical Bar" output="¢"/>
-            <when state="Compose Key - c" output="č"/>
-            <when state="Compose Key - f" output="ɔ"/>
-            <when state="Compose Key - g" output="ψ"/>
-            <when state="Compose Key - o" output="©"/>
-        </action>
-        <action id="d">
-            <when state="none" output="d"/>
-            <when state="Compose Key - Caret + Caret" output="␄"/>
-            <when state="Compose Key - Comma" output="ḑ"/>
-            <when state="Compose Key - c" output="ď"/>
-            <when state="Compose Key - f" output="d"/>
-            <when state="Compose Key - g" output="δ"/>
-            <when state="Compose Key - m" output="∂"/>
-        </action>
-        <action id="f">
-            <when state="none" output="f"/>
-            <when state="Compose Key" next="Compose Key - f"/>
-            <when state="Compose Key - Caret + Caret" output="␆"/>
-            <when state="Compose Key - f" output="f"/>
-            <when state="Compose Key - g" output="φ"/>
-        </action>
-        <action id="g">
-            <when state="none" output="g"/>
-            <when state="Compose Key" next="Compose Key - g"/>
-            <when state="Compose Key - Caret + Caret" output="␇"/>
-            <when state="Compose Key - Comma" output="ģ"/>
-            <when state="Compose Key - Underscore" output="ḡ"/>
-            <when state="Compose Key - c" output="ǧ"/>
-            <when state="Compose Key - f" output="ɣ"/>
-            <when state="Compose Key - g" output="γ"/>
-            <when state="Compose Key - n" output="ŋ"/>
-        </action>
-        <action id="h">
-            <when state="none" output="h"/>
-            <when state="Compose - k + s" output="⇧"/>
-            <when state="Compose Key - Caret" output="ĥ"/>
-            <when state="Compose Key - Caret + Caret" output="␈"/>
-            <when state="Compose Key - Comma" output="ḩ"/>
-            <when state="Compose Key - Quote" output="ḧ"/>
-            <when state="Compose Key - c" output="ȟ"/>
-            <when state="Compose Key - f" output="ƕ"/>
-            <when state="Compose Key - g" output="η"/>
-            <when state="Compose Key - m" output="ℎ"/>
-        </action>
-        <action id="j">
-            <when state="none" output="j"/>
-            <when state="Compose - k + e" output="⏏"/>
-            <when state="Compose Key - Caret" output="ĵ"/>
-            <when state="Compose Key - Caret + Caret" output="␊"/>
-            <when state="Compose Key - c" output="ǰ"/>
-            <when state="Compose Key - f" output="ƞ"/>
-            <when state="Compose Key - g" output="ξ"/>
-            <when state="Compose Key - i" output="ĳ"/>
-        </action>
-        <action id="k">
-            <when state="none" output="k"/>
-            <when state="Compose Key" next="Compose - k"/>
-            <when state="Compose Key - Caret + Caret" output="␋"/>
-            <when state="Compose Key - Comma" output="ķ"/>
-            <when state="Compose Key - Single Quote" output="ḱ"/>
-            <when state="Compose Key - c" output="ǩ"/>
-            <when state="Compose Key - f" output="ĸ"/>
-            <when state="Compose Key - g" output="κ"/>
-        </action>
-        <action id="l">
-            <when state="none" output="l"/>
-            <when state="Compose - k + c" output="⇪"/>
-            <when state="Compose Key - Caret + Caret" output="␌"/>
-            <when state="Compose Key - Comma" output="ļ"/>
-            <when state="Compose Key - Single Quote" output="ĺ"/>
-            <when state="Compose Key - f" output="l"/>
-            <when state="Compose Key - g" output="λ"/>
-        </action>
-        <action id="m">
-            <when state="none" output="m"/>
-            <when state="Compose - k + c" output="⌘"/>
-            <when state="Compose Key" next="Compose Key - m"/>
-            <when state="Compose Key - 2" next="Compose Key - 2 + m"/>
-            <when state="Compose Key - 3" next="Compose Key - 3 + m"/>
-            <when state="Compose Key - 4" next="Compose - 4 + m"/>
-            <when state="Compose Key - Caret + Caret" output="␍"/>
-            <when state="Compose Key - Single Quote" output="ḿ"/>
-            <when state="Compose Key - f" output="ɯ"/>
-            <when state="Compose Key - g" output="μ"/>
-            <when state="Compose Key - t" output="™"/>
-        </action>
-        <action id="p">
-            <when state="none" output="p"/>
-            <when state="Compose Key" next="Compose Key - p"/>
-            <when state="Compose Key - Caret + Caret" output="␐"/>
-            <when state="Compose Key - O" output="℗"/>
-            <when state="Compose Key - Single Quote" output="ṕ"/>
-            <when state="Compose Key - f" output="p"/>
-            <when state="Compose Key - g" output="π"/>
-            <when state="Compose Key - o" output="℗"/>
-            <when state="o" output="⌥"/>
-        </action>
-        <action id="q">
-            <when state="none" output="q"/>
-            <when state="Compose Key - Caret + Caret" output="␑"/>
-            <when state="Compose Key - f" output="ƣ"/>
-            <when state="Compose Key - g" output=";"/>
-            <when state="Compose Key - o" output="å"/>
-        </action>
-        <action id="r">
-            <when state="none" output="r"/>
-            <when state="Compose Key - C" output="₢"/>
-            <when state="Compose Key - Caret + Caret" output="␒"/>
-            <when state="Compose Key - Comma" output="ŗ"/>
-            <when state="Compose Key - F" output="₣"/>
-            <when state="Compose Key - O" output="®"/>
-            <when state="Compose Key - Single Quote" output="ŕ"/>
-            <when state="Compose Key - f" output="ʀ"/>
-            <when state="Compose Key - g" output="ρ"/>
-            <when state="Compose Key - o" output="®"/>
-        </action>
-        <action id="s">
-            <when state="none" output="s"/>
-            <when state="Compose - k" next="Compose - k + s"/>
-            <when state="Compose - k + b" output="←"/>
-            <when state="Compose - k + e" output="⎋"/>
-            <when state="Compose Key" next="Compose Key - s"/>
-            <when state="Compose Key - Caret" output="ŝ"/>
-            <when state="Compose Key - Caret + Caret" output="␓"/>
-            <when state="Compose Key - Comma" output="ş"/>
-            <when state="Compose Key - R" output="₨"/>
-            <when state="Compose Key - Single Quote" output="ś"/>
-            <when state="Compose Key - c" output="š"/>
-            <when state="Compose Key - f" output="ſ"/>
-            <when state="Compose Key - g" output="σ"/>
-            <when state="Compose Key - o" output="§"/>
-            <when state="Compose Key - s" output="ß"/>
-        </action>
-        <action id="t">
-            <when state="none" output="t"/>
-            <when state="Compose - k" next="Compose - k + t"/>
-            <when state="Compose - k + c" output="⌃"/>
-            <when state="Compose Key" next="Compose Key - t"/>
-            <when state="Compose Key - Caret + Caret" output="␔"/>
-            <when state="Compose Key - Comma" output="ţ"/>
-            <when state="Compose Key - P" output="₧"/>
-            <when state="Compose Key - Quote" output="ẗ"/>
-            <when state="Compose Key - c" output="ť"/>
-            <when state="Compose Key - f" output="t"/>
-            <when state="Compose Key - g" output="τ"/>
-        </action>
-        <action id="v">
-            <when state="none" output="v"/>
-            <when state="Compose - 4 + m" output="∜"/>
-            <when state="Compose Key" next="Compose - v"/>
-            <when state="Compose Key - 3 + m" output="∛"/>
-            <when state="Compose Key - Caret + Caret" output="␖"/>
-            <when state="Compose Key - Vertical Bar" output="↓"/>
-            <when state="Compose Key - f" output="ʌ"/>
-            <when state="Compose Key - g" output="ω"/>
-            <when state="Compose Key - m" output="√"/>
-        </action>
-        <action id="w">
-            <when state="none" output="w"/>
-            <when state="Compose Key - Caret" output="ŵ"/>
-            <when state="Compose Key - Caret + Caret" output="␗"/>
-            <when state="Compose Key - Equals Sign" output="₩"/>
-            <when state="Compose Key - Quote" output="ẅ"/>
-            <when state="Compose Key - Single Quote" output="ẃ"/>
-            <when state="Compose Key - f" output="ƿ"/>
-            <when state="Compose Key - g" output="ς"/>
-        </action>
-        <action id="x">
-            <when state="none" output="x"/>
-            <when state="Compose Key" next="Compose Key - x"/>
-            <when state="Compose Key - Caret + Caret" output="␘"/>
-            <when state="Compose Key - O" output="⊗"/>
-            <when state="Compose Key - Quote" output="ẍ"/>
-            <when state="Compose Key - f" output="x"/>
-            <when state="Compose Key - g" output="χ"/>
-            <when state="Compose Key - o" output="¤"/>
-            <when state="Compose Key - x" output="×"/>
-        </action>
-        <action id="z">
-            <when state="none" output="z"/>
-            <when state="Compose Key - Caret + Caret" output="␚"/>
-            <when state="Compose Key - c" output="ž"/>
-            <when state="Compose Key - f" output="ʒ"/>
-            <when state="Compose Key - g" output="ζ"/>
-        </action>
-        <action id="{">
-            <when state="none" output="{"/>
-            <when state="Compose Key - f" output="["/>
-        </action>
-        <action id="|">
-            <when state="none" output="|"/>
-            <when state="Compose - V" output="↓"/>
-            <when state="Compose - v" output="↓"/>
-            <when state="Compose Key" next="Compose Key - Vertical Bar"/>
-            <when state="Compose Key - Caret" output="↑"/>
-            <when state="Compose Key - Vertical Bar" output="∨"/>
-            <when state="Compose Key - c" output="¢"/>
-            <when state="Compose Key - f" output="|"/>
-        </action>
-        <action id="}">
-            <when state="none" output="}"/>
-            <when state="Compose Key - f" output="]"/>
-        </action>
-        <action id="~">
-            <when state="none" output="~"/>
-            <when state="Compose Key" next="Compose Key - Tilde"/>
-            <when state="Compose Key - Greater Than" output="≳"/>
-            <when state="Compose Key - Less Than" output="≲"/>
-            <when state="Compose Key - Tilde" output="≈"/>
-            <when state="Compose Key - f" output="±"/>
-        </action>
-        <action id="Æ">
-            <when state="none" output="Æ"/>
-            <when state="Compose Key" next="Compose - Opt-&#x0022;"/>
-        </action>
-    </actions>
-    <terminators>
-        <when state="Compose - 4 + m" output="④"/>
-        <when state="Compose - Ampersand" output="&#x0026;"/>
-        <when state="Compose - C + -" output="∈"/>
-        <when state="Compose - Opt-&#x0022;" output="˝"/>
-        <when state="Compose - Percent sign" output="%"/>
-        <when state="Compose - V" output="V"/>
-        <when state="Compose - c + -" output="∈"/>
-        <when state="Compose - k" output="k"/>
-        <when state="Compose - k + a" output="a"/>
-        <when state="Compose - k + b" output="b"/>
-        <when state="Compose - k + c" output="c"/>
-        <when state="Compose - k + e" output="e"/>
-        <when state="Compose - k + s" output="s"/>
-        <when state="Compose - k + t" output="t"/>
-        <when state="Compose - v" output="v"/>
-        <when state="Compose Key" output=""/>
-        <when state="Compose Key - 1" output="1"/>
-        <when state="Compose Key - 2" output="2"/>
-        <when state="Compose Key - 2 + m" output="②"/>
-        <when state="Compose Key - 3" output="3"/>
-        <when state="Compose Key - 3 + m" output="③"/>
-        <when state="Compose Key - 4" output="4"/>
-        <when state="Compose Key - 5" output="5"/>
-        <when state="Compose Key - 7" output="7"/>
-        <when state="Compose Key - 8" output="8"/>
-        <when state="Compose Key - A" output="A"/>
-        <when state="Compose Key - Backslash" output="\"/>
-        <when state="Compose Key - Backtick" output="`"/>
-        <when state="Compose Key - C" output="C"/>
-        <when state="Compose Key - Caret" output="^"/>
-        <when state="Compose Key - Caret + Caret" output="⩕"/>
-        <when state="Compose Key - Caret + Underscore" output="⩟"/>
-        <when state="Compose Key - Colon" output=":"/>
-        <when state="Compose Key - Comma" output=","/>
-        <when state="Compose Key - D" output="D"/>
-        <when state="Compose Key - E" output="E"/>
-        <when state="Compose Key - Equals Sign" output="="/>
-        <when state="Compose Key - Exclamation Mark" output="!"/>
-        <when state="Compose Key - F" output="F"/>
-        <when state="Compose Key - Greater Than" output="&#x003E;"/>
-        <when state="Compose Key - Hyphen" output="-"/>
-        <when state="Compose Key - Hyphen + Hyphen" output="="/>
-        <when state="Compose Key - I" output="I"/>
-        <when state="Compose Key - L" output="L"/>
-        <when state="Compose Key - Less Than" output="&#x003C;"/>
-        <when state="Compose Key - M" output="M"/>
-        <when state="Compose Key - N" output="N"/>
-        <when state="Compose Key - O" output="O"/>
-        <when state="Compose Key - P" output="P"/>
-        <when state="Compose Key - Period" output="."/>
-        <when state="Compose Key - Plus" output="+"/>
-        <when state="Compose Key - Question Mark" output="?"/>
-        <when state="Compose Key - Quote" output="&#x0022;"/>
-        <when state="Compose Key - R" output="R"/>
-        <when state="Compose Key - S" output="S"/>
-        <when state="Compose Key - Semicolon" output=";"/>
-        <when state="Compose Key - Single Quote" output="&#x0027;"/>
-        <when state="Compose Key - Slash" output="/"/>
-        <when state="Compose Key - Space" output=" "/>
-        <when state="Compose Key - T" output="T"/>
-        <when state="Compose Key - Tilde" output="~"/>
-        <when state="Compose Key - Underscore" output="_"/>
-        <when state="Compose Key - Vertical Bar" output="|"/>
-        <when state="Compose Key - W" output="W"/>
-        <when state="Compose Key - Y" output="Y"/>
-        <when state="Compose Key - a" output="a"/>
-        <when state="Compose Key - c" output="c"/>
-        <when state="Compose Key - f" output="f"/>
-        <when state="Compose Key - g" output="g"/>
-        <when state="Compose Key - i" output="i"/>
-        <when state="Compose Key - m" output="m"/>
-        <when state="Compose Key - n" output="n"/>
-        <when state="Compose Key - o" output="o"/>
-        <when state="Compose Key - p" output="p"/>
-        <when state="Compose Key - s" output="s"/>
-        <when state="Compose Key - t" output="t"/>
-        <when state="Compose Key - x" output="x"/>
-        <when state="Compose Key - y" output="y"/>
-        <when state="o" output="o"/>
-        <when state="s1" output="´"/>
-        <when state="s2" output="`"/>
-        <when state="s3" output="ˆ"/>
-        <when state="s4" output="¨"/>
-        <when state="s5" output="˜"/>
-    </terminators>
+<keyboard group="126" id="-24202" name="U.S. with Compose Key" maxout="2">
+	<layouts>
+		<layout first="0" last="17" mapSet="16c" modifiers="f4"/>
+		<layout first="18" last="18" mapSet="994" modifiers="f4"/>
+		<layout first="21" last="23" mapSet="994" modifiers="f4"/>
+		<layout first="30" last="30" mapSet="994" modifiers="f4"/>
+		<layout first="194" last="194" mapSet="994" modifiers="f4"/>
+		<layout first="197" last="197" mapSet="994" modifiers="f4"/>
+		<layout first="200" last="201" mapSet="994" modifiers="f4"/>
+		<layout first="206" last="207" mapSet="994" modifiers="f4"/>
+	</layouts>
+	<modifierMap id="f4" defaultIndex="7">
+		<keyMapSelect mapIndex="0">
+			<modifier keys="command?"/>
+			<modifier keys="anyShift? caps? command"/>
+		</keyMapSelect>
+		<keyMapSelect mapIndex="1">
+			<modifier keys="anyShift caps?"/>
+		</keyMapSelect>
+		<keyMapSelect mapIndex="2">
+			<modifier keys="caps"/>
+		</keyMapSelect>
+		<keyMapSelect mapIndex="3">
+			<modifier keys="anyOption"/>
+		</keyMapSelect>
+		<keyMapSelect mapIndex="4">
+			<modifier keys="anyShift caps? anyOption command?"/>
+		</keyMapSelect>
+		<keyMapSelect mapIndex="5">
+			<modifier keys="caps anyOption"/>
+		</keyMapSelect>
+		<keyMapSelect mapIndex="6">
+			<modifier keys="caps? anyOption command"/>
+		</keyMapSelect>
+		<keyMapSelect mapIndex="7">
+			<modifier keys="anyShift caps? option? command? control"/>
+			<modifier keys="shift? caps? anyOption command? control"/>
+			<modifier keys="caps? anyOption? command? control"/>
+		</keyMapSelect>
+	</modifierMap>
+	<keyMapSet id="16c">
+		<keyMap index="0">
+			<key code="0" action="13"/>
+			<key code="1" action="s"/>
+			<key code="2" action="d"/>
+			<key code="3" action="f"/>
+			<key code="4" action="h"/>
+			<key code="5" action="g"/>
+			<key code="6" action="z"/>
+			<key code="7" action="x"/>
+			<key code="8" action="c"/>
+			<key code="9" action="v"/>
+			<key code="10" action="`"/>
+			<key code="11" action="b"/>
+			<key code="12" action="q 2"/>
+			<key code="13" action="w"/>
+			<key code="14" action="14"/>
+			<key code="15" action="r"/>
+			<key code="16" action="19"/>
+			<key code="17" action="t"/>
+			<key code="18" action="1 1"/>
+			<key code="19" action="2 1"/>
+			<key code="20" action="3 1"/>
+			<key code="21" action="4 1"/>
+			<key code="22" action="6 1"/>
+			<key code="23" action="5 1"/>
+			<key code="24" action="="/>
+			<key code="25" action="9 1"/>
+			<key code="26" action="7 1"/>
+			<key code="27" action="-"/>
+			<key code="28" action="8 1"/>
+			<key code="29" action="0 1"/>
+			<key code="30" action="]"/>
+			<key code="31" action="17"/>
+			<key code="32" action="18"/>
+			<key code="33" action="["/>
+			<key code="34" action="15"/>
+			<key code="35" action="p"/>
+			<key code="36" output="&#x000D;"/>
+			<key code="37" action="l"/>
+			<key code="38" action="j"/>
+			<key code="39" action="&#x0027;"/>
+			<key code="40" action="k"/>
+			<key code="41" action=";"/>
+			<key code="42" action="\"/>
+			<key code="43" action=","/>
+			<key code="44" action="/"/>
+			<key code="45" action="16"/>
+			<key code="46" action="m"/>
+			<key code="47" action="."/>
+			<key code="48" output="&#x0009;"/>
+			<key code="49" action="5"/>
+			<key code="50" action="Compose Key"/>
+			<key code="51" output="&#x0008;"/>
+			<key code="52" output="&#x0003;"/>
+			<key code="53" output="&#x001B;"/>
+			<key code="64" output="&#x0010;"/>
+			<key code="65" output="."/>
+			<key code="66" output="&#x001D;"/>
+			<key code="67" output="*"/>
+			<key code="69" output="+"/>
+			<key code="70" output="&#x001C;"/>
+			<key code="71" output="&#x001B;"/>
+			<key code="72" output="&#x001F;"/>
+			<key code="75" output="/"/>
+			<key code="76" output="&#x0003;"/>
+			<key code="77" output="&#x001E;"/>
+			<key code="78" output="-"/>
+			<key code="79" output="&#x0010;"/>
+			<key code="80" output="&#x0010;"/>
+			<key code="81" output="="/>
+			<key code="82" output="0"/>
+			<key code="83" output="1"/>
+			<key code="84" output="2"/>
+			<key code="85" output="3"/>
+			<key code="86" output="4"/>
+			<key code="87" output="5"/>
+			<key code="88" output="6"/>
+			<key code="89" output="7"/>
+			<key code="91" output="8"/>
+			<key code="92" output="9"/>
+			<key code="96" output="&#x0010;"/>
+			<key code="97" output="&#x0010;"/>
+			<key code="98" output="&#x0010;"/>
+			<key code="99" output="&#x0010;"/>
+			<key code="100" output="&#x0010;"/>
+			<key code="101" output="&#x0010;"/>
+			<key code="102" output="&#x0010;"/>
+			<key code="103" output="&#x0010;"/>
+			<key code="104" output="&#x0010;"/>
+			<key code="105" output="&#x0010;"/>
+			<key code="106" output="&#x0010;"/>
+			<key code="107" output="&#x0010;"/>
+			<key code="108" output="&#x0010;"/>
+			<key code="109" output="&#x0010;"/>
+			<key code="110" output="&#x0010;"/>
+			<key code="111" output="&#x0010;"/>
+			<key code="112" output="&#x0010;"/>
+			<key code="113" output="&#x0010;"/>
+			<key code="114" output="&#x0005;"/>
+			<key code="115" output="&#x0001;"/>
+			<key code="116" output="&#x000B;"/>
+			<key code="117" output="&#x007F;"/>
+			<key code="118" output="&#x0010;"/>
+			<key code="119" output="&#x0004;"/>
+			<key code="120" output="&#x0010;"/>
+			<key code="121" output="&#x000C;"/>
+			<key code="122" output="&#x0010;"/>
+			<key code="123" output="&#x001C;"/>
+			<key code="124" output="&#x001D;"/>
+			<key code="125" output="&#x001F;"/>
+			<key code="126" output="&#x001E;"/>
+		</keyMap>
+		<keyMap index="1">
+			<key code="0" action="6"/>
+			<key code="1" action="S"/>
+			<key code="2" action="D"/>
+			<key code="3" action="F"/>
+			<key code="4" action="H"/>
+			<key code="5" action="G"/>
+			<key code="6" action="Z"/>
+			<key code="7" action="X"/>
+			<key code="8" action="C"/>
+			<key code="9" action="V"/>
+			<key code="10" action="~"/>
+			<key code="11" action="B"/>
+			<key code="12" action="Q"/>
+			<key code="13" action="W"/>
+			<key code="14" action="7"/>
+			<key code="15" action="R"/>
+			<key code="16" action="12"/>
+			<key code="17" action="T"/>
+			<key code="18" action="!"/>
+			<key code="19" action="@"/>
+			<key code="20" action="#"/>
+			<key code="21" action="$"/>
+			<key code="22" action="^"/>
+			<key code="23" action="%"/>
+			<key code="24" action="+"/>
+			<key code="25" action="("/>
+			<key code="26" action="&#x0026;"/>
+			<key code="27" action="_"/>
+			<key code="28" action="*"/>
+			<key code="29" action=")"/>
+			<key code="30" action="}"/>
+			<key code="31" action="10"/>
+			<key code="32" action="11"/>
+			<key code="33" action="{"/>
+			<key code="34" action="8"/>
+			<key code="35" action="P"/>
+			<key code="36" output="&#x000D;"/>
+			<key code="37" action="L"/>
+			<key code="38" action="J"/>
+			<key code="39" action="&#x0022;"/>
+			<key code="40" action="K"/>
+			<key code="41" action=":"/>
+			<key code="42" action="|"/>
+			<key code="43" action="&#x003C;"/>
+			<key code="44" action="?"/>
+			<key code="45" action="9"/>
+			<key code="46" action="M"/>
+			<key code="47" action="&#x003E;"/>
+			<key code="48" output="&#x0009;"/>
+			<key code="49" action="5"/>
+			<key code="50" action="Compose Key 1"/>
+			<key code="51" output="&#x0008;"/>
+			<key code="52" output="&#x0003;"/>
+			<key code="53" output="&#x001B;"/>
+			<key code="64" output="&#x0010;"/>
+			<key code="65" output="."/>
+			<key code="66" output="*"/>
+			<key code="67" output="*"/>
+			<key code="69" output="+"/>
+			<key code="70" output="+"/>
+			<key code="71" output="&#x001B;"/>
+			<key code="72" output="="/>
+			<key code="75" output="/"/>
+			<key code="76" output="&#x0003;"/>
+			<key code="77" output="/"/>
+			<key code="78" output="-"/>
+			<key code="79" output="&#x0010;"/>
+			<key code="80" output="&#x0010;"/>
+			<key code="81" output="="/>
+			<key code="82" output="0"/>
+			<key code="83" output="1"/>
+			<key code="84" output="2"/>
+			<key code="85" output="3"/>
+			<key code="86" output="4"/>
+			<key code="87" output="5"/>
+			<key code="88" output="6"/>
+			<key code="89" output="7"/>
+			<key code="91" output="8"/>
+			<key code="92" output="9"/>
+			<key code="96" output="&#x0010;"/>
+			<key code="97" output="&#x0010;"/>
+			<key code="98" output="&#x0010;"/>
+			<key code="99" output="&#x0010;"/>
+			<key code="100" output="&#x0010;"/>
+			<key code="101" output="&#x0010;"/>
+			<key code="102" output="&#x0010;"/>
+			<key code="103" output="&#x0010;"/>
+			<key code="104" output="&#x0010;"/>
+			<key code="105" output="&#x0010;"/>
+			<key code="106" output="&#x0010;"/>
+			<key code="107" output="&#x0010;"/>
+			<key code="108" output="&#x0010;"/>
+			<key code="109" output="&#x0010;"/>
+			<key code="110" output="&#x0010;"/>
+			<key code="111" output="&#x0010;"/>
+			<key code="112" output="&#x0010;"/>
+			<key code="113" output="&#x0010;"/>
+			<key code="114" output="&#x0005;"/>
+			<key code="115" output="&#x0001;"/>
+			<key code="116" output="&#x000B;"/>
+			<key code="117" output="&#x007F;"/>
+			<key code="118" output="&#x0010;"/>
+			<key code="119" output="&#x0004;"/>
+			<key code="120" output="&#x0010;"/>
+			<key code="121" output="&#x000C;"/>
+			<key code="122" output="&#x0010;"/>
+			<key code="123" output="&#x001C;"/>
+			<key code="124" output="&#x001D;"/>
+			<key code="125" output="&#x001F;"/>
+			<key code="126" output="&#x001E;"/>
+		</keyMap>
+		<keyMap index="2">
+			<key code="0" action="6"/>
+			<key code="1" output="S"/>
+			<key code="2" output="D"/>
+			<key code="3" output="F"/>
+			<key code="4" output="H"/>
+			<key code="5" output="G"/>
+			<key code="6" output="Z"/>
+			<key code="7" output="X"/>
+			<key code="8" output="C"/>
+			<key code="9" output="V"/>
+			<key code="10" output="`"/>
+			<key code="11" output="B"/>
+			<key code="12" output="Q"/>
+			<key code="13" output="W"/>
+			<key code="14" action="7"/>
+			<key code="15" output="R"/>
+			<key code="16" action="12"/>
+			<key code="17" output="T"/>
+			<key code="18" output="1"/>
+			<key code="19" output="2"/>
+			<key code="20" output="3"/>
+			<key code="21" output="4"/>
+			<key code="22" output="6"/>
+			<key code="23" output="5"/>
+			<key code="24" output="="/>
+			<key code="25" output="9"/>
+			<key code="26" output="7"/>
+			<key code="27" output="-"/>
+			<key code="28" output="8"/>
+			<key code="29" output="0"/>
+			<key code="30" output="]"/>
+			<key code="31" action="10"/>
+			<key code="32" action="11"/>
+			<key code="33" output="["/>
+			<key code="34" action="8"/>
+			<key code="35" output="P"/>
+			<key code="36" output="&#x000D;"/>
+			<key code="37" output="L"/>
+			<key code="38" output="J"/>
+			<key code="39" output="&#x0027;"/>
+			<key code="40" output="K"/>
+			<key code="41" output=";"/>
+			<key code="42" output="\"/>
+			<key code="43" output=","/>
+			<key code="44" output="/"/>
+			<key code="45" action="9"/>
+			<key code="46" output="M"/>
+			<key code="47" output="."/>
+			<key code="48" output="&#x0009;"/>
+			<key code="49" action="5"/>
+			<key code="50" output="§"/>
+			<key code="51" output="&#x0008;"/>
+			<key code="52" output="&#x0003;"/>
+			<key code="53" output="&#x001B;"/>
+			<key code="64" output="&#x0010;"/>
+			<key code="65" output="."/>
+			<key code="66" output="&#x001D;"/>
+			<key code="67" output="*"/>
+			<key code="69" output="+"/>
+			<key code="70" output="&#x001C;"/>
+			<key code="71" output="&#x001B;"/>
+			<key code="72" output="&#x001F;"/>
+			<key code="75" output="/"/>
+			<key code="76" output="&#x0003;"/>
+			<key code="77" output="&#x001E;"/>
+			<key code="78" output="-"/>
+			<key code="79" output="&#x0010;"/>
+			<key code="80" output="&#x0010;"/>
+			<key code="81" output="="/>
+			<key code="82" output="0"/>
+			<key code="83" output="1"/>
+			<key code="84" output="2"/>
+			<key code="85" output="3"/>
+			<key code="86" output="4"/>
+			<key code="87" output="5"/>
+			<key code="88" output="6"/>
+			<key code="89" output="7"/>
+			<key code="91" output="8"/>
+			<key code="92" output="9"/>
+			<key code="96" output="&#x0010;"/>
+			<key code="97" output="&#x0010;"/>
+			<key code="98" output="&#x0010;"/>
+			<key code="99" output="&#x0010;"/>
+			<key code="100" output="&#x0010;"/>
+			<key code="101" output="&#x0010;"/>
+			<key code="102" output="&#x0010;"/>
+			<key code="103" output="&#x0010;"/>
+			<key code="104" output="&#x0010;"/>
+			<key code="105" output="&#x0010;"/>
+			<key code="106" output="&#x0010;"/>
+			<key code="107" output="&#x0010;"/>
+			<key code="108" output="&#x0010;"/>
+			<key code="109" output="&#x0010;"/>
+			<key code="110" output="&#x0010;"/>
+			<key code="111" output="&#x0010;"/>
+			<key code="112" output="&#x0010;"/>
+			<key code="113" output="&#x0010;"/>
+			<key code="114" output="&#x0005;"/>
+			<key code="115" output="&#x0001;"/>
+			<key code="116" output="&#x000B;"/>
+			<key code="117" output="&#x007F;"/>
+			<key code="118" output="&#x0010;"/>
+			<key code="119" output="&#x0004;"/>
+			<key code="120" output="&#x0010;"/>
+			<key code="121" output="&#x000C;"/>
+			<key code="122" output="&#x0010;"/>
+			<key code="123" output="&#x001C;"/>
+			<key code="124" output="&#x001D;"/>
+			<key code="125" output="&#x001F;"/>
+			<key code="126" output="&#x001E;"/>
+		</keyMap>
+		<keyMap index="3">
+			<key code="0" output="å"/>
+			<key code="1" output="ß"/>
+			<key code="2" output="∂"/>
+			<key code="3" output="ƒ"/>
+			<key code="4" output="˙"/>
+			<key code="5" output="©"/>
+			<key code="6" output="Ω"/>
+			<key code="7" output="≈"/>
+			<key code="8" output="ç"/>
+			<key code="9" output="√"/>
+			<key code="10" action="1"/>
+			<key code="11" output="∫"/>
+			<key code="12" output="œ"/>
+			<key code="13" output="∑"/>
+			<key code="14" action="0"/>
+			<key code="15" output="®"/>
+			<key code="16" output="¥"/>
+			<key code="17" output="†"/>
+			<key code="18" output="¡"/>
+			<key code="19" output="™"/>
+			<key code="20" output="£"/>
+			<key code="21" output="¢"/>
+			<key code="22" output="§"/>
+			<key code="23" output="∞"/>
+			<key code="24" output="≠"/>
+			<key code="25" output="ª"/>
+			<key code="26" output="¶"/>
+			<key code="27" output="–"/>
+			<key code="28" output="•"/>
+			<key code="29" output="º"/>
+			<key code="30" output="‘"/>
+			<key code="31" output="ø"/>
+			<key code="32" action="3"/>
+			<key code="33" output="“"/>
+			<key code="34" action="2"/>
+			<key code="35" output="π"/>
+			<key code="36" output="&#x000D;"/>
+			<key code="37" output="¬"/>
+			<key code="38" output="∆"/>
+			<key code="39" output="æ"/>
+			<key code="40" output="˚"/>
+			<key code="41" output="…"/>
+			<key code="42" output="«"/>
+			<key code="43" output="≤"/>
+			<key code="44" output="÷"/>
+			<key code="45" action="4"/>
+			<key code="46" output="µ"/>
+			<key code="47" output="≥"/>
+			<key code="48" output="&#x0009;"/>
+			<key code="49" output=" "/>
+			<key code="50" action="Compose Key 2"/>
+			<key code="51" output="&#x0008;"/>
+			<key code="52" output="&#x0003;"/>
+			<key code="53" output="&#x001B;"/>
+			<key code="64" output="&#x0010;"/>
+			<key code="65" output="."/>
+			<key code="66" output="&#x001D;"/>
+			<key code="67" output="*"/>
+			<key code="69" output="+"/>
+			<key code="70" output="&#x001C;"/>
+			<key code="71" output="&#x001B;"/>
+			<key code="72" output="&#x001F;"/>
+			<key code="75" output="/"/>
+			<key code="76" output="&#x0003;"/>
+			<key code="77" output="&#x001E;"/>
+			<key code="78" output="-"/>
+			<key code="79" output="&#x0010;"/>
+			<key code="80" output="&#x0010;"/>
+			<key code="81" output="="/>
+			<key code="82" output="0"/>
+			<key code="83" output="1"/>
+			<key code="84" output="2"/>
+			<key code="85" output="3"/>
+			<key code="86" output="4"/>
+			<key code="87" output="5"/>
+			<key code="88" output="6"/>
+			<key code="89" output="7"/>
+			<key code="91" output="8"/>
+			<key code="92" output="9"/>
+			<key code="96" output="&#x0010;"/>
+			<key code="97" output="&#x0010;"/>
+			<key code="98" output="&#x0010;"/>
+			<key code="99" output="&#x0010;"/>
+			<key code="100" output="&#x0010;"/>
+			<key code="101" output="&#x0010;"/>
+			<key code="102" output="&#x0010;"/>
+			<key code="103" output="&#x0010;"/>
+			<key code="104" output="&#x0010;"/>
+			<key code="105" output="&#x0010;"/>
+			<key code="106" output="&#x0010;"/>
+			<key code="107" output="&#x0010;"/>
+			<key code="108" output="&#x0010;"/>
+			<key code="109" output="&#x0010;"/>
+			<key code="110" output="&#x0010;"/>
+			<key code="111" output="&#x0010;"/>
+			<key code="112" output="&#x0010;"/>
+			<key code="113" output="&#x0010;"/>
+			<key code="114" output="&#x0005;"/>
+			<key code="115" output="&#x0001;"/>
+			<key code="116" output="&#x000B;"/>
+			<key code="117" output="&#x007F;"/>
+			<key code="118" output="&#x0010;"/>
+			<key code="119" output="&#x0004;"/>
+			<key code="120" output="&#x0010;"/>
+			<key code="121" output="&#x000C;"/>
+			<key code="122" output="&#x0010;"/>
+			<key code="123" output="&#x001C;"/>
+			<key code="124" output="&#x001D;"/>
+			<key code="125" output="&#x001F;"/>
+			<key code="126" output="&#x001E;"/>
+		</keyMap>
+		<keyMap index="4">
+			<key code="0" output="Å"/>
+			<key code="1" output="Í"/>
+			<key code="2" output="Î"/>
+			<key code="3" output="Ï"/>
+			<key code="4" output="Ó"/>
+			<key code="5" output="˝"/>
+			<key code="6" output="¸"/>
+			<key code="7" output="˛"/>
+			<key code="8" output="Ç"/>
+			<key code="9" output="◊"/>
+			<key code="10" action="` 1"/>
+			<key code="11" output="ı"/>
+			<key code="12" output="Œ"/>
+			<key code="13" output="„"/>
+			<key code="14" output="´"/>
+			<key code="15" output="‰"/>
+			<key code="16" output="Á"/>
+			<key code="17" output="ˇ"/>
+			<key code="18" output="⁄"/>
+			<key code="19" output="€"/>
+			<key code="20" output="‹"/>
+			<key code="21" output="›"/>
+			<key code="22" output="ﬂ"/>
+			<key code="23" output="ﬁ"/>
+			<key code="24" output="±"/>
+			<key code="25" output="·"/>
+			<key code="26" output="‡"/>
+			<key code="27" output="—"/>
+			<key code="28" output="°"/>
+			<key code="29" output="‚"/>
+			<key code="30" output="’"/>
+			<key code="31" output="Ø"/>
+			<key code="32" output="¨"/>
+			<key code="33" output="”"/>
+			<key code="34" output="ˆ"/>
+			<key code="35" output="∏"/>
+			<key code="36" output="&#x000D;"/>
+			<key code="37" output="Ò"/>
+			<key code="38" output="Ô"/>
+			<key code="39" action="Æ"/>
+			<key code="40" output=""/>
+			<key code="41" output="Ú"/>
+			<key code="42" output="»"/>
+			<key code="43" output="¯"/>
+			<key code="44" output="¿"/>
+			<key code="45" output="˜"/>
+			<key code="46" output="Â"/>
+			<key code="47" output="˘"/>
+			<key code="48" output="&#x0009;"/>
+			<key code="49" output=" "/>
+			<key code="50" action="Compose Key 3"/>
+			<key code="51" output="&#x0008;"/>
+			<key code="52" output="&#x0003;"/>
+			<key code="53" output="&#x001B;"/>
+			<key code="64" output="&#x0010;"/>
+			<key code="65" output="."/>
+			<key code="66" output="*"/>
+			<key code="67" output="*"/>
+			<key code="69" output="+"/>
+			<key code="70" output="+"/>
+			<key code="71" output="&#x001B;"/>
+			<key code="72" output="="/>
+			<key code="75" output="/"/>
+			<key code="76" output="&#x0003;"/>
+			<key code="77" output="/"/>
+			<key code="78" output="-"/>
+			<key code="79" output="&#x0010;"/>
+			<key code="80" output="&#x0010;"/>
+			<key code="81" output="="/>
+			<key code="82" output="0"/>
+			<key code="83" output="1"/>
+			<key code="84" output="2"/>
+			<key code="85" output="3"/>
+			<key code="86" output="4"/>
+			<key code="87" output="5"/>
+			<key code="88" output="6"/>
+			<key code="89" output="7"/>
+			<key code="91" output="8"/>
+			<key code="92" output="9"/>
+			<key code="96" output="&#x0010;"/>
+			<key code="97" output="&#x0010;"/>
+			<key code="98" output="&#x0010;"/>
+			<key code="99" output="&#x0010;"/>
+			<key code="100" output="&#x0010;"/>
+			<key code="101" output="&#x0010;"/>
+			<key code="102" output="&#x0010;"/>
+			<key code="103" output="&#x0010;"/>
+			<key code="104" output="&#x0010;"/>
+			<key code="105" output="&#x0010;"/>
+			<key code="106" output="&#x0010;"/>
+			<key code="107" output="&#x0010;"/>
+			<key code="108" output="&#x0010;"/>
+			<key code="109" output="&#x0010;"/>
+			<key code="110" output="&#x0010;"/>
+			<key code="111" output="&#x0010;"/>
+			<key code="112" output="&#x0010;"/>
+			<key code="113" output="&#x0010;"/>
+			<key code="114" output="&#x0005;"/>
+			<key code="115" output="&#x0001;"/>
+			<key code="116" output="&#x000B;"/>
+			<key code="117" output="&#x007F;"/>
+			<key code="118" output="&#x0010;"/>
+			<key code="119" output="&#x0004;"/>
+			<key code="120" output="&#x0010;"/>
+			<key code="121" output="&#x000C;"/>
+			<key code="122" output="&#x0010;"/>
+			<key code="123" output="&#x001C;"/>
+			<key code="124" output="&#x001D;"/>
+			<key code="125" output="&#x001F;"/>
+			<key code="126" output="&#x001E;"/>
+		</keyMap>
+		<keyMap index="5">
+			<key code="0" output="Å"/>
+			<key code="1" output="Í"/>
+			<key code="2" output="Î"/>
+			<key code="3" output="Ï"/>
+			<key code="4" output="Ó"/>
+			<key code="5" output="©"/>
+			<key code="6" output="Ω"/>
+			<key code="7" output="≈"/>
+			<key code="8" output="Ç"/>
+			<key code="9" output="√"/>
+			<key code="10" output="`"/>
+			<key code="11" output="ı"/>
+			<key code="12" output="Œ"/>
+			<key code="13" output="∑"/>
+			<key code="14" output="´"/>
+			<key code="15" output="®"/>
+			<key code="16" output="Á"/>
+			<key code="17" output="†"/>
+			<key code="18" output="¡"/>
+			<key code="19" output="™"/>
+			<key code="20" output="£"/>
+			<key code="21" output="¢"/>
+			<key code="22" output="§"/>
+			<key code="23" output="∞"/>
+			<key code="24" output="≠"/>
+			<key code="25" output="ª"/>
+			<key code="26" output="¶"/>
+			<key code="27" output="–"/>
+			<key code="28" output="•"/>
+			<key code="29" output="º"/>
+			<key code="30" output="‘"/>
+			<key code="31" output="Ø"/>
+			<key code="32" output="¨"/>
+			<key code="33" output="“"/>
+			<key code="34" output="ˆ"/>
+			<key code="35" output="∏"/>
+			<key code="36" output="&#x000D;"/>
+			<key code="37" output="Ò"/>
+			<key code="38" output="Ô"/>
+			<key code="39" output="Æ"/>
+			<key code="40" output="˚"/>
+			<key code="41" output="…"/>
+			<key code="42" output="«"/>
+			<key code="43" output="≤"/>
+			<key code="44" output="÷"/>
+			<key code="45" output="˜"/>
+			<key code="46" output="Â"/>
+			<key code="47" output="≥"/>
+			<key code="48" output="&#x0009;"/>
+			<key code="49" output=" "/>
+			<key code="50" output="§"/>
+			<key code="51" output="&#x0008;"/>
+			<key code="52" output="&#x0003;"/>
+			<key code="53" output="&#x001B;"/>
+			<key code="64" output="&#x0010;"/>
+			<key code="65" output="."/>
+			<key code="66" output="&#x001D;"/>
+			<key code="67" output="*"/>
+			<key code="69" output="+"/>
+			<key code="70" output="&#x001C;"/>
+			<key code="71" output="&#x001B;"/>
+			<key code="72" output="&#x001F;"/>
+			<key code="75" output="/"/>
+			<key code="76" output="&#x0003;"/>
+			<key code="77" output="&#x001E;"/>
+			<key code="78" output="-"/>
+			<key code="79" output="&#x0010;"/>
+			<key code="80" output="&#x0010;"/>
+			<key code="81" output="="/>
+			<key code="82" output="0"/>
+			<key code="83" output="1"/>
+			<key code="84" output="2"/>
+			<key code="85" output="3"/>
+			<key code="86" output="4"/>
+			<key code="87" output="5"/>
+			<key code="88" output="6"/>
+			<key code="89" output="7"/>
+			<key code="91" output="8"/>
+			<key code="92" output="9"/>
+			<key code="96" output="&#x0010;"/>
+			<key code="97" output="&#x0010;"/>
+			<key code="98" output="&#x0010;"/>
+			<key code="99" output="&#x0010;"/>
+			<key code="100" output="&#x0010;"/>
+			<key code="101" output="&#x0010;"/>
+			<key code="102" output="&#x0010;"/>
+			<key code="103" output="&#x0010;"/>
+			<key code="104" output="&#x0010;"/>
+			<key code="105" output="&#x0010;"/>
+			<key code="106" output="&#x0010;"/>
+			<key code="107" output="&#x0010;"/>
+			<key code="108" output="&#x0010;"/>
+			<key code="109" output="&#x0010;"/>
+			<key code="110" output="&#x0010;"/>
+			<key code="111" output="&#x0010;"/>
+			<key code="112" output="&#x0010;"/>
+			<key code="113" output="&#x0010;"/>
+			<key code="114" output="&#x0005;"/>
+			<key code="115" output="&#x0001;"/>
+			<key code="116" output="&#x000B;"/>
+			<key code="117" output="&#x007F;"/>
+			<key code="118" output="&#x0010;"/>
+			<key code="119" output="&#x0004;"/>
+			<key code="120" output="&#x0010;"/>
+			<key code="121" output="&#x000C;"/>
+			<key code="122" output="&#x0010;"/>
+			<key code="123" output="&#x001C;"/>
+			<key code="124" output="&#x001D;"/>
+			<key code="125" output="&#x001F;"/>
+			<key code="126" output="&#x001E;"/>
+		</keyMap>
+		<keyMap index="6">
+			<key code="0" output="å"/>
+			<key code="1" output="ß"/>
+			<key code="2" output="∂"/>
+			<key code="3" output="ƒ"/>
+			<key code="4" output="˙"/>
+			<key code="5" output="©"/>
+			<key code="6" output="Ω"/>
+			<key code="7" output="≈"/>
+			<key code="8" output="ç"/>
+			<key code="9" output="√"/>
+			<key code="10" output="`"/>
+			<key code="11" output="∫"/>
+			<key code="12" output="œ"/>
+			<key code="13" output="∑"/>
+			<key code="14" output="´"/>
+			<key code="15" output="®"/>
+			<key code="16" output="¥"/>
+			<key code="17" output="†"/>
+			<key code="18" output="¡"/>
+			<key code="19" output="™"/>
+			<key code="20" output="£"/>
+			<key code="21" output="¢"/>
+			<key code="22" output="§"/>
+			<key code="23" output="∞"/>
+			<key code="24" output="≠"/>
+			<key code="25" output="ª"/>
+			<key code="26" output="¶"/>
+			<key code="27" output="–"/>
+			<key code="28" output="•"/>
+			<key code="29" output="º"/>
+			<key code="30" output="‘"/>
+			<key code="31" output="ø"/>
+			<key code="32" output="¨"/>
+			<key code="33" output="“"/>
+			<key code="34" output="^"/>
+			<key code="35" output="π"/>
+			<key code="36" output="&#x000D;"/>
+			<key code="37" output="¬"/>
+			<key code="38" output="∆"/>
+			<key code="39" output="æ"/>
+			<key code="40" output="˚"/>
+			<key code="41" output="…"/>
+			<key code="42" output="«"/>
+			<key code="43" output="≤"/>
+			<key code="44" output="÷"/>
+			<key code="45" output="~"/>
+			<key code="46" output="µ"/>
+			<key code="47" output="≥"/>
+			<key code="48" output="&#x0009;"/>
+			<key code="49" output=" "/>
+			<key code="50" output="§"/>
+			<key code="51" output="&#x0008;"/>
+			<key code="52" output="&#x0003;"/>
+			<key code="53" output="&#x001B;"/>
+			<key code="64" output="&#x0010;"/>
+			<key code="65" output="."/>
+			<key code="66" output="&#x001D;"/>
+			<key code="67" output="*"/>
+			<key code="69" output="+"/>
+			<key code="70" output="&#x001C;"/>
+			<key code="71" output="&#x001B;"/>
+			<key code="72" output="&#x001F;"/>
+			<key code="75" output="/"/>
+			<key code="76" output="&#x0003;"/>
+			<key code="77" output="&#x001E;"/>
+			<key code="78" output="-"/>
+			<key code="79" output="&#x0010;"/>
+			<key code="80" output="&#x0010;"/>
+			<key code="81" output="="/>
+			<key code="82" output="0"/>
+			<key code="83" output="1"/>
+			<key code="84" output="2"/>
+			<key code="85" output="3"/>
+			<key code="86" output="4"/>
+			<key code="87" output="5"/>
+			<key code="88" output="6"/>
+			<key code="89" output="7"/>
+			<key code="91" output="8"/>
+			<key code="92" output="9"/>
+			<key code="96" output="&#x0010;"/>
+			<key code="97" output="&#x0010;"/>
+			<key code="98" output="&#x0010;"/>
+			<key code="99" output="&#x0010;"/>
+			<key code="100" output="&#x0010;"/>
+			<key code="101" output="&#x0010;"/>
+			<key code="102" output="&#x0010;"/>
+			<key code="103" output="&#x0010;"/>
+			<key code="104" output="&#x0010;"/>
+			<key code="105" output="&#x0010;"/>
+			<key code="106" output="&#x0010;"/>
+			<key code="107" output="&#x0010;"/>
+			<key code="108" output="&#x0010;"/>
+			<key code="109" output="&#x0010;"/>
+			<key code="110" output="&#x0010;"/>
+			<key code="111" output="&#x0010;"/>
+			<key code="112" output="&#x0010;"/>
+			<key code="113" output="&#x0010;"/>
+			<key code="114" output="&#x0005;"/>
+			<key code="115" output="&#x0001;"/>
+			<key code="116" output="&#x000B;"/>
+			<key code="117" output="&#x007F;"/>
+			<key code="118" output="&#x0010;"/>
+			<key code="119" output="&#x0004;"/>
+			<key code="120" output="&#x0010;"/>
+			<key code="121" output="&#x000C;"/>
+			<key code="122" output="&#x0010;"/>
+			<key code="123" output="&#x001C;"/>
+			<key code="124" output="&#x001D;"/>
+			<key code="125" output="&#x001F;"/>
+			<key code="126" output="&#x001E;"/>
+		</keyMap>
+		<keyMap index="7">
+			<key code="0" output="&#x0001;"/>
+			<key code="1" output="&#x0013;"/>
+			<key code="2" output="&#x0004;"/>
+			<key code="3" output="&#x0006;"/>
+			<key code="4" output="&#x0008;"/>
+			<key code="5" output="&#x0007;"/>
+			<key code="6" output="&#x001A;"/>
+			<key code="7" output="&#x0018;"/>
+			<key code="8" output="&#x0003;"/>
+			<key code="9" output="&#x0016;"/>
+			<key code="10" output="`"/>
+			<key code="11" output="&#x0002;"/>
+			<key code="12" output="&#x0011;"/>
+			<key code="13" output="&#x0017;"/>
+			<key code="14" output="&#x0005;"/>
+			<key code="15" output="&#x0012;"/>
+			<key code="16" output="&#x0019;"/>
+			<key code="17" output="&#x0014;"/>
+			<key code="18" output="1"/>
+			<key code="19" output="2"/>
+			<key code="20" output="3"/>
+			<key code="21" output="4"/>
+			<key code="22" output="6"/>
+			<key code="23" output="5"/>
+			<key code="24" output="="/>
+			<key code="25" output="9"/>
+			<key code="26" output="7"/>
+			<key code="27" output="&#x001F;"/>
+			<key code="28" output="8"/>
+			<key code="29" output="0"/>
+			<key code="30" output="&#x001D;"/>
+			<key code="31" output="&#x000F;"/>
+			<key code="32" output="&#x0015;"/>
+			<key code="33" output="&#x001B;"/>
+			<key code="34" output="&#x0009;"/>
+			<key code="35" output="&#x0010;"/>
+			<key code="36" output="&#x000D;"/>
+			<key code="37" output="&#x000C;"/>
+			<key code="38" output="&#x000A;"/>
+			<key code="39" output="&#x0027;"/>
+			<key code="40" output="&#x000B;"/>
+			<key code="41" output=";"/>
+			<key code="42" output="&#x001C;"/>
+			<key code="43" output=","/>
+			<key code="44" output="/"/>
+			<key code="45" output="&#x000E;"/>
+			<key code="46" output="&#x000D;"/>
+			<key code="47" output="."/>
+			<key code="48" output="&#x0009;"/>
+			<key code="49" action="5"/>
+			<key code="50" output=""/>
+			<key code="51" output="&#x0008;"/>
+			<key code="52" output="&#x0003;"/>
+			<key code="53" output="&#x001B;"/>
+			<key code="64" output="&#x0010;"/>
+			<key code="65" output="."/>
+			<key code="66" output="&#x001D;"/>
+			<key code="67" output="*"/>
+			<key code="69" output="+"/>
+			<key code="70" output="&#x001C;"/>
+			<key code="71" output="&#x001B;"/>
+			<key code="72" output="&#x001F;"/>
+			<key code="75" output="/"/>
+			<key code="76" output="&#x0003;"/>
+			<key code="77" output="&#x001E;"/>
+			<key code="78" output="-"/>
+			<key code="79" output="&#x0010;"/>
+			<key code="80" output="&#x0010;"/>
+			<key code="81" output="="/>
+			<key code="82" output="0"/>
+			<key code="83" output="1"/>
+			<key code="84" output="2"/>
+			<key code="85" output="3"/>
+			<key code="86" output="4"/>
+			<key code="87" output="5"/>
+			<key code="88" output="6"/>
+			<key code="89" output="7"/>
+			<key code="91" output="8"/>
+			<key code="92" output="9"/>
+			<key code="96" output="&#x0010;"/>
+			<key code="97" output="&#x0010;"/>
+			<key code="98" output="&#x0010;"/>
+			<key code="99" output="&#x0010;"/>
+			<key code="100" output="&#x0010;"/>
+			<key code="101" output="&#x0010;"/>
+			<key code="102" output="&#x0010;"/>
+			<key code="103" output="&#x0010;"/>
+			<key code="104" output="&#x0010;"/>
+			<key code="105" output="&#x0010;"/>
+			<key code="106" output="&#x0010;"/>
+			<key code="107" output="&#x0010;"/>
+			<key code="108" output="&#x0010;"/>
+			<key code="109" output="&#x0010;"/>
+			<key code="110" output="&#x0010;"/>
+			<key code="111" output="&#x0010;"/>
+			<key code="112" output="&#x0010;"/>
+			<key code="113" output="&#x0010;"/>
+			<key code="114" output="&#x0005;"/>
+			<key code="115" output="&#x0001;"/>
+			<key code="116" output="&#x000B;"/>
+			<key code="117" output="&#x007F;"/>
+			<key code="118" output="&#x0010;"/>
+			<key code="119" output="&#x0004;"/>
+			<key code="120" output="&#x0010;"/>
+			<key code="121" output="&#x000C;"/>
+			<key code="122" output="&#x0010;"/>
+			<key code="123" output="&#x001C;"/>
+			<key code="124" output="&#x001D;"/>
+			<key code="125" output="&#x001F;"/>
+			<key code="126" output="&#x001E;"/>
+		</keyMap>
+	</keyMapSet>
+	<keyMapSet id="994">
+		<keyMap index="0" baseMapSet="16c" baseIndex="0">
+			<key code="24" output="^"/>
+			<key code="30" output="["/>
+			<key code="33" output="@"/>
+			<key code="39" output=":"/>
+			<key code="42" output="]"/>
+			<key code="93" output="¥"/>
+			<key code="94" output="_"/>
+			<key code="95" output=","/>
+			<key code="102" action="5"/>
+			<key code="104" action="5"/>
+		</keyMap>
+		<keyMap index="1" baseMapSet="16c" baseIndex="1">
+			<key code="19" output="&#x0022;"/>
+			<key code="22" output="&#x0026;"/>
+			<key code="24" output="~"/>
+			<key code="25" output=")"/>
+			<key code="26" output="&#x0027;"/>
+			<key code="27" output="="/>
+			<key code="28" output="("/>
+			<key code="29" output="0"/>
+			<key code="30" output="{"/>
+			<key code="33" output="`"/>
+			<key code="39" output="*"/>
+			<key code="41" output="+"/>
+			<key code="42" output="}"/>
+			<key code="93" output="|"/>
+			<key code="94" output="_"/>
+			<key code="95" output=","/>
+			<key code="102" action="5"/>
+			<key code="104" action="5"/>
+		</keyMap>
+		<keyMap index="2" baseMapSet="16c" baseIndex="2">
+			<key code="24" output="^"/>
+			<key code="30" output="["/>
+			<key code="33" output="@"/>
+			<key code="39" output=":"/>
+			<key code="42" output="]"/>
+			<key code="93" output="¥"/>
+			<key code="94" output="_"/>
+			<key code="95" output=","/>
+			<key code="102" action="5"/>
+			<key code="104" action="5"/>
+		</keyMap>
+		<keyMap index="3" baseMapSet="16c" baseIndex="3">
+			<key code="93" output="\"/>
+			<key code="94" action="1"/>
+			<key code="95" output=","/>
+			<key code="102" action="5"/>
+			<key code="104" action="5"/>
+		</keyMap>
+		<keyMap index="4" baseMapSet="16c" baseIndex="4">
+			<key code="93" output="|"/>
+			<key code="94" output="`"/>
+			<key code="95" output=","/>
+			<key code="102" action="5"/>
+			<key code="104" action="5"/>
+		</keyMap>
+		<keyMap index="5" baseMapSet="16c" baseIndex="5">
+			<key code="93" output="\"/>
+			<key code="94" output="`"/>
+			<key code="95" output=","/>
+			<key code="102" action="5"/>
+			<key code="104" action="5"/>
+		</keyMap>
+		<keyMap index="6" baseMapSet="16c" baseIndex="6">
+			<key code="93" output="\"/>
+			<key code="94" output="_"/>
+			<key code="95" output=","/>
+			<key code="102" action="5"/>
+			<key code="104" action="5"/>
+		</keyMap>
+		<keyMap index="7" baseMapSet="16c" baseIndex="7">
+			<key code="93" output="|"/>
+			<key code="94" output="_"/>
+			<key code="95" output=","/>
+			<key code="102" action="5"/>
+			<key code="104" action="5"/>
+		</keyMap>
+	</keyMapSet>
+	<actions>
+		<action id="!">
+			<when state="none" output="!"/>
+			<when state="Compose Key" next="Compose Key - Exclamation Mark"/>
+			<when state="Compose Key - Exclamation Mark" output="¡"/>
+			<when state="Compose Key - P" output="¶"/>
+			<when state="Compose Key - Question Mark" output="‽"/>
+			<when state="Compose Key - f" output="!"/>
+			<when state="Compose Key - p" output="¶"/>
+		</action>
+		<action id="&#x0022;">
+			<when state="none" output="&#x0022;"/>
+			<when state="Compose Key" next="Compose Key - Quote"/>
+			<when state="Compose Key - f" output="ʺ"/>
+		</action>
+		<action id="#">
+			<when state="none" output="#"/>
+			<when state="Compose Key - f" output="Ɛ"/>
+		</action>
+		<action id="$">
+			<when state="none" output="$"/>
+			<when state="Compose Key - f" output="4"/>
+		</action>
+		<action id="%">
+			<when state="none" output="%"/>
+			<when state="Compose Key" next="Compose Key - Percent sign"/>
+			<when state="Compose Key - f" output="Ƽ"/>
+		</action>
+		<action id="&#x0026;">
+			<when state="none" output="&#x0026;"/>
+			<when state="Compose Key" next="Compose Key - Ampersand"/>
+			<when state="Compose Key - Ampersand" output="∧"/>
+			<when state="Compose Key - f" output="&#x0026;"/>
+		</action>
+		<action id="&#x0027;">
+			<when state="none" output="&#x0027;"/>
+			<when state="Compose Key" next="Compose Key - Single Quote"/>
+			<when state="Compose Key - f" output="ʹ"/>
+		</action>
+		<action id="(">
+			<when state="none" output="("/>
+			<when state="Compose Key - Caret" output="⁽"/>
+			<when state="Compose Key - Colon" output="☹"/>
+			<when state="Compose Key - Less Than" output="⟨"/>
+			<when state="Compose Key - Underscore" output="₍"/>
+			<when state="Compose Key - f" output="("/>
+		</action>
+		<action id=")">
+			<when state="none" output=")"/>
+			<when state="Compose Key - Caret" output="⁾"/>
+			<when state="Compose Key - Colon" output="☺"/>
+			<when state="Compose Key - Greater Than" output="⟩"/>
+			<when state="Compose Key - Underscore" output="₎"/>
+			<when state="Compose Key - f" output=")"/>
+		</action>
+		<action id="*">
+			<when state="none" output="*"/>
+			<when state="Compose Key - f" output="Ȣ"/>
+		</action>
+		<action id="+">
+			<when state="none" output="+"/>
+			<when state="Compose Key" next="Compose Key - Plus"/>
+			<when state="Compose Key - C" output="€"/>
+			<when state="Compose Key - Caret" output="⁺"/>
+			<when state="Compose Key - E" output="€"/>
+			<when state="Compose Key - Hyphen" output="∓"/>
+			<when state="Compose Key - O" output="⊕"/>
+			<when state="Compose Key - Underscore" output="₊"/>
+			<when state="Compose Key - W" output="₩"/>
+			<when state="Compose Key - f" output="="/>
+			<when state="Compose Key - o" output="⊕"/>
+		</action>
+		<action id=",">
+			<when state="none" output=","/>
+			<when state="Compose Key" next="Compose Key - Comma"/>
+			<when state="Compose Key - Hyphen" output="¬"/>
+			<when state="Compose Key - Space" output="¸"/>
+			<when state="Compose Key - f" output=","/>
+		</action>
+		<action id="-">
+			<when state="none" output="-"/>
+			<when state="Compose Key" next="Compose Key - Hyphen"/>
+			<when state="Compose Key - C" next="Compose Key - C + -"/>
+			<when state="Compose Key - Caret + Caret" output="␟"/>
+			<when state="Compose Key - Colon" output="÷"/>
+			<when state="Compose Key - Comma" output="¬"/>
+			<when state="Compose Key - Hyphen" next="Compose Key - Hyphen + Hyphen"/>
+			<when state="Compose Key - Hyphen + Hyphen" output="—"/>
+			<when state="Compose Key - L" output="£"/>
+			<when state="Compose Key - N" output="₦"/>
+			<when state="Compose Key - O" output="❿"/>
+			<when state="Compose Key - Plus" output="±"/>
+			<when state="Compose Key - c" next="Compose Key - c + -"/>
+			<when state="Compose Key - f" output="-"/>
+			<when state="Compose Key - o" output="⑩"/>
+		</action>
+		<action id=".">
+			<when state="none" output="."/>
+			<when state="Compose Key" next="Compose Key - Period"/>
+			<when state="Compose Key - Hyphen + Hyphen" output="–"/>
+			<when state="Compose Key - O" output="⊙"/>
+			<when state="Compose Key - Period" output="·"/>
+			<when state="Compose Key - f" output="."/>
+			<when state="Compose Key - o" output="•"/>
+		</action>
+		<action id="/">
+			<when state="none" output="/"/>
+			<when state="Compose Key" next="Compose Key - Slash"/>
+			<when state="Compose Key - Backslash" output="∨"/>
+			<when state="Compose Key - C" output="₡"/>
+			<when state="Compose Key - C + -" output="∉"/>
+			<when state="Compose Key - Caret + Caret" output="␡"/>
+			<when state="Compose Key - Equals Sign" output="≠"/>
+			<when state="Compose Key - O" output="⊘"/>
+			<when state="Compose Key - Slash" output="⁄"/>
+			<when state="Compose Key - c" output="¢"/>
+			<when state="Compose Key - c + -" output="∉"/>
+			<when state="Compose Key - f" output="/"/>
+		</action>
+		<action id="0">
+			<when state="none" next="s1"/>
+		</action>
+		<action id="0 1">
+			<when state="none" output="0"/>
+			<when state="Compose Key - Caret" output="⁰"/>
+			<when state="Compose Key - Caret + Caret" output="␀"/>
+			<when state="Compose Key - Underscore" output="₀"/>
+			<when state="Compose Key - f" output="0"/>
+			<when state="Compose Key - o" output="⓪"/>
+		</action>
+		<action id="1">
+			<when state="none" next="s2"/>
+		</action>
+		<action id="1 1">
+			<when state="none" output="1"/>
+			<when state="Compose Key" next="Compose Key - 1"/>
+			<when state="Compose Key - Caret" output="¹"/>
+			<when state="Compose Key - O" output="❶"/>
+			<when state="Compose Key - Underscore" output="₁"/>
+			<when state="Compose Key - f" output="1"/>
+			<when state="Compose Key - o" output="①"/>
+		</action>
+		<action id="10">
+			<when state="none" output="O"/>
+			<when state="Compose Key" next="Compose Key - O"/>
+			<when state="Compose Key - Backtick" output="Ò"/>
+			<when state="Compose Key - Caret" output="Ô"/>
+			<when state="Compose Key - Caret + Underscore" output="º"/>
+			<when state="Compose Key - Hyphen" output="⊖"/>
+			<when state="Compose Key - N" output="№"/>
+			<when state="Compose Key - Opt-Quote" output="Ő"/>
+			<when state="Compose Key - P" output="℗"/>
+			<when state="Compose Key - Percent sign" output="‱"/>
+			<when state="Compose Key - Plus" output="⊕"/>
+			<when state="Compose Key - Quote" output="Ö"/>
+			<when state="Compose Key - Single Quote" output="Ó"/>
+			<when state="Compose Key - Slash" output="Ø"/>
+			<when state="Compose Key - Tilde" output="Õ"/>
+			<when state="Compose Key - Underscore" output="Ō"/>
+			<when state="Compose Key - c" output="Ǒ"/>
+			<when state="Compose Key - f" output="O"/>
+			<when state="Compose Key - g" output="Ο"/>
+			<when state="Compose Key - p" output="℗"/>
+			<when state="Compose Key - x" output="⊗"/>
+			<when state="s1" output="Ó"/>
+			<when state="s2" output="Ò"/>
+			<when state="s3" output="Ô"/>
+			<when state="s4" output="Ö"/>
+			<when state="s5" output="Õ"/>
+		</action>
+		<action id="11">
+			<when state="none" output="U"/>
+			<when state="Compose Key - Backtick" output="Ù"/>
+			<when state="Compose Key - Caret" output="Û"/>
+			<when state="Compose Key - Opt-Quote" output="Ű"/>
+			<when state="Compose Key - Quote" output="Ü"/>
+			<when state="Compose Key - Single Quote" output="Ú"/>
+			<when state="Compose Key - Tilde" output="Ũ"/>
+			<when state="Compose Key - Underscore" output="Ū"/>
+			<when state="Compose Key - c" output="Ǔ"/>
+			<when state="Compose Key - f" output="Ʊ"/>
+			<when state="Compose Key - g" output="Θ"/>
+			<when state="Compose Key - o" output="Ů"/>
+			<when state="s1" output="Ú"/>
+			<when state="s2" output="Ù"/>
+			<when state="s3" output="Û"/>
+			<when state="s4" output="Ü"/>
+		</action>
+		<action id="12">
+			<when state="none" output="Y"/>
+			<when state="Compose Key" next="Compose Key - Y"/>
+			<when state="Compose Key - Caret" output="Ŷ"/>
+			<when state="Compose Key - Equals Sign" output="¥"/>
+			<when state="Compose Key - Quote" output="Ÿ"/>
+			<when state="Compose Key - Single Quote" output="Ý"/>
+			<when state="Compose Key - Tilde" output="Ỹ"/>
+			<when state="Compose Key - f" output="Ȝ"/>
+			<when state="Compose Key - g" output="Υ"/>
+			<when state="s4" output="Ÿ"/>
+		</action>
+		<action id="13">
+			<when state="none" output="a"/>
+			<when state="Compose Key" next="Compose Key - a"/>
+			<when state="Compose Key - Backtick" output="à"/>
+			<when state="Compose Key - Caret" output="â"/>
+			<when state="Compose Key - Caret + Caret" output="␁"/>
+			<when state="Compose Key - Quote" output="ä"/>
+			<when state="Compose Key - Single Quote" output="á"/>
+			<when state="Compose Key - Tilde" output="ã"/>
+			<when state="Compose Key - Underscore" output="ā"/>
+			<when state="Compose Key - c" output="ǎ"/>
+			<when state="Compose Key - f" output="ə"/>
+			<when state="Compose Key - g" output="α"/>
+			<when state="Compose Key - k" output=""/>
+			<when state="Compose Key - k + t" output="⇥"/>
+			<when state="Compose Key - m" output="ℵ"/>
+			<when state="Compose Key - o" output="å"/>
+			<when state="s1" output="á"/>
+			<when state="s2" output="à"/>
+			<when state="s3" output="â"/>
+			<when state="s4" output="ä"/>
+			<when state="s5" output="ã"/>
+		</action>
+		<action id="14">
+			<when state="none" output="e"/>
+			<when state="Compose Key - Backtick" output="è"/>
+			<when state="Compose Key - Caret" output="ê"/>
+			<when state="Compose Key - Caret + Caret" output="␅"/>
+			<when state="Compose Key - Comma" output="ȩ"/>
+			<when state="Compose Key - Quote" output="ë"/>
+			<when state="Compose Key - Single Quote" output="é"/>
+			<when state="Compose Key - Tilde" output="ẽ"/>
+			<when state="Compose Key - Underscore" output="ē"/>
+			<when state="Compose Key - a" output="æ"/>
+			<when state="Compose Key - c" output="ě"/>
+			<when state="Compose Key - f" output="ǝ"/>
+			<when state="Compose Key - g" output="ε"/>
+			<when state="Compose Key - k" next="Compose Key - k + e"/>
+			<when state="Compose Key - o" output="œ"/>
+			<when state="s1" output="é"/>
+			<when state="s2" output="è"/>
+			<when state="s3" output="ê"/>
+			<when state="s4" output="ë"/>
+		</action>
+		<action id="15">
+			<when state="none" output="i"/>
+			<when state="Compose Key" next="Compose Key - i"/>
+			<when state="Compose Key - 2 + m" output="∬"/>
+			<when state="Compose Key - 3 + m" output="∭"/>
+			<when state="Compose Key - 4 + m" output="⨌"/>
+			<when state="Compose Key - Backtick" output="ì"/>
+			<when state="Compose Key - Caret" output="î"/>
+			<when state="Compose Key - Caret + Caret" output="␉"/>
+			<when state="Compose Key - Quote" output="ï"/>
+			<when state="Compose Key - Single Quote" output="í"/>
+			<when state="Compose Key - Tilde" output="ĩ"/>
+			<when state="Compose Key - Underscore" output="ī"/>
+			<when state="Compose Key - c" output="ǐ"/>
+			<when state="Compose Key - f" output="i"/>
+			<when state="Compose Key - g" output="ι"/>
+			<when state="Compose Key - m" output="∫"/>
+			<when state="s1" output="í"/>
+			<when state="s2" output="ì"/>
+			<when state="s3" output="î"/>
+			<when state="s4" output="ï"/>
+		</action>
+		<action id="16">
+			<when state="none" output="n"/>
+			<when state="Compose Key" next="Compose Key - n"/>
+			<when state="Compose Key - Caret + Caret" output="␎"/>
+			<when state="Compose Key - Comma" output="ņ"/>
+			<when state="Compose Key - M" output="∩"/>
+			<when state="Compose Key - Quote" output="n̈"/>
+			<when state="Compose Key - Single Quote" output="ń"/>
+			<when state="Compose Key - Tilde" output="ñ"/>
+			<when state="Compose Key - f" output="ŋ"/>
+			<when state="Compose Key - g" output="ν"/>
+			<when state="Compose Key - k + e" output="⏎"/>
+			<when state="s5" output="ñ"/>
+		</action>
+		<action id="17">
+			<when state="none" output="o"/>
+			<when state="Compose Key" next="Compose Key - o"/>
+			<when state="Compose Key - Backtick" output="ò"/>
+			<when state="Compose Key - Caret" output="ô"/>
+			<when state="Compose Key - Caret + Caret" output="␏"/>
+			<when state="Compose Key - Hyphen" output="⊖"/>
+			<when state="Compose Key - N" output="№"/>
+			<when state="Compose Key - Opt-Quote" output="ő"/>
+			<when state="Compose Key - P" output="℗"/>
+			<when state="Compose Key - Percent sign" output="‰"/>
+			<when state="Compose Key - Period" output="•"/>
+			<when state="Compose Key - Plus" output="⊕"/>
+			<when state="Compose Key - Quote" output="ö"/>
+			<when state="Compose Key - Single Quote" output="ó"/>
+			<when state="Compose Key - Slash" output="ø"/>
+			<when state="Compose Key - Tilde" output="õ"/>
+			<when state="Compose Key - Underscore" output="ō"/>
+			<when state="Compose Key - c" output="ǒ"/>
+			<when state="Compose Key - f" output="o"/>
+			<when state="Compose Key - g" output="ο"/>
+			<when state="Compose Key - k" next="Compose Key - k + o"/>
+			<when state="Compose Key - k + c" output="⎄"/>
+			<when state="Compose Key - n" output="№"/>
+			<when state="Compose Key - o" output="°"/>
+			<when state="Compose Key - p" output="℗"/>
+			<when state="Compose Key - s" output="§"/>
+			<when state="Compose Key - x" output="¤"/>
+			<when state="s1" output="ó"/>
+			<when state="s2" output="ò"/>
+			<when state="s3" output="ô"/>
+			<when state="s4" output="ö"/>
+			<when state="s5" output="õ"/>
+		</action>
+		<action id="18">
+			<when state="none" output="u"/>
+			<when state="Compose Key - Backtick" output="ù"/>
+			<when state="Compose Key - Caret" output="û"/>
+			<when state="Compose Key - Caret + Caret" output="␕"/>
+			<when state="Compose Key - M" output="∪"/>
+			<when state="Compose Key - Opt-Quote" output="ű"/>
+			<when state="Compose Key - Quote" output="ü"/>
+			<when state="Compose Key - Single Quote" output="ú"/>
+			<when state="Compose Key - Tilde" output="ũ"/>
+			<when state="Compose Key - Underscore" output="ū"/>
+			<when state="Compose Key - c" output="ǔ"/>
+			<when state="Compose Key - f" output="ʊ"/>
+			<when state="Compose Key - g" output="θ"/>
+			<when state="Compose Key - m" output="µ"/>
+			<when state="Compose Key - o" output="ů"/>
+			<when state="s1" output="ú"/>
+			<when state="s2" output="ù"/>
+			<when state="s3" output="û"/>
+			<when state="s4" output="ü"/>
+		</action>
+		<action id="19">
+			<when state="none" output="y"/>
+			<when state="Compose Key" next="Compose Key - y"/>
+			<when state="Compose Key - Caret" output="ŷ"/>
+			<when state="Compose Key - Caret + Caret" output="␙"/>
+			<when state="Compose Key - Equals Sign" output="¥"/>
+			<when state="Compose Key - Quote" output="ÿ"/>
+			<when state="Compose Key - Single Quote" output="ý"/>
+			<when state="Compose Key - Tilde" output="ỹ"/>
+			<when state="Compose Key - f" output="ȝ"/>
+			<when state="Compose Key - g" output="υ"/>
+			<when state="Compose Key - k + s" output="⬖"/>
+			<when state="s4" output="ÿ"/>
+		</action>
+		<action id="2">
+			<when state="none" next="s3"/>
+		</action>
+		<action id="2 1">
+			<when state="none" output="2"/>
+			<when state="Compose Key" next="Compose Key - 2"/>
+			<when state="Compose Key - 1" output="½"/>
+			<when state="Compose Key - Caret" output="²"/>
+			<when state="Compose Key - O" output="❷"/>
+			<when state="Compose Key - Underscore" output="₂"/>
+			<when state="Compose Key - f" output="ƨ"/>
+			<when state="Compose Key - o" output="②"/>
+		</action>
+		<action id="3">
+			<when state="none" next="s4"/>
+		</action>
+		<action id="3 1">
+			<when state="none" output="3"/>
+			<when state="Compose Key" next="Compose Key - 3"/>
+			<when state="Compose Key - 1" output="⅓"/>
+			<when state="Compose Key - 2" output="⅔"/>
+			<when state="Compose Key - Caret" output="³"/>
+			<when state="Compose Key - O" output="❸"/>
+			<when state="Compose Key - Underscore" output="₃"/>
+			<when state="Compose Key - f" output="ɛ"/>
+			<when state="Compose Key - o" output="③"/>
+		</action>
+		<action id="4">
+			<when state="none" next="s5"/>
+		</action>
+		<action id="4 1">
+			<when state="none" output="4"/>
+			<when state="Compose Key" next="Compose Key - 4"/>
+			<when state="Compose Key - 1" output="¼"/>
+			<when state="Compose Key - 3" output="¾"/>
+			<when state="Compose Key - Caret" output="⁴"/>
+			<when state="Compose Key - O" output="❹"/>
+			<when state="Compose Key - Underscore" output="₄"/>
+			<when state="Compose Key - f" output="4"/>
+			<when state="Compose Key - o" output="④"/>
+		</action>
+		<action id="5">
+			<when state="none" output=" "/>
+			<when state="Compose Key" next="Compose Key - Space"/>
+			<when state="Compose Key - C + -" output="∈"/>
+			<when state="Compose Key - Caret + Caret" output="␠"/>
+			<when state="Compose Key - Comma" output="¸"/>
+			<when state="Compose Key - Space" output=" "/>
+			<when state="Compose Key - c + -" output="∈"/>
+			<when state="s1" output="´"/>
+			<when state="s2" output="`"/>
+			<when state="s3" output="ˆ"/>
+			<when state="s4" output="¨"/>
+			<when state="s5" output="˜"/>
+		</action>
+		<action id="5 1">
+			<when state="none" output="5"/>
+			<when state="Compose Key" next="Compose Key - 5"/>
+			<when state="Compose Key - 1" output="⅕"/>
+			<when state="Compose Key - 2" output="⅖"/>
+			<when state="Compose Key - 3" output="⅗"/>
+			<when state="Compose Key - 4" output="⅘"/>
+			<when state="Compose Key - Caret" output="⁵"/>
+			<when state="Compose Key - O" output="❺"/>
+			<when state="Compose Key - Underscore" output="₅"/>
+			<when state="Compose Key - f" output="ƽ"/>
+			<when state="Compose Key - o" output="⑤"/>
+		</action>
+		<action id="6">
+			<when state="none" output="A"/>
+			<when state="Compose Key" next="Compose Key - A"/>
+			<when state="Compose Key - Backtick" output="À"/>
+			<when state="Compose Key - Caret" output="Â"/>
+			<when state="Compose Key - Caret + Underscore" output="ª"/>
+			<when state="Compose Key - Quote" output="Ä"/>
+			<when state="Compose Key - Single Quote" output="Á"/>
+			<when state="Compose Key - Tilde" output="Ã"/>
+			<when state="Compose Key - Underscore" output="Ā"/>
+			<when state="Compose Key - c" output="Ǎ"/>
+			<when state="Compose Key - f" output="Ə"/>
+			<when state="Compose Key - g" output="Α"/>
+			<when state="Compose Key - m" output="∀"/>
+			<when state="Compose Key - o" output="Å"/>
+			<when state="s1" output="Á"/>
+			<when state="s2" output="À"/>
+			<when state="s3" output="Â"/>
+			<when state="s4" output="Ä"/>
+			<when state="s5" output="Ã"/>
+		</action>
+		<action id="6 1">
+			<when state="none" output="6"/>
+			<when state="Compose Key - 1" output="⅙"/>
+			<when state="Compose Key - 5" output="⅚"/>
+			<when state="Compose Key - Caret" output="⁶"/>
+			<when state="Compose Key - O" output="❻"/>
+			<when state="Compose Key - Underscore" output="₆"/>
+			<when state="Compose Key - f" output="ƅ"/>
+			<when state="Compose Key - o" output="⑥"/>
+		</action>
+		<action id="7">
+			<when state="none" output="E"/>
+			<when state="Compose Key" next="Compose Key - E"/>
+			<when state="Compose Key - A" output="Æ"/>
+			<when state="Compose Key - Backtick" output="È"/>
+			<when state="Compose Key - C" output="₠"/>
+			<when state="Compose Key - Caret" output="Ê"/>
+			<when state="Compose Key - Comma" output="Ȩ"/>
+			<when state="Compose Key - Equals Sign" output="€"/>
+			<when state="Compose Key - O" output="Œ"/>
+			<when state="Compose Key - Quote" output="Ë"/>
+			<when state="Compose Key - Single Quote" output="É"/>
+			<when state="Compose Key - Tilde" output="Ẽ"/>
+			<when state="Compose Key - Underscore" output="Ē"/>
+			<when state="Compose Key - c" output="Ě"/>
+			<when state="Compose Key - f" output="Ǝ"/>
+			<when state="Compose Key - g" output="Ε"/>
+			<when state="Compose Key - m" output="∃"/>
+			<when state="s1" output="É"/>
+			<when state="s2" output="È"/>
+			<when state="s3" output="Ê"/>
+			<when state="s4" output="Ë"/>
+		</action>
+		<action id="7 1">
+			<when state="none" output="7"/>
+			<when state="Compose Key" next="Compose Key - 7"/>
+			<when state="Compose Key - Caret" output="⁷"/>
+			<when state="Compose Key - O" output="❼"/>
+			<when state="Compose Key - Underscore" output="₇"/>
+			<when state="Compose Key - f" output="⁊"/>
+			<when state="Compose Key - o" output="⑦"/>
+		</action>
+		<action id="8">
+			<when state="none" output="I"/>
+			<when state="Compose Key" next="Compose Key - I"/>
+			<when state="Compose Key - Backtick" output="Ì"/>
+			<when state="Compose Key - Caret" output="Î"/>
+			<when state="Compose Key - Caret + Underscore" output="ⁱ"/>
+			<when state="Compose Key - Hyphen" output="Ɨ"/>
+			<when state="Compose Key - Quote" output="Ï"/>
+			<when state="Compose Key - Single Quote" output="Í"/>
+			<when state="Compose Key - Tilde" output="Ĩ"/>
+			<when state="Compose Key - Underscore" output="Ī"/>
+			<when state="Compose Key - c" output="Ǐ"/>
+			<when state="Compose Key - f" output="I"/>
+			<when state="Compose Key - g" output="Ι"/>
+			<when state="s1" output="Í"/>
+			<when state="s2" output="Ì"/>
+			<when state="s3" output="Î"/>
+			<when state="s4" output="Ï"/>
+		</action>
+		<action id="8 1">
+			<when state="none" output="8"/>
+			<when state="Compose Key" next="Compose Key - 8"/>
+			<when state="Compose Key - 1" output="⅛"/>
+			<when state="Compose Key - 3" output="⅜"/>
+			<when state="Compose Key - 5" output="⅝"/>
+			<when state="Compose Key - 7" output="⅞"/>
+			<when state="Compose Key - 8" output="∞"/>
+			<when state="Compose Key - Caret" output="⁸"/>
+			<when state="Compose Key - O" output="❽"/>
+			<when state="Compose Key - Underscore" output="₈"/>
+			<when state="Compose Key - f" output="ȣ"/>
+			<when state="Compose Key - o" output="⑧"/>
+		</action>
+		<action id="9">
+			<when state="none" output="N"/>
+			<when state="Compose Key" next="Compose Key - N"/>
+			<when state="Compose Key - Caret + Underscore" output="ⁿ"/>
+			<when state="Compose Key - Comma" output="Ņ"/>
+			<when state="Compose Key - Equals Sign" output="₦"/>
+			<when state="Compose Key - Quote" output="N̈"/>
+			<when state="Compose Key - Single Quote" output="Ń"/>
+			<when state="Compose Key - Tilde" output="Ñ"/>
+			<when state="Compose Key - Vertical Bar" output="ℕ"/>
+			<when state="Compose Key - f" output="Ŋ"/>
+			<when state="Compose Key - g" output="Ν"/>
+			<when state="s5" output="Ñ"/>
+		</action>
+		<action id="9 1">
+			<when state="none" output="9"/>
+			<when state="Compose Key - Caret" output="⁹"/>
+			<when state="Compose Key - O" output="❾"/>
+			<when state="Compose Key - Underscore" output="₉"/>
+			<when state="Compose Key - f" output="9"/>
+			<when state="Compose Key - o" output="⑨"/>
+		</action>
+		<action id=":">
+			<when state="none" output=":"/>
+			<when state="Compose Key" next="Compose Key - Colon"/>
+			<when state="Compose Key - Colon" output="∷"/>
+			<when state="Compose Key - Hyphen" output="÷"/>
+			<when state="Compose Key - f" output=":"/>
+		</action>
+		<action id=";">
+			<when state="none" output=";"/>
+			<when state="Compose Key" next="Compose Key - Semicolon"/>
+			<when state="Compose Key - f" output=";"/>
+		</action>
+		<action id="&#x003C;">
+			<when state="none" output="&#x003C;"/>
+			<when state="Compose Key" next="Compose Key - Less Than"/>
+			<when state="Compose Key - Equals Sign" output="⇐"/>
+			<when state="Compose Key - Hyphen" output="←"/>
+			<when state="Compose Key - Less Than" output="«"/>
+			<when state="Compose Key - f" output=","/>
+		</action>
+		<action id="=">
+			<when state="none" output="="/>
+			<when state="Compose Key" next="Compose Key - Equals Sign"/>
+			<when state="Compose Key - Caret" output="⁼"/>
+			<when state="Compose Key - Greater Than" output="≥"/>
+			<when state="Compose Key - L" output="₤"/>
+			<when state="Compose Key - Less Than" output="≤"/>
+			<when state="Compose Key - N" output="₦"/>
+			<when state="Compose Key - Slash" output="≠"/>
+			<when state="Compose Key - Underscore" output="₌"/>
+			<when state="Compose Key - Y" output="¥"/>
+			<when state="Compose Key - c" output="€"/>
+			<when state="Compose Key - f" output="="/>
+			<when state="Compose Key - y" output="¥"/>
+		</action>
+		<action id="&#x003E;">
+			<when state="none" output="&#x003E;"/>
+			<when state="Compose Key" next="Compose Key - Greater Than"/>
+			<when state="Compose Key - Equals Sign" output="⇒"/>
+			<when state="Compose Key - Greater Than" output="»"/>
+			<when state="Compose Key - Hyphen" output="→"/>
+			<when state="Compose Key - f" output="."/>
+		</action>
+		<action id="?">
+			<when state="none" output="?"/>
+			<when state="Compose Key" next="Compose Key - Question Mark"/>
+			<when state="Compose Key - Caret + Caret" output="␡"/>
+			<when state="Compose Key - Exclamation Mark" output="‽"/>
+			<when state="Compose Key - Question Mark" output="¿"/>
+			<when state="Compose Key - f" output="/"/>
+		</action>
+		<action id="@">
+			<when state="none" output="@"/>
+			<when state="Compose Key - Caret + Caret" output="␀"/>
+			<when state="Compose Key - f" output="Ƨ"/>
+		</action>
+		<action id="B">
+			<when state="none" output="B"/>
+			<when state="Compose Key - f" output="B"/>
+			<when state="Compose Key - g" output="Β"/>
+		</action>
+		<action id="C">
+			<when state="none" output="C"/>
+			<when state="Compose Key" next="Compose Key - C"/>
+			<when state="Compose Key - Caret" output="Ĉ"/>
+			<when state="Compose Key - Comma" output="Ç"/>
+			<when state="Compose Key - Equals Sign" output="€"/>
+			<when state="Compose Key - O" output="©"/>
+			<when state="Compose Key - Single Quote" output="Ć"/>
+			<when state="Compose Key - Slash" output="₡"/>
+			<when state="Compose Key - Vertical Bar" output="ℂ"/>
+			<when state="Compose Key - c" output="Č"/>
+			<when state="Compose Key - f" output="Ɔ"/>
+			<when state="Compose Key - g" output="Ψ"/>
+			<when state="Compose Key - o" output="©"/>
+		</action>
+		<action id="Compose Key">
+			<when state="none" next="Compose Key"/>
+		</action>
+		<action id="Compose Key 1">
+			<when state="none" next="Compose Key"/>
+		</action>
+		<action id="Compose Key 2">
+			<when state="none" next="Compose Key"/>
+		</action>
+		<action id="Compose Key 3">
+			<when state="none" next="Compose Key"/>
+		</action>
+		<action id="D">
+			<when state="none" output="D"/>
+			<when state="Compose Key" next="Compose Key - D"/>
+			<when state="Compose Key - Comma" output="Ḑ"/>
+			<when state="Compose Key - Hyphen" output="Đ"/>
+			<when state="Compose Key - c" output="Ď"/>
+			<when state="Compose Key - f" output="D"/>
+			<when state="Compose Key - g" output="Δ"/>
+		</action>
+		<action id="F">
+			<when state="none" output="F"/>
+			<when state="Compose Key" next="Compose Key - F"/>
+			<when state="Compose Key - f" output="F"/>
+			<when state="Compose Key - g" output="Φ"/>
+		</action>
+		<action id="G">
+			<when state="none" output="G"/>
+			<when state="Compose Key - Comma" output="Ģ"/>
+			<when state="Compose Key - N" output="Ŋ"/>
+			<when state="Compose Key - Underscore" output="Ḡ"/>
+			<when state="Compose Key - c" output="Ǧ"/>
+			<when state="Compose Key - f" output="Ɣ"/>
+			<when state="Compose Key - g" output="Γ"/>
+		</action>
+		<action id="H">
+			<when state="none" output="H"/>
+			<when state="Compose Key - Caret" output="Ĥ"/>
+			<when state="Compose Key - Comma" output="Ḩ"/>
+			<when state="Compose Key - D" output="Ð"/>
+			<when state="Compose Key - Hyphen" output="Ħ"/>
+			<when state="Compose Key - Quote" output="Ḧ"/>
+			<when state="Compose Key - Vertical Bar" output="ℍ"/>
+			<when state="Compose Key - c" output="Ȟ"/>
+			<when state="Compose Key - f" output="Ƕ"/>
+			<when state="Compose Key - g" output="Η"/>
+			<when state="Compose Key - m" output="ℏ"/>
+		</action>
+		<action id="J">
+			<when state="none" output="J"/>
+			<when state="Compose Key - Caret" output="Ĵ"/>
+			<when state="Compose Key - I" output="Ĳ"/>
+			<when state="Compose Key - f" output="Ƞ"/>
+			<when state="Compose Key - g" output="Ξ"/>
+		</action>
+		<action id="K">
+			<when state="none" output="K"/>
+			<when state="Compose Key - Comma" output="Ķ"/>
+			<when state="Compose Key - Single Quote" output="Ḱ"/>
+			<when state="Compose Key - c" output="Ǩ"/>
+			<when state="Compose Key - f" output="K’"/>
+			<when state="Compose Key - g" output="Κ"/>
+		</action>
+		<action id="L">
+			<when state="none" output="L"/>
+			<when state="Compose Key" next="Compose Key - L"/>
+			<when state="Compose Key - Comma" output="Ļ"/>
+			<when state="Compose Key - Equals Sign" output="₤"/>
+			<when state="Compose Key - Hyphen" output="£"/>
+			<when state="Compose Key - M" output="☽"/>
+			<when state="Compose Key - Single Quote" output="Ĺ"/>
+			<when state="Compose Key - f" output="L"/>
+			<when state="Compose Key - g" output="Λ"/>
+		</action>
+		<action id="M">
+			<when state="none" output="M"/>
+			<when state="Compose Key" next="Compose Key - M"/>
+			<when state="Compose Key - Caret" output="℠"/>
+			<when state="Compose Key - Single Quote" output="Ḿ"/>
+			<when state="Compose Key - T" output="™"/>
+			<when state="Compose Key - f" output="Ɯ"/>
+			<when state="Compose Key - g" output="Μ"/>
+		</action>
+		<action id="P">
+			<when state="none" output="P"/>
+			<when state="Compose Key" next="Compose Key - P"/>
+			<when state="Compose Key - O" output="℗"/>
+			<when state="Compose Key - P" output="¶"/>
+			<when state="Compose Key - Single Quote" output="Ṕ"/>
+			<when state="Compose Key - Vertical Bar" output="ℙ"/>
+			<when state="Compose Key - f" output="P"/>
+			<when state="Compose Key - g" output="Π"/>
+			<when state="Compose Key - m" output="∏"/>
+			<when state="Compose Key - o" output="℗"/>
+		</action>
+		<action id="Q">
+			<when state="none" output="Q"/>
+			<when state="Compose Key - Vertical Bar" output="ℚ"/>
+			<when state="Compose Key - f" output="Ƣ"/>
+			<when state="Compose Key - g" output=":"/>
+		</action>
+		<action id="R">
+			<when state="none" output="R"/>
+			<when state="Compose Key" next="Compose Key - R"/>
+			<when state="Compose Key - Comma" output="Ŗ"/>
+			<when state="Compose Key - O" output="®"/>
+			<when state="Compose Key - Single Quote" output="Ŕ"/>
+			<when state="Compose Key - Vertical Bar" output="ℝ"/>
+			<when state="Compose Key - f" output="Ʀ"/>
+			<when state="Compose Key - g" output="Ρ"/>
+			<when state="Compose Key - o" output="®"/>
+		</action>
+		<action id="S">
+			<when state="none" output="S"/>
+			<when state="Compose Key" next="Compose Key - S"/>
+			<when state="Compose Key - Caret" output="Ŝ"/>
+			<when state="Compose Key - Comma" output="Ş"/>
+			<when state="Compose Key - M" output="☉"/>
+			<when state="Compose Key - S" output="ẞ"/>
+			<when state="Compose Key - Single Quote" output="Ś"/>
+			<when state="Compose Key - c" output="Š"/>
+			<when state="Compose Key - f" output="S"/>
+			<when state="Compose Key - g" output="Σ"/>
+			<when state="Compose Key - m" output="∑"/>
+		</action>
+		<action id="T">
+			<when state="none" output="T"/>
+			<when state="Compose Key" next="Compose Key - T"/>
+			<when state="Compose Key - Caret" output="™"/>
+			<when state="Compose Key - Comma" output="Ţ"/>
+			<when state="Compose Key - Hyphen" output="Ŧ"/>
+			<when state="Compose Key - M" output="⊕"/>
+			<when state="Compose Key - Quote" output="T̈"/>
+			<when state="Compose Key - c" output="Ť"/>
+			<when state="Compose Key - f" output="T"/>
+			<when state="Compose Key - g" output="Τ"/>
+		</action>
+		<action id="V">
+			<when state="none" output="V"/>
+			<when state="Compose Key" next="Compose Key - V"/>
+			<when state="Compose Key - Vertical Bar" output="↓"/>
+			<when state="Compose Key - f" output="V"/>
+			<when state="Compose Key - g" output="Ω"/>
+		</action>
+		<action id="W">
+			<when state="none" output="W"/>
+			<when state="Compose Key" next="Compose Key - W"/>
+			<when state="Compose Key - Caret" output="Ŵ"/>
+			<when state="Compose Key - Equals Sign" output="₩"/>
+			<when state="Compose Key - Quote" output="Ẅ"/>
+			<when state="Compose Key - Single Quote" output="Ẃ"/>
+			<when state="Compose Key - f" output="Ƿ"/>
+		</action>
+		<action id="X">
+			<when state="none" output="X"/>
+			<when state="Compose Key - O" output="⊗"/>
+			<when state="Compose Key - Quote" output="Ẍ"/>
+			<when state="Compose Key - f" output="X"/>
+			<when state="Compose Key - g" output="Χ"/>
+		</action>
+		<action id="Z">
+			<when state="none" output="Z"/>
+			<when state="Compose Key - Hyphen" output="Ƶ"/>
+			<when state="Compose Key - Vertical Bar" output="ℤ"/>
+			<when state="Compose Key - c" output="Ž"/>
+			<when state="Compose Key - f" output="Ʒ"/>
+			<when state="Compose Key - g" output="Ζ"/>
+		</action>
+		<action id="[">
+			<when state="none" output="["/>
+			<when state="Compose Key - Caret + Caret" output="␛"/>
+			<when state="Compose Key - f" output="["/>
+		</action>
+		<action id="\">
+			<when state="none" output="\"/>
+			<when state="Compose Key" next="Compose Key - Backslash"/>
+			<when state="Compose Key - Backslash" output="∖"/>
+			<when state="Compose Key - Caret + Caret" output="␜"/>
+			<when state="Compose Key - Slash" output="∧"/>
+			<when state="Compose Key - f" output="\"/>
+		</action>
+		<action id="]">
+			<when state="none" output="]"/>
+			<when state="Compose Key - Caret + Caret" output="␝"/>
+			<when state="Compose Key - f" output="]"/>
+		</action>
+		<action id="^">
+			<when state="none" output="^"/>
+			<when state="Compose Key" next="Compose Key - Caret"/>
+			<when state="Compose Key - Caret" next="Compose Key - Caret + Caret"/>
+			<when state="Compose Key - Caret + Caret" output="␞"/>
+			<when state="Compose Key - Exclamation Mark" output="¦"/>
+			<when state="Compose Key - Vertical Bar" output="↑"/>
+			<when state="Compose Key - f" output="Ƅ"/>
+		</action>
+		<action id="_">
+			<when state="none" output="_"/>
+			<when state="Compose Key" next="Compose Key - Underscore"/>
+			<when state="Compose Key - Caret" next="Compose Key - Caret + Underscore"/>
+			<when state="Compose Key - Caret + Caret" output="␟"/>
+			<when state="Compose Key - Space" output="␣"/>
+			<when state="Compose Key - f" output="-"/>
+		</action>
+		<action id="`">
+			<when state="none" output="`"/>
+			<when state="Compose Key" next="Compose Key - Backtick"/>
+			<when state="Compose Key - f" output="§"/>
+		</action>
+		<action id="` 1">
+			<when state="none" output="`"/>
+			<when state="Compose Key - f" output="±"/>
+		</action>
+		<action id="b">
+			<when state="none" output="b"/>
+			<when state="Compose Key - Caret + Caret" output="␂"/>
+			<when state="Compose Key - f" output="b"/>
+			<when state="Compose Key - g" output="β"/>
+			<when state="Compose Key - k" next="Compose Key - k + b"/>
+		</action>
+		<action id="c">
+			<when state="none" output="c"/>
+			<when state="Compose Key" next="Compose Key - c"/>
+			<when state="Compose Key - 8" output="∝"/>
+			<when state="Compose Key - Caret" output="ĉ"/>
+			<when state="Compose Key - Caret + Caret" output="␃"/>
+			<when state="Compose Key - Comma" output="ç"/>
+			<when state="Compose Key - Equals Sign" output="€"/>
+			<when state="Compose Key - O" output="©"/>
+			<when state="Compose Key - Single Quote" output="ć"/>
+			<when state="Compose Key - Slash" output="¢"/>
+			<when state="Compose Key - Vertical Bar" output="¢"/>
+			<when state="Compose Key - c" output="č"/>
+			<when state="Compose Key - f" output="ɔ"/>
+			<when state="Compose Key - g" output="ψ"/>
+			<when state="Compose Key - k" next="Compose Key - k + c"/>
+			<when state="Compose Key - o" output="©"/>
+		</action>
+		<action id="d">
+			<when state="none" output="d"/>
+			<when state="Compose Key - Caret + Caret" output="␄"/>
+			<when state="Compose Key - Comma" output="ḑ"/>
+			<when state="Compose Key - c" output="ď"/>
+			<when state="Compose Key - f" output="d"/>
+			<when state="Compose Key - g" output="δ"/>
+			<when state="Compose Key - m" output="∂"/>
+		</action>
+		<action id="f">
+			<when state="none" output="f"/>
+			<when state="Compose Key" next="Compose Key - f"/>
+			<when state="Compose Key - Caret + Caret" output="␆"/>
+			<when state="Compose Key - f" output="f"/>
+			<when state="Compose Key - g" output="φ"/>
+		</action>
+		<action id="g">
+			<when state="none" output="g"/>
+			<when state="Compose Key" next="Compose Key - g"/>
+			<when state="Compose Key - Caret + Caret" output="␇"/>
+			<when state="Compose Key - Comma" output="ģ"/>
+			<when state="Compose Key - Underscore" output="ḡ"/>
+			<when state="Compose Key - c" output="ǧ"/>
+			<when state="Compose Key - f" output="ɣ"/>
+			<when state="Compose Key - g" output="γ"/>
+			<when state="Compose Key - n" output="ŋ"/>
+		</action>
+		<action id="h">
+			<when state="none" output="h"/>
+			<when state="Compose Key - Caret" output="ĥ"/>
+			<when state="Compose Key - Caret + Caret" output="␈"/>
+			<when state="Compose Key - Comma" output="ḩ"/>
+			<when state="Compose Key - Quote" output="ḧ"/>
+			<when state="Compose Key - c" output="ȟ"/>
+			<when state="Compose Key - f" output="ƕ"/>
+			<when state="Compose Key - g" output="η"/>
+			<when state="Compose Key - k + s" output="⇧"/>
+			<when state="Compose Key - m" output="ℎ"/>
+		</action>
+		<action id="j">
+			<when state="none" output="j"/>
+			<when state="Compose Key - Caret" output="ĵ"/>
+			<when state="Compose Key - Caret + Caret" output="␊"/>
+			<when state="Compose Key - c" output="ǰ"/>
+			<when state="Compose Key - f" output="ƞ"/>
+			<when state="Compose Key - g" output="ξ"/>
+			<when state="Compose Key - i" output="ĳ"/>
+			<when state="Compose Key - k + e" output="⏏"/>
+		</action>
+		<action id="k">
+			<when state="none" output="k"/>
+			<when state="Compose Key" next="Compose Key - k"/>
+			<when state="Compose Key - Caret + Caret" output="␋"/>
+			<when state="Compose Key - Comma" output="ķ"/>
+			<when state="Compose Key - Single Quote" output="ḱ"/>
+			<when state="Compose Key - c" output="ǩ"/>
+			<when state="Compose Key - f" output="ĸ"/>
+			<when state="Compose Key - g" output="κ"/>
+		</action>
+		<action id="l">
+			<when state="none" output="l"/>
+			<when state="Compose Key - Caret + Caret" output="␌"/>
+			<when state="Compose Key - Comma" output="ļ"/>
+			<when state="Compose Key - Single Quote" output="ĺ"/>
+			<when state="Compose Key - f" output="l"/>
+			<when state="Compose Key - g" output="λ"/>
+			<when state="Compose Key - k + c" output="⇪"/>
+		</action>
+		<action id="m">
+			<when state="none" output="m"/>
+			<when state="Compose Key" next="Compose Key - m"/>
+			<when state="Compose Key - 2" next="Compose Key - 2 + m"/>
+			<when state="Compose Key - 3" next="Compose Key - 3 + m"/>
+			<when state="Compose Key - 4" next="Compose Key - 4 + m"/>
+			<when state="Compose Key - Caret + Caret" output="␍"/>
+			<when state="Compose Key - Single Quote" output="ḿ"/>
+			<when state="Compose Key - f" output="ɯ"/>
+			<when state="Compose Key - g" output="μ"/>
+			<when state="Compose Key - k + c" output="⌘"/>
+			<when state="Compose Key - t" output="™"/>
+		</action>
+		<action id="p">
+			<when state="none" output="p"/>
+			<when state="Compose Key" next="Compose Key - p"/>
+			<when state="Compose Key - Caret + Caret" output="␐"/>
+			<when state="Compose Key - O" output="℗"/>
+			<when state="Compose Key - Single Quote" output="ṕ"/>
+			<when state="Compose Key - f" output="p"/>
+			<when state="Compose Key - g" output="π"/>
+			<when state="Compose Key - k + o" output="⌥"/>
+			<when state="Compose Key - o" output="℗"/>
+		</action>
+		<action id="q 2">
+			<when state="none" output="q"/>
+			<when state="Compose Key - Caret + Caret" output="␑"/>
+			<when state="Compose Key - f" output="ƣ"/>
+			<when state="Compose Key - g" output=";"/>
+		</action>
+		<action id="r">
+			<when state="none" output="r"/>
+			<when state="Compose Key - C" output="₢"/>
+			<when state="Compose Key - Caret + Caret" output="␒"/>
+			<when state="Compose Key - Comma" output="ŗ"/>
+			<when state="Compose Key - F" output="₣"/>
+			<when state="Compose Key - O" output="®"/>
+			<when state="Compose Key - Single Quote" output="ŕ"/>
+			<when state="Compose Key - f" output="ʀ"/>
+			<when state="Compose Key - g" output="ρ"/>
+			<when state="Compose Key - o" output="®"/>
+		</action>
+		<action id="s">
+			<when state="none" output="s"/>
+			<when state="Compose Key" next="Compose Key - s"/>
+			<when state="Compose Key - Caret" output="ŝ"/>
+			<when state="Compose Key - Caret + Caret" output="␓"/>
+			<when state="Compose Key - Comma" output="ş"/>
+			<when state="Compose Key - R" output="₨"/>
+			<when state="Compose Key - Single Quote" output="ś"/>
+			<when state="Compose Key - c" output="š"/>
+			<when state="Compose Key - f" output="ſ"/>
+			<when state="Compose Key - g" output="σ"/>
+			<when state="Compose Key - k" next="Compose Key - k + s"/>
+			<when state="Compose Key - k + b" output="←"/>
+			<when state="Compose Key - k + e" output="⎋"/>
+			<when state="Compose Key - o" output="§"/>
+			<when state="Compose Key - s" output="ß"/>
+		</action>
+		<action id="t">
+			<when state="none" output="t"/>
+			<when state="Compose Key" next="Compose Key - t"/>
+			<when state="Compose Key - Caret + Caret" output="␔"/>
+			<when state="Compose Key - Comma" output="ţ"/>
+			<when state="Compose Key - P" output="₧"/>
+			<when state="Compose Key - Quote" output="ẗ"/>
+			<when state="Compose Key - c" output="ť"/>
+			<when state="Compose Key - f" output="t"/>
+			<when state="Compose Key - g" output="τ"/>
+			<when state="Compose Key - k" next="Compose Key - k + t"/>
+			<when state="Compose Key - k + c" output="⌃"/>
+		</action>
+		<action id="v">
+			<when state="none" output="v"/>
+			<when state="Compose Key" next="Compose Key - v"/>
+			<when state="Compose Key - 3 + m" output="∛"/>
+			<when state="Compose Key - 4 + m" output="∜"/>
+			<when state="Compose Key - Caret + Caret" output="␖"/>
+			<when state="Compose Key - Vertical Bar" output="↓"/>
+			<when state="Compose Key - f" output="ʌ"/>
+			<when state="Compose Key - g" output="ω"/>
+			<when state="Compose Key - k" output="✓"/>
+			<when state="Compose Key - m" output="√"/>
+		</action>
+		<action id="w">
+			<when state="none" output="w"/>
+			<when state="Compose Key - Caret" output="ŵ"/>
+			<when state="Compose Key - Caret + Caret" output="␗"/>
+			<when state="Compose Key - Equals Sign" output="₩"/>
+			<when state="Compose Key - Quote" output="ẅ"/>
+			<when state="Compose Key - Single Quote" output="ẃ"/>
+			<when state="Compose Key - f" output="ƿ"/>
+			<when state="Compose Key - g" output="ς"/>
+		</action>
+		<action id="x">
+			<when state="none" output="x"/>
+			<when state="Compose Key" next="Compose Key - x"/>
+			<when state="Compose Key - Caret + Caret" output="␘"/>
+			<when state="Compose Key - O" output="⊗"/>
+			<when state="Compose Key - Quote" output="ẍ"/>
+			<when state="Compose Key - f" output="x"/>
+			<when state="Compose Key - g" output="χ"/>
+			<when state="Compose Key - k" output="✗"/>
+			<when state="Compose Key - o" output="¤"/>
+			<when state="Compose Key - x" output="×"/>
+		</action>
+		<action id="z">
+			<when state="none" output="z"/>
+			<when state="Compose Key - Caret + Caret" output="␚"/>
+			<when state="Compose Key - c" output="ž"/>
+			<when state="Compose Key - f" output="ʒ"/>
+			<when state="Compose Key - g" output="ζ"/>
+		</action>
+		<action id="{">
+			<when state="none" output="{"/>
+			<when state="Compose Key - f" output="["/>
+		</action>
+		<action id="|">
+			<when state="none" output="|"/>
+			<when state="Compose Key" next="Compose Key - Vertical Bar"/>
+			<when state="Compose Key - Caret" output="↑"/>
+			<when state="Compose Key - V" output="↓"/>
+			<when state="Compose Key - Vertical Bar" output="∨"/>
+			<when state="Compose Key - c" output="¢"/>
+			<when state="Compose Key - f" output="|"/>
+			<when state="Compose Key - v" output="↓"/>
+		</action>
+		<action id="}">
+			<when state="none" output="}"/>
+			<when state="Compose Key - f" output="]"/>
+		</action>
+		<action id="~">
+			<when state="none" output="~"/>
+			<when state="Compose Key" next="Compose Key - Tilde"/>
+			<when state="Compose Key - Greater Than" output="≳"/>
+			<when state="Compose Key - Less Than" output="≲"/>
+			<when state="Compose Key - Tilde" output="≈"/>
+			<when state="Compose Key - f" output="±"/>
+		</action>
+		<action id="Æ">
+			<when state="none" output="Æ"/>
+			<when state="Compose Key" next="Compose Key - Opt-Quote"/>
+		</action>
+	</actions>
+	<terminators>
+		<when state="Compose Key" output=""/>
+		<when state="Compose Key - 1" output="1"/>
+		<when state="Compose Key - 2" output="2"/>
+		<when state="Compose Key - 2 + m" output="②"/>
+		<when state="Compose Key - 3" output="3"/>
+		<when state="Compose Key - 3 + m" output="③"/>
+		<when state="Compose Key - 4" output="4"/>
+		<when state="Compose Key - 4 + m" output="④"/>
+		<when state="Compose Key - 5" output="5"/>
+		<when state="Compose Key - 7" output="7"/>
+		<when state="Compose Key - 8" output="8"/>
+		<when state="Compose Key - A" output="A"/>
+		<when state="Compose Key - Ampersand" output="&#x0026;"/>
+		<when state="Compose Key - Backslash" output="\"/>
+		<when state="Compose Key - Backtick" output="`"/>
+		<when state="Compose Key - C" output="C"/>
+		<when state="Compose Key - C + -" output="∈"/>
+		<when state="Compose Key - Caret" output="^"/>
+		<when state="Compose Key - Caret + Caret" output="⩕"/>
+		<when state="Compose Key - Caret + Underscore" output="⩟"/>
+		<when state="Compose Key - Colon" output=":"/>
+		<when state="Compose Key - Comma" output=","/>
+		<when state="Compose Key - D" output="D"/>
+		<when state="Compose Key - E" output="E"/>
+		<when state="Compose Key - Equals Sign" output="="/>
+		<when state="Compose Key - Exclamation Mark" output="!"/>
+		<when state="Compose Key - F" output="F"/>
+		<when state="Compose Key - Greater Than" output="&#x003E;"/>
+		<when state="Compose Key - Hyphen" output="-"/>
+		<when state="Compose Key - Hyphen + Hyphen" output="="/>
+		<when state="Compose Key - I" output="I"/>
+		<when state="Compose Key - L" output="L"/>
+		<when state="Compose Key - Less Than" output="&#x003C;"/>
+		<when state="Compose Key - M" output="M"/>
+		<when state="Compose Key - N" output="N"/>
+		<when state="Compose Key - O" output="O"/>
+		<when state="Compose Key - Opt-Quote" output="˝"/>
+		<when state="Compose Key - P" output="P"/>
+		<when state="Compose Key - Percent sign" output="%"/>
+		<when state="Compose Key - Period" output="."/>
+		<when state="Compose Key - Plus" output="+"/>
+		<when state="Compose Key - Question Mark" output="?"/>
+		<when state="Compose Key - Quote" output="&#x0022;"/>
+		<when state="Compose Key - R" output="R"/>
+		<when state="Compose Key - S" output="S"/>
+		<when state="Compose Key - Semicolon" output=";"/>
+		<when state="Compose Key - Single Quote" output="&#x0027;"/>
+		<when state="Compose Key - Slash" output="/"/>
+		<when state="Compose Key - Space" output=" "/>
+		<when state="Compose Key - T" output="T"/>
+		<when state="Compose Key - Tilde" output="~"/>
+		<when state="Compose Key - Underscore" output="_"/>
+		<when state="Compose Key - V" output="V"/>
+		<when state="Compose Key - Vertical Bar" output="|"/>
+		<when state="Compose Key - W" output="W"/>
+		<when state="Compose Key - Y" output="Y"/>
+		<when state="Compose Key - a" output="a"/>
+		<when state="Compose Key - c" output="c"/>
+		<when state="Compose Key - c + -" output="∈"/>
+		<when state="Compose Key - f" output="f"/>
+		<when state="Compose Key - g" output="g"/>
+		<when state="Compose Key - i" output="i"/>
+		<when state="Compose Key - k" output="k"/>
+		<when state="Compose Key - k + b" output="b"/>
+		<when state="Compose Key - k + c" output="c"/>
+		<when state="Compose Key - k + e" output="e"/>
+		<when state="Compose Key - k + o" output="o"/>
+		<when state="Compose Key - k + s" output="s"/>
+		<when state="Compose Key - k + t" output="t"/>
+		<when state="Compose Key - m" output="m"/>
+		<when state="Compose Key - n" output="n"/>
+		<when state="Compose Key - o" output="o"/>
+		<when state="Compose Key - p" output="p"/>
+		<when state="Compose Key - s" output="s"/>
+		<when state="Compose Key - t" output="t"/>
+		<when state="Compose Key - v" output="v"/>
+		<when state="Compose Key - x" output="x"/>
+		<when state="Compose Key - y" output="y"/>
+		<when state="s1" output="´"/>
+		<when state="s2" output="`"/>
+		<when state="s3" output="ˆ"/>
+		<when state="s4" output="¨"/>
+		<when state="s5" output="˜"/>
+	</terminators>
 </keyboard>

@@ -11,7 +11,8 @@ import re
 import sys
 import xml.etree.ElementTree as ET
 
-KEYLAYOUT_FILE      = "us-cps.keylayout"
+KEYLAYOUT_FILE      = "U.S. with Compose Key.bundle/Contents/Resources/"\
+                      "U.S. with Compose Key.keylayout"
 CPSKEY_ROOT         = "Compose Key"
 CPSKEY_PREFIX       = CPSKEY_ROOT
 
