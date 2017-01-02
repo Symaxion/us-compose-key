@@ -1,7 +1,7 @@
-U.S. QWERTY with Compose Key keyboard layout for OS X
-=====================================================
+U.S. QWERTY with Compose Key keyboard layout for macOS
+======================================================
 
-This is a keyboard layout for OS X adapted from the normal US QWERTY layout to
+This is a keyboard layout for macOS adapted from the normal US QWERTY layout to
 add a "compose key" (symbol ⎄). The compose key allows you to type various
 foreign symbols without the introduction of dead keys (such as for `"` or `'`)
 or the need to remember specific code point numbers.
